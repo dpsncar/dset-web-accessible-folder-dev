@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d79p32n9</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:15349</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:30.926683</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:20.797739</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d79p32n9</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2008JA013508</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d79p32n9</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2008JA013508</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -191,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Joule heating by high‐latitude ionospheric electric fields is thought to be underestimated by models, and it has been conjectured that the source of the underestimation is “electric field variability,” which is often defined as electric field structure below the resolution of the model. We investigate this and related issues by (1) comparing the Joule heating measured by the Sondrestrom incoherent scatter radar during a 40 h period containing a storm with that modeled by the Assimilative Mapping of Ionospheric Electrodynamics (AMIE) procedure and (2) employing an magnetosphere‐ionosphere (M‐I) coupling model to analyze the theoretical dependence of Joule heating estimates on the spatial resolution of the inputs. We find that as compared with Sondrestrom measurements, a much larger contribution from correlation between conductance and squared electric field (positive for AMIE and negative for Sondrestrom) partially compensates for a much smaller mean‐squared electric field, such that the overall average Joule heating rate modeled by AMIE is 29% less than measured by Sondrestrom. The underestimation of the mean‐squared electric field was not associated with small‐temporal‐scale variability. Surprisingly, the M‐I coupling model finds that coarse spatial resolution causes overestimation of the Joule heating rate, owing to the finding that the subresolution‐scale spatial fluctuations in conductance and squared electric field are anticorrelated. When comparing estimates of the total Joule heating over a period of time, the increased Joule heating arises as a larger contribution from temporal correlation between conductance and squared electric field, which overcompensates for the reduced mean‐squared electric field. Therefore, the difference in the Sondrestrom and AMIE correlation contributions might be explained by a difference in spatial resolution.</gco:CharacterString>
+            <gco:CharacterString>Joule heating by high&#x2010;latitude ionospheric electric fields is thought to be underestimated by models, and it has been conjectured that the source of the underestimation is &#x201c;electric field variability,&#x201d; which is often defined as electric field structure below the resolution of the model. We investigate this and related issues by (1) comparing the Joule heating measured by the Sondrestrom incoherent scatter radar during a 40 h period containing a storm with that modeled by the Assimilative Mapping of Ionospheric Electrodynamics (AMIE) procedure and (2) employing an magnetosphere&#x2010;ionosphere (M&#x2010;I) coupling model to analyze the theoretical dependence of Joule heating estimates on the spatial resolution of the inputs. We find that as compared with Sondrestrom measurements, a much larger contribution from correlation between conductance and squared electric field (positive for AMIE and negative for Sondrestrom) partially compensates for a much smaller mean&#x2010;squared electric field, such that the overall average Joule heating rate modeled by AMIE is 29% less than measured by Sondrestrom. The underestimation of the mean&#x2010;squared electric field was not associated with small&#x2010;temporal&#x2010;scale variability. Surprisingly, the M&#x2010;I coupling model finds that coarse spatial resolution causes overestimation of the Joule heating rate, owing to the finding that the subresolution&#x2010;scale spatial fluctuations in conductance and squared electric field are anticorrelated. When comparing estimates of the total Joule heating over a period of time, the increased Joule heating arises as a larger contribution from temporal correlation between conductance and squared electric field, which overcompensates for the reduced mean&#x2010;squared electric field. Therefore, the difference in the Sondrestrom and AMIE correlation contributions might be explained by a difference in spatial resolution.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -266,6 +262,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2009 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

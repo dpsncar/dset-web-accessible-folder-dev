@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d751404b</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:13177</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:04.451814</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:57.349629</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d751404b</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1007/s00703-013-0303-3</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d751404b</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1007/s00703-013-0303-3</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Springer</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>What is new in this manuscript is a method of using aircraft observations from a long horizontal path through an ice cloud to produce properly correlated 2D fields of particle counts consistent with the observations, including all null values, at several different sizes for use in algorithm development and in scientific studies. A Bayesian approach is used to define the distributions of average counts, P(C), at every size. These are, in turn, used to expand the number of values at each particle size by a factor of 50. These data, then fill a square 2D grid of 20 × 20 km at 100-m resolution. At each grid point, the number concentrations corresponding to each particle size define the particle size distributions (PSD). A method for assuring the proper correlation of counts at each size over the entire grid is devised and discussed. These PSD can then be integrated to yield a number of different quantities over the entire grid such as radar reflectivities and ice water contents. From this perspective, one can then consider the set of observations as just one realization from a much larger ensemble of possible realizations by giving fuller expression to all of the information contained within the observed correlation functions and P(C)s. The in situ observations, however, remain crucial since this method does not 'make-up' new meteorology but simply gives wider expression to the meteorology contained within the observations.</gco:CharacterString>
+            <gco:CharacterString>What is new in this manuscript is a method of using aircraft observations from a long horizontal path through an ice cloud to produce properly correlated 2D fields of particle counts consistent with the observations, including all null values, at several different sizes for use in algorithm development and in scientific studies. A Bayesian approach is used to define the distributions of average counts, P(C), at every size. These are, in turn, used to expand the number of values at each particle size by a factor of 50. These data, then fill a square 2D grid of 20 &#xd7; 20 km at 100-m resolution. At each grid point, the number concentrations corresponding to each particle size define the particle size distributions (PSD). A method for assuring the proper correlation of counts at each size over the entire grid is devised and discussed. These PSD can then be integrated to yield a number of different quantities over the entire grid such as radar reflectivities and ice water contents. From this perspective, one can then consider the set of observations as just one realization from a much larger ensemble of possible realizations by giving fuller expression to all of the information contained within the observed correlation functions and P(C)s. The in situ observations, however, remain crucial since this method does not 'make-up' new meteorology but simply gives wider expression to the meteorology contained within the observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 Springer Vienna</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

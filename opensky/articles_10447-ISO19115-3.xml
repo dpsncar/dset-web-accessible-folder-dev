@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d73f4q4j</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10447</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:10.048393</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:33.737416</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d73f4q4j</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2010JD014242</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d73f4q4j</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2010JD014242</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nédélec, P.</gco:CharacterString>
+                        <gco:CharacterString>N&#xe9;d&#xe9;lec, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -191,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Using both thermal infrared (TIR) and near infrared (NIR) channels of MOPITT (Measurements of Pollution in the Troposphere) on EOS-Terra, we demonstrate the first coincident multispectral retrievals of carbon monoxide (CO) from space. Exploiting both TIR and NIR channels has been possible due to recent progress in characterizing NIR channel radiance errors. This has allowed us to trade off sensitivity to near surface CO for larger random errors in the combined retrieval. By examining retrieval diagnostics such as DFS (degrees of freedom for signal) and averaging kernels for the multispectral retrieval (TIR + NIR) as compared to the TIR-only retrieval, we find that adding the NIR channel to the retrieval significantly increases sensitivity to CO, especially near the surface, but with high spatial variability due to surface albedo variations. The cases with the largest increases in DFS are over regions with low thermal contrast between the surface and lower atmosphere. In the tropics (23.4°S–23.4°N), the fraction of daytime land cases with at least 0.4 DFS in the surface layer (surface to 800 hPa) is 20% for TIR-only retrievals compared to 59% for multispectral retrievals. Vertical resolution for the surface layer is also improved, in some cases from around 6 km for TIR-only to roughly 1 km for TIR + NIR. Since we apply a single a priori CO profile (unlike MOPITT V4) and error covariance in all the retrievals reported here, these increases are due solely to the addition of the NIR channel. Enhanced sensitivity to near surface CO is especially evident in a case study for central/east Asia where source regions for urban areas with high population density are clearly identifiable. Although these retrievals are still a research product and require further validation and scientific evaluation, they demonstrate the increased sensitivity to CO in the lowermost troposphere that can be obtained from multispectral MOPITT data.</gco:CharacterString>
+            <gco:CharacterString>Using both thermal infrared (TIR) and near infrared (NIR) channels of MOPITT (Measurements of Pollution in the Troposphere) on EOS-Terra, we demonstrate the first coincident multispectral retrievals of carbon monoxide (CO) from space. Exploiting both TIR and NIR channels has been possible due to recent progress in characterizing NIR channel radiance errors. This has allowed us to trade off sensitivity to near surface CO for larger random errors in the combined retrieval. By examining retrieval diagnostics such as DFS (degrees of freedom for signal) and averaging kernels for the multispectral retrieval (TIR + NIR) as compared to the TIR-only retrieval, we find that adding the NIR channel to the retrieval significantly increases sensitivity to CO, especially near the surface, but with high spatial variability due to surface albedo variations. The cases with the largest increases in DFS are over regions with low thermal contrast between the surface and lower atmosphere. In the tropics (23.4&#xb0;S&#x2013;23.4&#xb0;N), the fraction of daytime land cases with at least 0.4 DFS in the surface layer (surface to 800 hPa) is 20% for TIR-only retrievals compared to 59% for multispectral retrievals. Vertical resolution for the surface layer is also improved, in some cases from around 6 km for TIR-only to roughly 1 km for TIR + NIR. Since we apply a single a priori CO profile (unlike MOPITT V4) and error covariance in all the retrievals reported here, these increases are due solely to the addition of the NIR channel. Enhanced sensitivity to near surface CO is especially evident in a case study for central/east Asia where source regions for urban areas with high population density are clearly identifiable. Although these retrievals are still a research product and require further validation and scientific evaluation, they demonstrate the increased sensitivity to CO in the lowermost troposphere that can be obtained from multispectral MOPITT data.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -266,16 +262,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>MOPITT</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>multispectral</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2010 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

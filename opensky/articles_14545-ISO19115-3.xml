@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7pz59sx</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:14545</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:25.879751</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:33.273161</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7pz59sx</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -104,13 +107,6 @@
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7pz59sx</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
@@ -124,7 +120,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Australian Meteorological and Oceanographic Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -134,7 +130,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric vortices such as tornadoes, waterspouts, dust devils, hurricanes and midlatitude cyclones are influenced by the impermeable frictional boundary that is the Earth’s surface. In each case there is a rotating-flow boundary layer with secondary circulations having effects on the primary flow ranging from modest to significant. In the mid-latitude cyclone, the importance of the Ekman layer in transporting fluid in and out of the atmosphere above is relatively well understood (Pedlosky 1984, Chapter 4). At the other end of the size spectrum, the distinctive properties of tornado boundary layers in producing very intense swirling motions near the ground are also well recognized (Rotunno 2013). Studies of steady-state hurricane boundary layers indicate that they possess features of both: for example in the Emanuel (1986) theory, the hurricane’s secondary flow is essential for bringing latent heat and angular momentum into the hurricane’s interior, gradient-wind-balanced primary circulation; on the other hand, such boundary layers may have intense radial-wind accelerations and supergradient tangential winds (Smith and Montgomery 2008; Bryan and Rotunno 2009). In terms of the basic fluid mechanics, secondary circulations not involving density gradients are the most well understood; and of these flows, the ones that are in near solid-body rotation are best understood (Duck and Foster 2001). The aim of the present work is to revisit a constant-density flow that is far from solid-body rotation (as in tornadoes) and to help complete its description for laboratory-relevant bounded domains. A firm understanding of the secondary circulations occurring in this flow may help in the development of improved theories for more complex geophysical vortices such as hurricanes.</gco:CharacterString>
+            <gco:CharacterString>Atmospheric vortices such as tornadoes, waterspouts, dust devils, hurricanes and midlatitude cyclones are influenced by the impermeable frictional boundary that is the Earth&#x2019;s surface. In each case there is a rotating-flow boundary layer with secondary circulations having effects on the primary flow ranging from modest to significant. In the mid-latitude cyclone, the importance of the Ekman layer in transporting fluid in and out of the atmosphere above is relatively well understood (Pedlosky 1984, Chapter 4). At the other end of the size spectrum, the distinctive properties of tornado boundary layers in producing very intense swirling motions near the ground are also well recognized (Rotunno 2013). Studies of steady-state hurricane boundary layers indicate that they possess features of both: for example in the Emanuel (1986) theory, the hurricane&#x2019;s secondary flow is essential for bringing latent heat and angular momentum into the hurricane&#x2019;s interior, gradient-wind-balanced primary circulation; on the other hand, such boundary layers may have intense radial-wind accelerations and supergradient tangential winds (Smith and Montgomery 2008; Bryan and Rotunno 2009). In terms of the basic fluid mechanics, secondary circulations not involving density gradients are the most well understood; and of these flows, the ones that are in near solid-body rotation are best understood (Duck and Foster 2001). The aim of the present work is to revisit a constant-density flow that is far from solid-body rotation (as in tornadoes) and to help complete its description for laboratory-relevant bounded domains. A firm understanding of the secondary circulations occurring in this flow may help in the development of improved theories for more complex geophysical vortices such as hurricanes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -209,6 +205,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 Commonwealth of Australia , Bureau of Meteorology.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

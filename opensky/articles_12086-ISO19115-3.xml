@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7m32wgj</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12086</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:36.809607</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:52.344476</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7m32wgj</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Ice in clouds experiment—layer clouds. Part I: Ice growth rates derived from lenticular wave cloud penetrations</gco:CharacterString>
+                  <gco:CharacterString>Ice in clouds experiment&#x2014;layer clouds. Part I: Ice growth rates derived from lenticular wave cloud penetrations</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAS-D-11-025.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7m32wgj</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAS-D-11-025.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Lenticular wave clouds are used as a natural laboratory to estimate the linear and mass growth rates of ice particles at temperatures from -20° to -32°C and to characterize the apparent rate of ice nucleation at water saturation at a nearly constant temperature. Data are acquired from 139 liquid cloud penetrations flown approximately along or against the wind direction. A mean linear ice growth rate of about 1.4 μm s⁻¹, relatively independent of particle size (in the range 100--400 μm) and temperature is deduced. Using the particle size distributions measured along the wind direction, the rate of increase in the ice water content (IWC) is calculated from the measured particle size distributions using theory and from those distributions by assuming different ice particle densities; the IWC is too small to be measured. Very low ice effective densities, &lt;0.1 g cm⁻³, are needed to account for the observed rate of increase in the IWC and the unexpectedly high linear growth rate. Using data from multiple penetrations through a narrow (along wind) and thin wave cloud with relatively flat airflow streamlines, growth rate calculations are used to estimate where the ice particles originate and whether the ice is nucleated in a narrow band or over an extended period of time. The calculations are consistent with the expectation that the ice formation occurs near the leading cloud edge, presumably through a condensation-freezing process. The observed ice concentration increase along the wind is more likely due to a variation in ice growth rates than to prolonged ice nucleation.</gco:CharacterString>
+            <gco:CharacterString>Lenticular wave clouds are used as a natural laboratory to estimate the linear and mass growth rates of ice particles at temperatures from -20&#xb0; to -32&#xb0;C and to characterize the apparent rate of ice nucleation at water saturation at a nearly constant temperature. Data are acquired from 139 liquid cloud penetrations flown approximately along or against the wind direction. A mean linear ice growth rate of about 1.4 &#x3bc;m s&#x207b;&#xb9;, relatively independent of particle size (in the range 100--400 &#x3bc;m) and temperature is deduced. Using the particle size distributions measured along the wind direction, the rate of increase in the ice water content (IWC) is calculated from the measured particle size distributions using theory and from those distributions by assuming different ice particle densities; the IWC is too small to be measured. Very low ice effective densities, &lt;0.1 g cm&#x207b;&#xb3;, are needed to account for the observed rate of increase in the IWC and the unexpectedly high linear growth rate. Using data from multiple penetrations through a narrow (along wind) and thin wave cloud with relatively flat airflow streamlines, growth rate calculations are used to estimate where the ice particles originate and whether the ice is nucleated in a narrow band or over an extended period of time. The calculations are consistent with the expectation that the ice formation occurs near the leading cloud edge, presumably through a condensation-freezing process. The observed ice concentration increase along the wind is more likely due to a variation in ice growth rates than to prolonged ice nucleation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,19 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Cloud microphysics</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Ice particles</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Ice crystals</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2011 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

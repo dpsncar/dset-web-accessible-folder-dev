@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7w09766</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17346</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:58.867739</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:11.883903</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7w09766</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/1520-0426(2003)20&lt;606:COLOSW&gt;2.0.CO;2</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7w09766</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/1520-0426(2003)20&lt;606:COLOSW&gt;2.0.CO;2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Line-of-sight measurements of integrated water vapor from a global positioning system (GPS) receiver and a microwave radiometer are compared. These two instruments were collocated at the central facility of the Department of Energy’s Atmospheric Radiation Measurement Program’s Southern Great Plains region, near Lamont, Oklahoma. The comparison was made using 47 days of observations in May and June of 2000. Weather conditions during this time period were variable with total integrated water vapor ranging from less than 10 to more than 50 mm. To minimize errors in the microwave radiometer observations, observations were compared during conditions when the liquid water measured by the radiometer was less than 0.1 mm. The linear correlation of the observations between the two instruments is 0.99 with a root-mean-square difference of the GPS water vapor to a linear fit of the microwave radiometer of 1.3 mm. The results from these comparisons are used to evaluate the ability of networks of GPS receivers to measure instantaneous line-of-sight integrals of water vapor. A discussion and analysis is provided regarding the additional information of the water vapor field contained in these observations compared to time- and space-averaged zenith and gradient measurements.</gco:CharacterString>
+            <gco:CharacterString>Line-of-sight measurements of integrated water vapor from a global positioning system (GPS) receiver and a microwave radiometer are compared. These two instruments were collocated at the central facility of the Department of Energy&#x2019;s Atmospheric Radiation Measurement Program&#x2019;s Southern Great Plains region, near Lamont, Oklahoma. The comparison was made using 47 days of observations in May and June of 2000. Weather conditions during this time period were variable with total integrated water vapor ranging from less than 10 to more than 50 mm. To minimize errors in the microwave radiometer observations, observations were compared during conditions when the liquid water measured by the radiometer was less than 0.1 mm. The linear correlation of the observations between the two instruments is 0.99 with a root-mean-square difference of the GPS water vapor to a linear fit of the microwave radiometer of 1.3 mm. The results from these comparisons are used to evaluate the ability of networks of GPS receivers to measure instantaneous line-of-sight integrals of water vapor. A discussion and analysis is provided regarding the additional information of the water vapor field contained in these observations compared to time- and space-averaged zenith and gradient measurements.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2003 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

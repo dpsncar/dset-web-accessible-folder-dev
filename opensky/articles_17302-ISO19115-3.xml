@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d75m6702</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17302</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:57.288926</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:10.041930</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d75m6702</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAS3489.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d75m6702</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAS3489.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>On 3 May 1999, an unusually large tornado that caused F4-level damage and killed several people was intercepted by the Doppler on Wheels (DOW) mobile radar near Mulhall, Oklahoma, from a range of 4 to 9 km, resulting in high-resolution volumetric data every 55 s up to 1.5-km altitude over a period of 14 min. For the first time, the evolution and three-dimensional structure of a tornado were deduced using the ground-based velocity track display (GBVTD) technique. After the circulation center was determined, the tangential wind and radial wind were derived from the GBVTD technique at each radius and height. In addition, the axisymmetric vertical velocity, angular momentum, vorticity, and perturbation pressure were deduced from the tangential and radial wind fields. This study focuses on the axisymmetric aspects of this tornado. The primary circulation of the Mulhall tornado consisted of an 84 msâ&#x88;&#x92;1 peak axisymmetric tangential wind with the radius of maximum wind (RMW) ranging from 500 to 1000 m. The secondary circulation exhibited a two-cell structure characterized by a central downdraft surrounded by an annular updraft near the RMW. The calculated maximum pressure deficit from a 3-km radius to the tornado center at 50-m altitude was â&#x88;&#x92;80 hPa. The maximum vorticity during the first 8 min of observation was located inside the RMW away from the tornado center. This vorticity profile satisfied the necessary condition of barotropic instability. As the tornado weakened afterward, the vorticity monotonically increased toward the center. The computed swirl ratios were between 2 and 6, consistent with the observed multiple vortex radar signatures and the vorticity pattern. Swirl ratios were generally smaller during the weakening phase.</gco:CharacterString>
+            <gco:CharacterString>On 3 May 1999, an unusually large tornado that caused F4-level damage and killed several people was intercepted by the Doppler on Wheels (DOW) mobile radar near Mulhall, Oklahoma, from a range of 4 to 9 km, resulting in high-resolution volumetric data every 55 s up to 1.5-km altitude over a period of 14 min. For the first time, the evolution and three-dimensional structure of a tornado were deduced using the ground-based velocity track display (GBVTD) technique. After the circulation center was determined, the tangential wind and radial wind were derived from the GBVTD technique at each radius and height. In addition, the axisymmetric vertical velocity, angular momentum, vorticity, and perturbation pressure were deduced from the tangential and radial wind fields. This study focuses on the axisymmetric aspects of this tornado. The primary circulation of the Mulhall tornado consisted of an 84 ms&#xe2;&#x88;&#x92;1 peak axisymmetric tangential wind with the radius of maximum wind (RMW) ranging from 500 to 1000 m. The secondary circulation exhibited a two-cell structure characterized by a central downdraft surrounded by an annular updraft near the RMW. The calculated maximum pressure deficit from a 3-km radius to the tornado center at 50-m altitude was &#xe2;&#x88;&#x92;80 hPa. The maximum vorticity during the first 8 min of observation was located inside the RMW away from the tornado center. This vorticity profile satisfied the necessary condition of barotropic instability. As the tornado weakened afterward, the vorticity monotonically increased toward the center. The computed swirl ratios were between 2 and 6, consistent with the observed multiple vortex radar signatures and the vorticity pattern. Swirl ratios were generally smaller during the weakening phase.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2005 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

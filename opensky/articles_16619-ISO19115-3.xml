@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d77945tr</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:16619</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:39.593969</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:37.294815</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d77945tr</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JCLI-D-14-00426.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d77945tr</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JCLI-D-14-00426.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -131,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>L’Ecuyer, Tristan</gco:CharacterString>
+                        <gco:CharacterString>L&#x2019;Ecuyer, Tristan</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observational benchmarks of global and regional aerosol direct radiative effects, over all surfaces and all sky conditions, are generated using CloudSat’s new multisensor radiative fluxes and heating rates product. Improving upon previous techniques, the approach leverages the capability of CloudSat and CALIPSO to retrieve vertically resolved estimates of cloud and aerosol properties required for complete and accurate assessment of aerosol direct effects under all conditions. The global annually averaged aerosol direct radiative effect is estimated to be −1.9 W m−2 with an uncertainty range of ±0.6 W m−2, which is in better agreement with previously published estimates from global models than previous satellite-based estimates. Detailed comparisons against a fully coupled simulation of the Community Earth System Model, however, reveal that this agreement on the global annual mean masks large regional discrepancies between modeled and observed estimates of aerosol direct effects. A series of regional analyses demonstrate that, in addition to previously documented biases in simulated aerosol distributions, the magnitude and sign of these discrepancies are often related to model biases in the geographic and seasonal distribution of clouds. A low bias in stratocumulus cloud cover over the southeastern Pacific, for example, leads to an overestimate of the radiative effects of marine aerosols in the region. Likewise, errors in the seasonal cycle of low clouds in the southeastern Atlantic distort the radiative effects of biomass burning aerosols from southern Africa. These findings indicate that accurate assessment of aerosol direct effects requires models to correctly represent not only the source, strength, and optical properties of aerosols, but their relative proximity to clouds as well.</gco:CharacterString>
+            <gco:CharacterString>Observational benchmarks of global and regional aerosol direct radiative effects, over all surfaces and all sky conditions, are generated using CloudSat&#x2019;s new multisensor radiative fluxes and heating rates product. Improving upon previous techniques, the approach leverages the capability of CloudSat and CALIPSO to retrieve vertically resolved estimates of cloud and aerosol properties required for complete and accurate assessment of aerosol direct effects under all conditions. The global annually averaged aerosol direct radiative effect is estimated to be &#x2212;1.9 W m&#x2212;2 with an uncertainty range of &#xb1;0.6 W m&#x2212;2, which is in better agreement with previously published estimates from global models than previous satellite-based estimates. Detailed comparisons against a fully coupled simulation of the Community Earth System Model, however, reveal that this agreement on the global annual mean masks large regional discrepancies between modeled and observed estimates of aerosol direct effects. A series of regional analyses demonstrate that, in addition to previously documented biases in simulated aerosol distributions, the magnitude and sign of these discrepancies are often related to model biases in the geographic and seasonal distribution of clouds. A low bias in stratocumulus cloud cover over the southeastern Pacific, for example, leads to an overestimate of the radiative effects of marine aerosols in the region. Likewise, errors in the seasonal cycle of low clouds in the southeastern Atlantic distort the radiative effects of biomass burning aerosols from southern Africa. These findings indicate that accurate assessment of aerosol direct effects requires models to correctly represent not only the source, strength, and optical properties of aerosols, but their relative proximity to clouds as well.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2015 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

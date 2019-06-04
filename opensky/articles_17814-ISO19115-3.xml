@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7j104nm</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17814</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:11.359167</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:19.422738</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7j104nm</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/WAF-D-14-00066.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7j104nm</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/WAF-D-14-00066.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Expansion in the availability of relocatable near-surface atmospheric observing sensors introduces the question of where placement maximizes gain in forecast accuracy. As one possible method of addressing observation placement, the performance of ensemble sensitivity analysis (ESA) is examined for high-resolution (Δx = 4 km) predictions in complex terrain and during weak flow. ESA can be inaccurate when the underlying assumptions of linear dynamics (and Gaussian statistics) are violated, or when the sensitivity cannot be robustly sampled. A case study of a fog event at Salt Lake City International Airport (KSLC) in Utah provides a useful basis for examining these issues, with the additional influence of complex terrain. A realistic upper-air observing network is used in perfect-model ensemble data assimilation experiments, providing the statistics for ESA. Results show that water vapor mixing ratios over KSLC are sensitive to potential temperature on the first model layer tens of kilometers away, 6 h prior to verification and prior to the onset of fog. Potential temperatures indicate inversion strength in the Salt Lake basin; the ESA predicts southerly flow and strengthened inversions will increase water vapor over KSLC. Linearity tests show that the nonlinear response is about twice the expected response. Experiments with smaller ensembles show that qualitatively similar conclusions about the sensitivity pattern can be reached with ensembles as small as 48 members, but smaller ensembles do not produce accurate sensitivity estimates. Taken together, the results motivate a closer look at the fundamental characteristics of ESA when dynamics (and therefore correlations) are weak.</gco:CharacterString>
+            <gco:CharacterString>Expansion in the availability of relocatable near-surface atmospheric observing sensors introduces the question of where placement maximizes gain in forecast accuracy. As one possible method of addressing observation placement, the performance of ensemble sensitivity analysis (ESA) is examined for high-resolution (&#x394;x = 4 km) predictions in complex terrain and during weak flow. ESA can be inaccurate when the underlying assumptions of linear dynamics (and Gaussian statistics) are violated, or when the sensitivity cannot be robustly sampled. A case study of a fog event at Salt Lake City International Airport (KSLC) in Utah provides a useful basis for examining these issues, with the additional influence of complex terrain. A realistic upper-air observing network is used in perfect-model ensemble data assimilation experiments, providing the statistics for ESA. Results show that water vapor mixing ratios over KSLC are sensitive to potential temperature on the first model layer tens of kilometers away, 6 h prior to verification and prior to the onset of fog. Potential temperatures indicate inversion strength in the Salt Lake basin; the ESA predicts southerly flow and strengthened inversions will increase water vapor over KSLC. Linearity tests show that the nonlinear response is about twice the expected response. Experiments with smaller ensembles show that qualitatively similar conclusions about the sensitivity pattern can be reached with ensembles as small as 48 members, but smaller ensembles do not produce accurate sensitivity estimates. Taken together, the results motivate a closer look at the fundamental characteristics of ESA when dynamics (and therefore correlations) are weak.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2015 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

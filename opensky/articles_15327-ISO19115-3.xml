@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7542pm5</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:15327</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:30.459676</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:58.617966</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7542pm5</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1007/s10546-009-9427-x</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7542pm5</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1007/s10546-009-9427-x</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Springer</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>How the spatial perturbations of the first and second moments of the velocity and pressure fields differ for flow over a train of gentle hills covered by either sparse or dense vegetation is explored using large-eddy simulation (LES). Two simulations are investigated where the canopy is composed of uniformly arrayed rods each with a height that is comparable to the hill height. In the first simulation, the rod density is chosen so that much of the momentum is absorbed within the canopy volume yet the canopy is not dense enough to induce separation on the lee side of the hill. In the second simulation, the rod density is large enough to induce recirculation inside the canopy on the lee side of the hill. For this separating flow case, zones of intense shear stress originating near the canopy-atmosphere interface persist all the way up to the middle layer, 'contaminating' much of the middle and outer layers with shear stress gradients. The implications of these persistent shear-stress gradients on rapid distortion theory and phase relationships between higher order velocity statistics and hill-induced mean velocity perturbations (∆u) are discussed. Within the inner layer, these intense shear zones improve predictions of the spatial perturbation by K-theory, especially for the phase relationships between the shear stress (∼ ∂∆u/∂z) and the velocity variances, where z is the height. For the upper canopy layers, wake production increases with increasing leaf area density resulting in a vertical velocity variance more in phase with ∆u than with∂∆u/∂z. However, background turbulence and inactive eddies may have dampened this effect for the longitudinal velocity variance. The increase in leaf area density does not significantly affect the phase relationship between mean surface pressure and topography for the two simulations, though the LES results here confirm earlier findings that the minimum mean pressure shifts downstream from the hill crest. The increase in leaf area density and associated flow separation simply stretches this difference further downstream. This shift increases the pressure drag, the dominant term in the overall drag on the hill surface, by some 15%. With regards to the normalized pressure variance, increasing leaf area density increases σp/u2 ∗ near the canopy top, where u∗ is the longitudinally averaged friction velocity at the canopy top and σp is the standard deviation of the pressure fluctuations. This increase is shown to be consistent with a primitive scaling argument on the leading term describing the mean-flow turbulent interaction. This scaling argument also predicts the spatial variations in σp above the canopy reasonably well for both simulations, but not inside the canopy.</gco:CharacterString>
+            <gco:CharacterString>How the spatial perturbations of the first and second moments of the velocity and pressure fields differ for flow over a train of gentle hills covered by either sparse or dense vegetation is explored using large-eddy simulation (LES). Two simulations are investigated where the canopy is composed of uniformly arrayed rods each with a height that is comparable to the hill height. In the first simulation, the rod density is chosen so that much of the momentum is absorbed within the canopy volume yet the canopy is not dense enough to induce separation on the lee side of the hill. In the second simulation, the rod density is large enough to induce recirculation inside the canopy on the lee side of the hill. For this separating flow case, zones of intense shear stress originating near the canopy-atmosphere interface persist all the way up to the middle layer, 'contaminating' much of the middle and outer layers with shear stress gradients. The implications of these persistent shear-stress gradients on rapid distortion theory and phase relationships between higher order velocity statistics and hill-induced mean velocity perturbations (&#x2206;u) are discussed. Within the inner layer, these intense shear zones improve predictions of the spatial perturbation by K-theory, especially for the phase relationships between the shear stress (&#x223c; &#x2202;&#x2206;u/&#x2202;z) and the velocity variances, where z is the height. For the upper canopy layers, wake production increases with increasing leaf area density resulting in a vertical velocity variance more in phase with &#x2206;u than with&#x2202;&#x2206;u/&#x2202;z. However, background turbulence and inactive eddies may have dampened this effect for the longitudinal velocity variance. The increase in leaf area density does not significantly affect the phase relationship between mean surface pressure and topography for the two simulations, though the LES results here confirm earlier findings that the minimum mean pressure shifts downstream from the hill crest. The increase in leaf area density and associated flow separation simply stretches this difference further downstream. This shift increases the pressure drag, the dominant term in the overall drag on the hill surface, by some 15%. With regards to the normalized pressure variance, increasing leaf area density increases &#x3c3;p/u2 &#x2217; near the canopy top, where u&#x2217; is the longitudinally averaged friction velocity at the canopy top and &#x3c3;p is the standard deviation of the pressure fluctuations. This increase is shown to be consistent with a primitive scaling argument on the leading term describing the mean-flow turbulent interaction. This scaling argument also predicts the spatial variations in &#x3c3;p above the canopy reasonably well for both simulations, but not inside the canopy.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,13 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Canopy turbulence • Flow over hills • Large-eddy simulation</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by Springer. Copyright 2009, Springer Science+Business Media B.V.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

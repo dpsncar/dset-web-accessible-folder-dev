@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d75b048c</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:19466</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:42.529592</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:45.407923</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d75b048c</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JHM-D-16-0125.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d75b048c</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JHM-D-16-0125.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -218,10 +214,20 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>This study analyzes spatial and temporal characteristics of multiyear droughts and pluvials over the southwestern United States with a focus on the upper Colorado River basin. The study uses two multiscalar moisture indices: standardized precipitation evapotranspiration index (SPEI) and standardized precipitation index (SPI) on a 36-month scale (SPEI36 and SPI36, respectively). The indices are calculated from monthly average precipitation and maximum and minimum temperatures from the Parameter-Elevation-Regressions on Independent Slopes Model dataset for the period 1950-2012. The study examines the relationship between individual climate variables as well as large-scale atmospheric circulation features found in reanalysis output during drought and pluvial periods. The results indicate that SPEI36 and SPI36 show similar temporal and spatial patterns, but that the inclusion of temperatures in SPEI36 leads to more extreme magnitudes in SPEI36 than in SPI36. Analysis of large-scale atmospheric fields indicates an interplay between different fields that yields extremes over the study region. Widespread drought (pluvial) events are associated with enhanced positive (negative) 500-hPa geopotential height anomaly linked to subsidence (ascent) and negative (positive) moisture convergence and precipitable water anomalies. Considering the broader context of the conditions responsible for the occurrence of prolonged hydrologic anomalies provides water resource managers and other decision-makers with valuable understanding of these events. This perspective also offers evaluation opportunities for climate models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -296,6 +302,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2017 American Meteorological Society (AMS).</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

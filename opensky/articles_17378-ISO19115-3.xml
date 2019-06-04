@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d70p11b9</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17378</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:59.668259</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:47.280876</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d70p11b9</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1088/2041-8205/724/1/L1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d70p11b9</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1088/2041-8205/724/1/L1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Institute of Physics Publishing</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>Accurate mass determination of clusters of galaxies is crucial if they are to be used as cosmological probes. However, there are some discrepancies between cluster masses determined based on gravitational lensing and X-ray observations assuming strict hydrostatic equilibrium (i.e., the equilibrium gas pressure is provided entirely by thermal pressure). Cosmological simulations suggest that turbulent gas motions remaining from hierarchical structure formation may provide a significant contribution to the equilibrium pressure in clusters. We analyze a sample of massive clusters of galaxies drawn from high-resolution cosmological simulations and find a significant contribution (20%-45%) from non-thermal pressure near the center of relaxed clusters, and, in accord with previous studies, a minimum contribution at about 0.1 R-vir, growing to about 30%-45% at the virial radius, R-vir. Our results strongly suggest that relaxed clusters should have significant non-thermal support in their core region. As an example, we test the validity of strict hydrostatic equilibrium in the well-studied massive galaxy cluster A1689 using the latest high-resolution gravitational lensing and X-ray observations. We find a contribution of about 40% from non-thermal pressure within the core region of A1689, suggesting an alternate explanation for the mass discrepancy: the strict hydrostatic equilibrium is not valid in this region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2010. The American Astronomical Society. All rights reserved. Printed in the U.S.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

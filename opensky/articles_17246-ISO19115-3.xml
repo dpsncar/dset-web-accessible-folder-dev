@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d78p61sh</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17246</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:55.721411</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:39.764493</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d78p61sh</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1007/s10546-010-9531-y</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d78p61sh</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1007/s10546-010-9531-y</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Springer</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The community Noah land-surface model (Noah LSM) has been modified to couple with a photosynthesis-transpiration scheme (GEM) to estimate the deposition velocity (V d) for air quality studies. This new capability of the Noah-GEM model was tested in a point version of the National Center for Atmospheric Research-High Resolution Land Data Assimilation System (HRLDAS). Ozone V d observations from June 1–30, 2002 over the AmeriFlux forested site located at Niwot Ridge, Colorado, USA (40°1'58"N;105°32'47"W) were used. The model reasonably captures V d variations for both dry and wet conditions but has problems at nighttime. Experiments were performed to assess the sensitivity of V d calculations to surface characteristics related to vegetation and soil parameters. The results indicated that V d values are sensitive to accurate specifications of the leaf area index (LAI) and a lesser extent to vegetation type, maximum stomatal resistance (R smax) and soil texture prescription. The model sensitivity to canopy resistance was noted for both daytime and nighttime. For this forest site, neither soil textures nor soil moisture appeared to affect V d calculations significantly, though they affected the surface heat-flux estimation particularly under low soil moisture conditions. Therefore, the V d estimation in the Noah model can be enhanced by either site-specific LAI or assimilating regional normal difference vegetation index information for specific time periods. Results also highlighted the need to lower the current constant R smax value used in Noah and other land-surface models.</gco:CharacterString>
+            <gco:CharacterString>The community Noah land-surface model (Noah LSM) has been modified to couple with a photosynthesis-transpiration scheme (GEM) to estimate the deposition velocity (V d) for air quality studies. This new capability of the Noah-GEM model was tested in a point version of the National Center for Atmospheric Research-High Resolution Land Data Assimilation System (HRLDAS). Ozone V d observations from June 1&#x2013;30, 2002 over the AmeriFlux forested site located at Niwot Ridge, Colorado, USA (40&#xb0;1'58"N;105&#xb0;32'47"W) were used. The model reasonably captures V d variations for both dry and wet conditions but has problems at nighttime. Experiments were performed to assess the sensitivity of V d calculations to surface characteristics related to vegetation and soil parameters. The results indicated that V d values are sensitive to accurate specifications of the leaf area index (LAI) and a lesser extent to vegetation type, maximum stomatal resistance (R smax) and soil texture prescription. The model sensitivity to canopy resistance was noted for both daytime and nighttime. For this forest site, neither soil textures nor soil moisture appeared to affect V d calculations significantly, though they affected the surface heat-flux estimation particularly under low soil moisture conditions. Therefore, the V d estimation in the Noah model can be enhanced by either site-specific LAI or assimilating regional normal difference vegetation index information for specific time periods. Results also highlighted the need to lower the current constant R smax value used in Noah and other land-surface models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,22 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Air quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Deposition velocity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Land data assimilation system</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Noah land-surface model</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by Springer. Copyright 2010, Springer Science+Business Media B.V.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

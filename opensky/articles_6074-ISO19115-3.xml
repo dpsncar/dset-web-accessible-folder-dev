@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7kd1z2d</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:6074</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:42.173271</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:16.466451</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7kd1z2d</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR3461.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7kd1z2d</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR3461.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) mission launched six small satellites in April 2006, each carrying a GPS radio occultation (RO) receiver. At final orbit, COSMIC will provide 2500–3000 RO soundings per day uniformly distributed around the globe in near–real time. In preparation for the assimilation of COSMIC data in an operational framework, the NCEP/Environmental Modeling Center (EMC) has successfully developed the capability of assimilating profiles of refractivity and bending angle. Each forward operator has been implemented with its own quality control and error characterization. In this paper, the infrastructure developed at NCEP/EMC to assimilate GPS RO observations, including forward models, observational and representativeness errors, and quality control procedures, is described. The advantages of using a forward operator for bending angle versus refractivity are discussed and some preliminary results on the benefits of the GPS RO in weather analysis and forecasts are presented. The different strategies adopted at NCEP/EMC to assimilate GPS RO data are aimed to select the most appropriate forward operator in the operational data assimilation system when COSMIC products are stable and routinely available to the Numerical Weather Centers. In the meantime, data from the Challenging Minisatellite Payload (CHAMP) satellite is available in non–real time and has been used in the assimilation tests to examine the potential benefits of the GPS RO–derived products. In the preliminary results presented in this study, the use of GPS RO observations slightly improves anomaly correlation scores for temperature (by 0.01–0.03) in the Southern Hemisphere and Tropics throughout the depth of the atmosphere while a slight degradation is found in the upper troposphere and stratosphere in the Northern Hemisphere. However, significant reduction of the temperature and humidity biases is found for all latitudes. The benefits from assimilating GPS RO data also extend to other fields, such as 500-hPa geopotential heights and tropical winds, demonstrating the potential use of GPS RO data in operational forecasting.</gco:CharacterString>
+            <gco:CharacterString>The Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) mission launched six small satellites in April 2006, each carrying a GPS radio occultation (RO) receiver. At final orbit, COSMIC will provide 2500&#x2013;3000 RO soundings per day uniformly distributed around the globe in near&#x2013;real time. In preparation for the assimilation of COSMIC data in an operational framework, the NCEP/Environmental Modeling Center (EMC) has successfully developed the capability of assimilating profiles of refractivity and bending angle. Each forward operator has been implemented with its own quality control and error characterization. In this paper, the infrastructure developed at NCEP/EMC to assimilate GPS RO observations, including forward models, observational and representativeness errors, and quality control procedures, is described. The advantages of using a forward operator for bending angle versus refractivity are discussed and some preliminary results on the benefits of the GPS RO in weather analysis and forecasts are presented. The different strategies adopted at NCEP/EMC to assimilate GPS RO data are aimed to select the most appropriate forward operator in the operational data assimilation system when COSMIC products are stable and routinely available to the Numerical Weather Centers. In the meantime, data from the Challenging Minisatellite Payload (CHAMP) satellite is available in non&#x2013;real time and has been used in the assimilation tests to examine the potential benefits of the GPS RO&#x2013;derived products. In the preliminary results presented in this study, the use of GPS RO observations slightly improves anomaly correlation scores for temperature (by 0.01&#x2013;0.03) in the Southern Hemisphere and Tropics throughout the depth of the atmosphere while a slight degradation is found in the upper troposphere and stratosphere in the Northern Hemisphere. However, significant reduction of the temperature and humidity biases is found for all latitudes. The benefits from assimilating GPS RO data also extend to other fields, such as 500-hPa geopotential heights and tropical winds, demonstrating the potential use of GPS RO data in operational forecasting.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,13 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Global positioning system (GPS)</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2007 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

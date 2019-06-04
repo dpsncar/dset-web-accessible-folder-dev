@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d77p8znb</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:7106</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:50.373904</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:05.624297</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d77p8znb</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2006JD007695</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d77p8znb</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2006JD007695</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -271,7 +267,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -281,7 +277,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We examine the ozone production from boreal forest fires based on a case study of wildfires in Alaska and Canada in summer 2004. The model simulations were performed with the chemistry transport model, MOZART-4, and were evaluated by comparison with a comprehensive set of aircraft measurements. In the analysis we use measurements and model simulations of carbon monoxide (CO) and ozone (O₃) at the PICO-NARE station located in the Azores within the pathway of North American outflow. The modeled mixing ratios were used to test the robustness of the enhancement ratio ΔO₃/ΔCO (defined as the excess O₃ mixing ratio normalized by the increase in CO) and the feasibility for using this ratio in estimating the O₃ production from the wildfires. Modeled and observed enhancement ratios are about 0.25 ppbv/ppbv which is in the range of values found in the literature and results in a global net O₃ production of 12.9 ± 2 Tg O₃ during summer 2004. This matches the net O₃ production calculated in the model for a region extending from Alaska to the east Atlantic (9-11 Tg O3) indicating that observations at PICO-NARE representing photochemically well aged plumes provide a good measure of the O₃ production of North American boreal fires. However, net chemical loss of fire-related O₃ dominates in regions far downwind from the fires (e.g., Europe and Asia) resulting in a global net O₃ production of 6 Tg O₃ during the same time period. On average, the fires increased the O₃ burden (surface -300 mbar) over Alaska and Canada during summer 2004 by about 7-9% and over Europe by about 2-3%.</gco:CharacterString>
+            <gco:CharacterString>We examine the ozone production from boreal forest fires based on a case study of wildfires in Alaska and Canada in summer 2004. The model simulations were performed with the chemistry transport model, MOZART-4, and were evaluated by comparison with a comprehensive set of aircraft measurements. In the analysis we use measurements and model simulations of carbon monoxide (CO) and ozone (O&#x2083;) at the PICO-NARE station located in the Azores within the pathway of North American outflow. The modeled mixing ratios were used to test the robustness of the enhancement ratio &#x394;O&#x2083;/&#x394;CO (defined as the excess O&#x2083; mixing ratio normalized by the increase in CO) and the feasibility for using this ratio in estimating the O&#x2083; production from the wildfires. Modeled and observed enhancement ratios are about 0.25 ppbv/ppbv which is in the range of values found in the literature and results in a global net O&#x2083; production of 12.9 &#xb1; 2 Tg O&#x2083; during summer 2004. This matches the net O&#x2083; production calculated in the model for a region extending from Alaska to the east Atlantic (9-11 Tg O3) indicating that observations at PICO-NARE representing photochemically well aged plumes provide a good measure of the O&#x2083; production of North American boreal fires. However, net chemical loss of fire-related O&#x2083; dominates in regions far downwind from the fires (e.g., Europe and Asia) resulting in a global net O&#x2083; production of 6 Tg O&#x2083; during the same time period. On average, the fires increased the O&#x2083; burden (surface -300 mbar) over Alaska and Canada during summer 2004 by about 7-9% and over Europe by about 2-3%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -356,19 +352,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Enhancement ratio</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Atmospheric composition and structure</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Ozone</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2006 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

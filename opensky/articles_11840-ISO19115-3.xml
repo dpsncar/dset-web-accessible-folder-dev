@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d71n81sr</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11840</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:30.674745</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:11.861966</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d71n81sr</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1017/jfm.2011.546</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d71n81sr</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1017/jfm.2011.546</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Cambridge University Press</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We investigate homogeneous incompressible turbulence subjected to a range of degrees of stratification. Our basic method is pseudospectral direct numerical simulations at a resolution of 1024³. Such resolution is sufficient to reveal inertial power-law ranges for suitably comprised horizontal and vertical spectra, which are designated as the wave and vortex mode (the Craya-Herring representation). We study mainly turbulence that is produced from randomly large-scale forcing via an Ornstein-Uhlenbeck process applied isotropically to the horizontal velocity field. In general, both the wave and vortex spectra are consistent with a Kolmogorov-like k⁻⅗ range at sufficiently large k. At large scales, and for sufficiently strong stratification, the wave spectrum is a steeper k⊥⁻², while that for the vortex component is consistent with k⊥⁻³. Here k is the horizontally gathered wavenumber. In contrast to the horizontal wavenumber spectra, the vertical wavenumber spectra show very different features. For those spectra, a clear k⊥⁻³ dependence for small scales is observed while the large scales show rather flat spectra. By modelling the horizontal layering of vorticity, we attempt to explain the flat spectra. These spectra are linked to two-point structure functions of the velocity correlations in the horizontal and vertical directions. We can observe the power-law transition also in certain of the two-point structure functions.</gco:CharacterString>
+            <gco:CharacterString>We investigate homogeneous incompressible turbulence subjected to a range of degrees of stratification. Our basic method is pseudospectral direct numerical simulations at a resolution of 1024&#xb3;. Such resolution is sufficient to reveal inertial power-law ranges for suitably comprised horizontal and vertical spectra, which are designated as the wave and vortex mode (the Craya-Herring representation). We study mainly turbulence that is produced from randomly large-scale forcing via an Ornstein-Uhlenbeck process applied isotropically to the horizontal velocity field. In general, both the wave and vortex spectra are consistent with a Kolmogorov-like k&#x207b;&#x2157; range at sufficiently large k. At large scales, and for sufficiently strong stratification, the wave spectrum is a steeper k&#x22a5;&#x207b;&#xb2;, while that for the vortex component is consistent with k&#x22a5;&#x207b;&#xb3;. Here k is the horizontally gathered wavenumber. In contrast to the horizontal wavenumber spectra, the vertical wavenumber spectra show very different features. For those spectra, a clear k&#x22a5;&#x207b;&#xb3; dependence for small scales is observed while the large scales show rather flat spectra. By modelling the horizontal layering of vorticity, we attempt to explain the flat spectra. These spectra are linked to two-point structure functions of the velocity correlations in the horizontal and vertical directions. We can observe the power-law transition also in certain of the two-point structure functions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,19 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Homogeneous turbulence turbulence simulation</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Stratified flows</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Turbulence simulation</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2012 Cambridge University Press.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

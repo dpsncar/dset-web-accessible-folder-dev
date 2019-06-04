@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7f47ppf</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10703</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:18.651976</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:05.973772</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7f47ppf</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/2010JCLI3609.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7f47ppf</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/2010JCLI3609.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A new method to quantify changes in El Niño-Southern Oscillation (ENSO) variability is presented, using the overlap between probability distributions of the wavelet spectrum as measured by the wavelet probability index (WPI). Examples are provided using long integrations of three coupled climate models. When subsets of Niño-3.4 time series are compared, the width of the confidence interval on WPI has an exponential dependence on the length of the subset used, with a statistically identical slope for all three models. This exponential relationship describes the rate at which the system converges toward equilibrium and may be used to determine the necessary simulation length for robust statistics. For the three models tested, a minimum of 250 model years is required to obtain 90% convergence for Nino-3.4, longer than typical Intergovernmental Panel on Climate Change (IPCC) simulations. Applying the same decay relationship to observational data indicates that measuring ENSO variability with 90% confidence requires approximately 240 years of observations, which is substantially longer than the modern SST record. Applying hypothesis testing techniques to the WPI distributions from model subsets and from comparisons of model subsets to the historical Niño-3.4 index then allows statistically robust comparisons of relative model agreement with appropriate confidence levels given the length of the data record and model simulation.</gco:CharacterString>
+            <gco:CharacterString>A new method to quantify changes in El Ni&#xf1;o-Southern Oscillation (ENSO) variability is presented, using the overlap between probability distributions of the wavelet spectrum as measured by the wavelet probability index (WPI). Examples are provided using long integrations of three coupled climate models. When subsets of Ni&#xf1;o-3.4 time series are compared, the width of the confidence interval on WPI has an exponential dependence on the length of the subset used, with a statistically identical slope for all three models. This exponential relationship describes the rate at which the system converges toward equilibrium and may be used to determine the necessary simulation length for robust statistics. For the three models tested, a minimum of 250 model years is required to obtain 90% convergence for Nino-3.4, longer than typical Intergovernmental Panel on Climate Change (IPCC) simulations. Applying the same decay relationship to observational data indicates that measuring ENSO variability with 90% confidence requires approximately 240 years of observations, which is substantially longer than the modern SST record. Applying hypothesis testing techniques to the WPI distributions from model subsets and from comparisons of model subsets to the historical Ni&#xf1;o-3.4 index then allows statistically robust comparisons of relative model agreement with appropriate confidence levels given the length of the data record and model simulation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2010 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

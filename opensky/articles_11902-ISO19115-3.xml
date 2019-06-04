@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d74t6k1d</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11902</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:32.155758</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:56.431064</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d74t6k1d</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The effect of ∼27 day solar rotation on ionospheric F₂ region peak densities (NmF₂)</gco:CharacterString>
+                  <gco:CharacterString>The effect of &#x223c;27 day solar rotation on ionospheric F&#x2082; region peak densities (NmF&#x2082;)</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2011JA017190</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d74t6k1d</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2011JA017190</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ionospheric F² region peak electron densities (NmF²) observed from 11 ionosonde stations in the East Asian-Australian sector from 1969 to 1986 have been used to investigate the effect of ∼27 day solar rotation on the ionosphere. These stations were located from the magnetically equatorial regions to the middle latitudes in both hemispheres. We found that, averaged over all stations and for 18 years, the normalized standard deviation of the midday ∼27 day variations of NmF₂ was 8% and that of the midnight variations was 10%. We applied different data analysis methods, including Fourier transform, band-pass filter, and multiple linear regression analysis, to determine quantitatively the sources of the observed ∼27 day variations of NmF₂ and their relative contributions to these variations. Our results show that the ∼27 day variations in solar radiation and geomagnetic activity, caused by solar rotation, are the main drivers of the ionospheric ∼27 day variations. They accounted for more than 85% of the variations seen in the NmF₂ ∼27 day variation, and their contributions became about 95% at higher latitudes. At geomagnetically low latitudes, the contribution of the ∼27 day variation in solar EUV radiation was greater than that of the ∼27 day variation in geomagnetic activity. However, the contribution from geomagnetic activity became more significant and was even larger than the contribution of solar radiation at higher latitudes, especially at midnight. At all latitudes the correlation between the ∼27 day variations of NmF₂ and solar radiation was evidently positive, whereas that between NmF₂ and geomagnetic activity was positive at geomagnetically low latitudes and became negative at higher middle latitudes. We did not found large seasonal or solar cycle changes in the ∼27 day variations of NmF₂. These variations, however, did show significant differences between the two hemispheres.</gco:CharacterString>
+            <gco:CharacterString>Ionospheric F&#xb2; region peak electron densities (NmF&#xb2;) observed from 11 ionosonde stations in the East Asian-Australian sector from 1969 to 1986 have been used to investigate the effect of &#x223c;27 day solar rotation on the ionosphere. These stations were located from the magnetically equatorial regions to the middle latitudes in both hemispheres. We found that, averaged over all stations and for 18 years, the normalized standard deviation of the midday &#x223c;27 day variations of NmF&#x2082; was 8% and that of the midnight variations was 10%. We applied different data analysis methods, including Fourier transform, band-pass filter, and multiple linear regression analysis, to determine quantitatively the sources of the observed &#x223c;27 day variations of NmF&#x2082; and their relative contributions to these variations. Our results show that the &#x223c;27 day variations in solar radiation and geomagnetic activity, caused by solar rotation, are the main drivers of the ionospheric &#x223c;27 day variations. They accounted for more than 85% of the variations seen in the NmF&#x2082; &#x223c;27 day variation, and their contributions became about 95% at higher latitudes. At geomagnetically low latitudes, the contribution of the &#x223c;27 day variation in solar EUV radiation was greater than that of the &#x223c;27 day variation in geomagnetic activity. However, the contribution from geomagnetic activity became more significant and was even larger than the contribution of solar radiation at higher latitudes, especially at midnight. At all latitudes the correlation between the &#x223c;27 day variations of NmF&#x2082; and solar radiation was evidently positive, whereas that between NmF&#x2082; and geomagnetic activity was positive at geomagnetically low latitudes and became negative at higher middle latitudes. We did not found large seasonal or solar cycle changes in the &#x223c;27 day variations of NmF&#x2082;. These variations, however, did show significant differences between the two hemispheres.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,19 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Ionosphere</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Peak density</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Variation</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2012 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

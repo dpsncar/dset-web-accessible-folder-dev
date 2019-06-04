@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7c53mhk</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11831</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:30.427396</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:11.321024</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7c53mhk</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1017/jfm.2012.99</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7c53mhk</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1017/jfm.2012.99</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Cambridge University Press</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present numerical evidence of how three-dimensionalization occurs at small scale in rotating turbulence with Beltrami (ABC) forcing, creating helical flow. The Zeman scale lΩ at which the inertial and eddy turn-over times are equal is more than one order of magnitude larger than the dissipation scale, with the relevant domains (large-scale inverse cascade of energy, dual regime in the direct cascade of energy E and helicity H, and dissipation) each moderately resolved. These results stem from the analysis of a large direct numerical simulation on a grid of 3072³ points, with Rossby and Reynolds numbers, respectively, equal to 0.07 and 2.7 x 10⁴. At scales smaller than the forcing, a helical wave-modulated inertial law for the energy and helicity spectra is followed beyond lΩ ; by Kolmogorov spectra for E and H. Looking at the two-dimensional slow manifold, we also show that the helicity spectrum breaks down at lΩ ;, a clear sign of recovery of three-dimensionality in the small scales.</gco:CharacterString>
+            <gco:CharacterString>We present numerical evidence of how three-dimensionalization occurs at small scale in rotating turbulence with Beltrami (ABC) forcing, creating helical flow. The Zeman scale l&#x3a9; at which the inertial and eddy turn-over times are equal is more than one order of magnitude larger than the dissipation scale, with the relevant domains (large-scale inverse cascade of energy, dual regime in the direct cascade of energy E and helicity H, and dissipation) each moderately resolved. These results stem from the analysis of a large direct numerical simulation on a grid of 3072&#xb3; points, with Rossby and Reynolds numbers, respectively, equal to 0.07 and 2.7 x 10&#x2074;. At scales smaller than the forcing, a helical wave-modulated inertial law for the energy and helicity spectra is followed beyond l&#x3a9; ; by Kolmogorov spectra for E and H. Looking at the two-dimensional slow manifold, we also show that the helicity spectrum breaks down at l&#x3a9; ;, a clear sign of recovery of three-dimensionality in the small scales.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,19 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Isotropic turbulence;</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Rotating turbulence</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Wave–turbulence interactions</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2012 Cambridge University Press.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

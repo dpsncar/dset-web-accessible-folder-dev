@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7q24142</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12747</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:53.127379</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:00.854708</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7q24142</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Recent anthropogenic increases in SO₂ from Asia have minimal impact on stratospheric aerosol</gco:CharacterString>
+                  <gco:CharacterString>Recent anthropogenic increases in SO&#x2082; from Asia have minimal impact on stratospheric aerosol</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/grl.50263</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7q24142</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/grl.50263</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -231,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -241,7 +237,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observations suggest that the optical depth of the stratospheric aerosol layer between 20 and 30 km has increased 4–10% per year since 2000, which is significant for Earth's climate. Contributions to this increase both from moderate volcanic eruptions and from enhanced coal burning in Asia have been suggested. Current observations are insufficient to attribute the contribution of the different sources. Here we use a global climate model coupled to an aerosol microphysical model to partition the contribution of each. We employ model runs that include the increases in anthropogenic sulfur dioxide (SO₂) over Asia and the moderate volcanic explosive injections of SO₂ observed from 2000 to 2010. Comparison of the model results to observations reveals that moderate volcanic eruptions, rather than anthropogenic influences, are the primary source of the observed increases in stratospheric aerosol.</gco:CharacterString>
+            <gco:CharacterString>Observations suggest that the optical depth of the stratospheric aerosol layer between 20 and 30&#x2009;km has increased 4&#x2013;10% per year since 2000, which is significant for Earth's climate. Contributions to this increase both from moderate volcanic eruptions and from enhanced coal burning in Asia have been suggested. Current observations are insufficient to attribute the contribution of the different sources. Here we use a global climate model coupled to an aerosol microphysical model to partition the contribution of each. We employ model runs that include the increases in anthropogenic sulfur dioxide (SO&#x2082;) over Asia and the moderate volcanic explosive injections of SO&#x2082; observed from 2000 to 2010. Comparison of the model results to observations reveals that moderate volcanic eruptions, rather than anthropogenic influences, are the primary source of the observed increases in stratospheric aerosol.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -316,6 +312,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2013 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

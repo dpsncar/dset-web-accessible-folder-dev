@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7x34z4f</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12019</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:34.888670</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:25.368339</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7x34z4f</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Volatilizable Biogenic Organic Compounds (VBOCs) with two dimensional Gas Chromatography-Time of Flight Mass Spectrometry (GC × GC-TOFMS): Sampling methods, VBOC complexity, and chromatographic retention data</gco:CharacterString>
+                  <gco:CharacterString>Volatilizable Biogenic Organic Compounds (VBOCs) with two dimensional Gas Chromatography-Time of Flight Mass Spectrometry (GC &#xd7; GC-TOFMS): Sampling methods, VBOC complexity, and chromatographic retention data</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/amt-5-345-2012</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7x34z4f</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/amt-5-345-2012</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Two dimensional gas chromatography (GC × GC) with detection by time-of-flight mass spectrometry (TOFMS) was applied in the rapid analysis of air samples containing highly complex mixtures of volatilizable biogenic organic compounds (VBOCs). VBOC analytical methodologies are briefly reviewed, and optimal conditions are discussed for sampling with both adsorption/thermal desorption (ATD) cartridges and solid-phase microextraction (SPME) fibers. Air samples containing VBOC emissions from leaves of two tree species (Cedrus atlantica and Calycolpus moritzianus) were obtained by both ATD and SPME. The optimized gas chromatographic conditions utilized a 45 m, 0.25 mm I.D. low-polarity primary column (DB-VRX, 1.4 μm film) and a 1.5 m, 0.25 mm I.D. polar secondary column (StabilwaxTM, 0.25 μm film). Excellent separation was achieved in a 36 min temperature programmed GC × GC chromatogram. Thousands of VBOC peaks were present in the sample chromatograms; hundreds of tentative identifications by NIST mass spectral matching are provided. Very few of the tentatively identified compounds are currently available as authentic standards. Minimum detection limit values for a 5 l ATD sample were 3.5 pptv (10 ng m⁻³) for isoprene, methyl vinyl ketone, and methacrolein, and ~1.5 pptv (~10 ng m⁻³) for monoterpenes and sesquiterpenes. Kovats-type chromatographic retention index values on the primary column and relative retention time values on the secondary column are provided for 21 standard compounds and for 417 tentatively identified VBOCs. 19 of the 21 authentic standard compounds were found in one of the Cedrus atlantica SPME samples. In addition, easily quantifiable levels of at least 13 sesquiterpenes were found in an ATD sample obtained from a branch enclosure of Calycolpus moritzianus. Overall, the results obtained via GC × GC-TOFMS highlight an extreme, and largely uncharacterized diversity of VBOCs, consistent with the hypothesis that sesquiterpenes and other compounds beyond the current list of typically determined VBOC analytes may well be important contributors to global atmospheric levels of organic particulate matter.</gco:CharacterString>
+            <gco:CharacterString>Two dimensional gas chromatography (GC &#xd7; GC) with detection by time-of-flight mass spectrometry (TOFMS) was applied in the rapid analysis of air samples containing highly complex mixtures of volatilizable biogenic organic compounds (VBOCs). VBOC analytical methodologies are briefly reviewed, and optimal conditions are discussed for sampling with both adsorption/thermal desorption (ATD) cartridges and solid-phase microextraction (SPME) fibers. Air samples containing VBOC emissions from leaves of two tree species (Cedrus atlantica and Calycolpus moritzianus) were obtained by both ATD and SPME. The optimized gas chromatographic conditions utilized a 45 m, 0.25 mm I.D. low-polarity primary column (DB-VRX, 1.4 &#x3bc;m film) and a 1.5 m, 0.25 mm I.D. polar secondary column (StabilwaxTM, 0.25 &#x3bc;m film). Excellent separation was achieved in a 36 min temperature programmed GC &#xd7; GC chromatogram. Thousands of VBOC peaks were present in the sample chromatograms; hundreds of tentative identifications by NIST mass spectral matching are provided. Very few of the tentatively identified compounds are currently available as authentic standards. Minimum detection limit values for a 5 l ATD sample were 3.5 pptv (10 ng m&#x207b;&#xb3;) for isoprene, methyl vinyl ketone, and methacrolein, and ~1.5 pptv (~10 ng m&#x207b;&#xb3;) for monoterpenes and sesquiterpenes. Kovats-type chromatographic retention index values on the primary column and relative retention time values on the secondary column are provided for 21 standard compounds and for 417 tentatively identified VBOCs. 19 of the 21 authentic standard compounds were found in one of the Cedrus atlantica SPME samples. In addition, easily quantifiable levels of at least 13 sesquiterpenes were found in an ATD sample obtained from a branch enclosure of Calycolpus moritzianus. Overall, the results obtained via GC &#xd7; GC-TOFMS highlight an extreme, and largely uncharacterized diversity of VBOCs, consistent with the hypothesis that sesquiterpenes and other compounds beyond the current list of typically determined VBOC analytes may well be important contributors to global atmospheric levels of organic particulate matter.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2012. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

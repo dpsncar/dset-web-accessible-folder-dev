@@ -16,7 +16,10 @@
             codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
     </gmd:characterSet>
     <gmd:parentIdentifier gco:nilReason="inapplicable"/>
-    <gmd:hierarchyLevel gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
     <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
@@ -38,12 +41,12 @@
             </gmd:contactInfo>
             <gmd:role>
                 <gmd:CI_RoleCode
-                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2015-03-21</gco:Date>
+        <gco:DateTime>2015-03-04T16:05:02-07:00</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -79,7 +82,67 @@
                             </gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:identifier>
-                    <gmd:citedResponsibleParty gco:nilReason="missing"/>
+                                       <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>K-Cor Team</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - HAO/Mauna Loa Solar Observatory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - HAO/Mauna Loa Solar Observatory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Boulder</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>CO</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>80307</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>kolinski@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://www.hao.ucar.edu</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                     <gmd:presentationForm>
                         <gmd:CI_PresentationFormCode
                             codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="documentHardcopy">documentHardcopy</gmd:CI_PresentationFormCode>
@@ -103,13 +166,16 @@
                                     <gmd:city>
                                     <gco:CharacterString>Buenos Aires</gco:CharacterString>
                                     </gmd:city>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>bogusEmail@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
                                 </gmd:CI_Address>
                             </gmd:address>
                         </gmd:CI_Contact>
                     </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
@@ -150,11 +216,14 @@
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
-                <gmd:MD_Constraints>
+                <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Redacted use limitation.</gco:CharacterString>
+                        <gco:CharacterString>None</gco:CharacterString>
                     </gmd:useLimitation>
-                </gmd:MD_Constraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
                 <gmd:LanguageCode

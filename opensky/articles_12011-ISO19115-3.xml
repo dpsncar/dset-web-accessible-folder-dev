@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7028s8z</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12011</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:34.667306</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:55.708161</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7028s8z</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/angeo-30-259-2012</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7028s8z</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/angeo-30-259-2012</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper presents the thermal forcing of the semidiurnal, terdiurnal, and 6-h components of the migrating tide induced by ozone heating in stratosphere and lower mesosphere. The heating as a function of local time is determined from the global ozone observed by the Microwave Limb Sounder on the Aura satellite. The harmonic components of the heating rates of the semidiurnal, terdiurnal and the 6-h periodicities are calculated using the Strobel/Zhu parameterized model and then decomposed into Hough modes. Seasonal variations of each harmonic component and its Hough modes are presented. For all three tidal components, the majority of the annual mean O₃ heating projects onto symmetric modes. The semiannual variation is a prominent signal in almost all of the symmetric Hough modes near the stratopause. The strongest annual variation takes place in the asymmetric modes. The results also show that, during the solstice season, the maximum forcing of the diurnal and terdiurnal component occurs in the summer hemisphere while the maximum forcing of the semidiurnal and 6-h components occurs in the winter hemisphere. The global mean ozone density and the tidal components of the ozone heating rate are different between December-January and June-July. The asymmetry in the heating is primarily due to the 6.6% annual variation in the solar energy input into the Earth's atmosphere due to the annual variation of the Sun-Earth distance.</gco:CharacterString>
+            <gco:CharacterString>This paper presents the thermal forcing of the semidiurnal, terdiurnal, and 6-h components of the migrating tide induced by ozone heating in stratosphere and lower mesosphere. The heating as a function of local time is determined from the global ozone observed by the Microwave Limb Sounder on the Aura satellite. The harmonic components of the heating rates of the semidiurnal, terdiurnal and the 6-h periodicities are calculated using the Strobel/Zhu parameterized model and then decomposed into Hough modes. Seasonal variations of each harmonic component and its Hough modes are presented. For all three tidal components, the majority of the annual mean O&#x2083; heating projects onto symmetric modes. The semiannual variation is a prominent signal in almost all of the symmetric Hough modes near the stratopause. The strongest annual variation takes place in the asymmetric modes. The results also show that, during the solstice season, the maximum forcing of the diurnal and terdiurnal component occurs in the summer hemisphere while the maximum forcing of the semidiurnal and 6-h components occurs in the winter hemisphere. The global mean ozone density and the tidal components of the ozone heating rate are different between December-January and June-July. The asymmetry in the heating is primarily due to the 6.6% annual variation in the solar energy input into the Earth's atmosphere due to the annual variation of the Sun-Earth distance.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2012. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

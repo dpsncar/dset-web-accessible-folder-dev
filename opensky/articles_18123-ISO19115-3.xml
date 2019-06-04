@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7m04704</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18123</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:17.286816</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:42.071144</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7m04704</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1007/s10393-010-0288-z</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7m04704</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1007/s10393-010-0288-z</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -221,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Springer</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -231,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An estimate of the interval between successive infections is essential for surveillance, control, and modeling of infectious diseases. This paper proposes a method for determining the serial interval when the location and time of onset of illness are known. The theoretical underpinning of this method is the intrinsically spatial nature of disease transmission. Successive infections tend to be closer than unrelated cases of disease and, therefore, exhibit spatial clustering. An incremental Knox type analysis of cases is introduced. Cases occurring at a range of time intervals are examined to determine the serial interval. The significance of clustering is determined using a permutation approach under the null hypothesis of space-time independence. The power of this method is evaluated using an individual level, spatially explicit epidemic simulation. The time increment Knox test is robust to multiple introductions and incomplete sampling. Finally, the increment Knox statistic is used to analyze an outbreak of dengue fever in the city of Florida, Puerto Rico during 1991. Results indicate that the likely interval between successive cases during this outbreak is at least 18–19 days.</gco:CharacterString>
+            <gco:CharacterString>An estimate of the interval between successive infections is essential for surveillance, control, and modeling of infectious diseases. This paper proposes a method for determining the serial interval when the location and time of onset of illness are known. The theoretical underpinning of this method is the intrinsically spatial nature of disease transmission. Successive infections tend to be closer than unrelated cases of disease and, therefore, exhibit spatial clustering. An incremental Knox type analysis of cases is introduced. Cases occurring at a range of time intervals are examined to determine the serial interval. The significance of clustering is determined using a permutation approach under the null hypothesis of space-time independence. The power of this method is evaluated using an individual level, spatially explicit epidemic simulation. The time increment Knox test is robust to multiple introductions and incomplete sampling. Finally, the increment Knox statistic is used to analyze an outbreak of dengue fever in the city of Florida, Puerto Rico during 1991. Results indicate that the likely interval between successive cases during this outbreak is at least 18&#x2013;19 days.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -306,28 +302,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Aedes aegypti</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Vegetation</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Microclimate</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Human ecology</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>U.S.–Mexico border</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Dengue fever</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by Springer. Copyright 2010 International Association for Ecology and Health.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

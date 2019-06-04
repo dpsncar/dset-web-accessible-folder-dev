@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7kw5g8n</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:6933</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:47.426903</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:18.879143</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7kw5g8n</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2006JA011910</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7kw5g8n</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2006JA011910</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We analyze the dynamics of the high-latitude thermsopheric wind system below 170 km for negative IMF B z by using a fully nonlinear model with a realistic distribution of the forcing. A transition of the forcing patterns and their relative contribution to the high-latitude lower thermospheric wind system occurs around 123 km under various conditions, weak or strong IMF, summer or winter. Winds around and above 123 km are sustained by the gradient-wind balance among divergent/convergent pressure gradient, Coriolis, and horizontal momentum advection (mainly centrifugal) accelerations. Below 123 km winds are maintained by the approximate balance of divergent/convergent pressure gradient, Coriolis, and Hall ion drag accelerations through modified geostrophy. The dominant contribution to the wind tendency (time rate of change) is the rotational component of the ion drag acceleration. The wind tendency above 123 km tends to resemble rotational Pedersen ion drag acceleration well, which reflects a rotated pattern of the E × B velocity. Near and below 123 km the wind tendency is also affected by the rotational component of the Hall ion drag acceleration whose pattern no longer closely resembles the pattern of the E × B velocity, and the wind pattern can differ significantly from that well above 123 km. Simulations for different strengths of the IMF and different seasons indicate that largely divergent/convergent Coriolis and horizontal momentum advection accelerations tend approximately to balance with the horizontal pressure gradient (as well as with divergent/convergent ion drag at lower altitudes) under various conditions. As the forcing increases the radius of curvature of the strong winds also tends to increase, so that the centrifugal acceleration does not increase quadratically with the maximum wind speed, and the tendency for a rough balance between the Coriolis and horizontal momentum advection accelerations in the duskside vortex above 123 km is maintained.</gco:CharacterString>
+            <gco:CharacterString>We analyze the dynamics of the high-latitude thermsopheric wind system below 170 km for negative IMF B z by using a fully nonlinear model with a realistic distribution of the forcing. A transition of the forcing patterns and their relative contribution to the high-latitude lower thermospheric wind system occurs around 123 km under various conditions, weak or strong IMF, summer or winter. Winds around and above 123 km are sustained by the gradient-wind balance among divergent/convergent pressure gradient, Coriolis, and horizontal momentum advection (mainly centrifugal) accelerations. Below 123 km winds are maintained by the approximate balance of divergent/convergent pressure gradient, Coriolis, and Hall ion drag accelerations through modified geostrophy. The dominant contribution to the wind tendency (time rate of change) is the rotational component of the ion drag acceleration. The wind tendency above 123 km tends to resemble rotational Pedersen ion drag acceleration well, which reflects a rotated pattern of the E &#xd7; B velocity. Near and below 123 km the wind tendency is also affected by the rotational component of the Hall ion drag acceleration whose pattern no longer closely resembles the pattern of the E &#xd7; B velocity, and the wind pattern can differ significantly from that well above 123 km. Simulations for different strengths of the IMF and different seasons indicate that largely divergent/convergent Coriolis and horizontal momentum advection accelerations tend approximately to balance with the horizontal pressure gradient (as well as with divergent/convergent ion drag at lower altitudes) under various conditions. As the forcing increases the radius of curvature of the strong winds also tends to increase, so that the centrifugal acceleration does not increase quadratically with the maximum wind speed, and the tendency for a rough balance between the Coriolis and horizontal momentum advection accelerations in the duskside vortex above 123 km is maintained.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,19 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Thermospheric dynamics</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Negative IMF Bz</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>High-latitude lower thermosphere</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2007 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

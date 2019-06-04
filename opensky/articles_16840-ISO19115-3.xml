@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7p84d4c</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:16840</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:44.806616</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:49.130629</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7p84d4c</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Investigating Alfvénic wave propagation in coronal open-field regions</gco:CharacterString>
+                  <gco:CharacterString>Investigating Alfv&#xe9;nic wave propagation in coronal open-field regions</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1038/ncomms8813</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7p84d4c</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1038/ncomms8813</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Nature Publishing Group</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The physical mechanisms behind accelerating solar and stellar winds are a long-standing astrophysical mystery, although recent breakthroughs have come from models invoking the turbulent dissipation of Alfvén waves. The existence of Alfvén waves far from the Sun has been known since the 1970s, and recently the presence of ubiquitous Alfvénic waves throughout the solar atmosphere has been confirmed. However, the presence of atmospheric Alfvénic waves does not, alone, provide sufficient support for wave-based models; the existence of counter-propagating Alfvénic waves is crucial for the development of turbulence. Here, we demonstrate that counter-propagating Alfvénic waves exist in open coronal magnetic fields and reveal key observational insights into the details of their generation, reflection in the upper atmosphere and outward propagation into the solar wind. The results enhance our knowledge of Alfvénic wave propagation in the solar atmosphere, providing support and constraints for some of the recent Alfvén wave turbulence models.</gco:CharacterString>
+            <gco:CharacterString>The physical mechanisms behind accelerating solar and stellar winds are a long-standing astrophysical mystery, although recent breakthroughs have come from models invoking the turbulent dissipation of Alfv&#xe9;n waves. The existence of Alfv&#xe9;n waves far from the Sun has been known since the 1970s, and recently the presence of ubiquitous Alfv&#xe9;nic waves throughout the solar atmosphere has been confirmed. However, the presence of atmospheric Alfv&#xe9;nic waves does not, alone, provide sufficient support for wave-based models; the existence of counter-propagating Alfv&#xe9;nic waves is crucial for the development of turbulence. Here, we demonstrate that counter-propagating Alfv&#xe9;nic waves exist in open coronal magnetic fields and reveal key observational insights into the details of their generation, reflection in the upper atmosphere and outward propagation into the solar wind. The results enhance our knowledge of Alfv&#xe9;nic wave propagation in the solar atmosphere, providing support and constraints for some of the recent Alfv&#xe9;n wave turbulence models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2015.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

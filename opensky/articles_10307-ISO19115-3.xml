@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7j103k9</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10307</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:03.200272</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:48.855172</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7j103k9</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2009JD012606</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7j103k9</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2009JD012606</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>A recently developed chemical ionization mass spectrometer for detecting neutral molecular clusters in the atmosphere (the Cluster-CIMS) is described. This instrument is unique in that it uses a highly sensitive atmospheric chemical ionization technique combined with two neutral cluster separation methods to measure the very low concentrations of clusters formed during nucleation events. This is apparently the first time that selected-ion chemical ionization mass spectrometry has been used to identify nucleating clusters in the atmosphere. The Cluster-CIMS was well calibrated by using an electrospray high-resolution differential mobility analyzer technique, a novel approach to generating and classifying known ion clusters. Field measurements at a moderately polluted urban site and a relatively remote forested site show that the instrument is capable of detecting neutral sulfuric acid clusters (containing up to four sulfuric acid molecules) during relatively strong nucleation events, with a concentration on the order of 10(4) molecular clusters per cubic centimeter at both sites. These measurements also provide evidence that for a given sulfuric acid concentration, the forested site appears to be significantly more efficient at producing sulfate clusters than the urban site is. A comparison between the Cluster-CIMS measurements and the size distribution measurements of nanoparticles demonstrates that the observed nucleation events at the two measurement sites are always associated with high concentrations of sulfuric acid and that, if the clusters are measurable, they are well correlated with the nanoparticles down to similar to 2 nm; however, other nucleation events are either relatively small or may have occurred prior to reaching the measurement sites, and hence the concentrations of the sulfuric acid clusters are most likely under the detection limit of the Cluster-CIMS. Limitations of the instrument and possible future directions for its development are discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2010 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

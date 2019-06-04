@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7rn38db</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10783</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:20.641515</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:14.622317</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7rn38db</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1111/j.1365-2966.2011.18968.x</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7rn38db</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1111/j.1365-2966.2011.18968.x</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -281,7 +277,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>García, Rafael</gco:CharacterString>
+                        <gco:CharacterString>Garc&#xed;a, Rafael</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -321,7 +317,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Régulo, C.</gco:CharacterString>
+                        <gco:CharacterString>R&#xe9;gulo, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -391,7 +387,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>John Wiley &amp; Sons</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -401,7 +397,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present the asteroseismic analysis of 1948 F-, G- and K-type main-sequence and subgiant stars observed by the National Aeronautics and Space Administration Kepler mission. We detect and characterize solar-like oscillations in 642 of these stars. This represents the largest cohort of main-sequence and subgiant solar-like oscillators observed to date. The photometric observations are analysed using the methods developed by nine independent research teams. The results are combined to validate the determined global asteroseismic parameters and calculate the relative precision by which the parameters can be obtained. We correlate the relative number of detected solar-like oscillators with stellar parameters from the Kepler Input Catalogue and find a deficiency for stars with effective temperatures in the range 5300 ≲Teff≲ 5700 K and a drop-off in detected oscillations in stars approaching the red edge of the classical instability strip. We compare the power-law relationships between the frequency of peak power, νmax, the mean large frequency separation, Δν, and the maximum mode amplitude, Amax, and show that there are significant method-dependent differences in the results obtained. This illustrates the need for multiple complementary analysis methods to be used to assess the robustness and reproducibility of results derived from global asteroseismic parameters.</gco:CharacterString>
+            <gco:CharacterString>We present the asteroseismic analysis of 1948 F-, G- and K-type main-sequence and subgiant stars observed by the National Aeronautics and Space Administration Kepler mission. We detect and characterize solar-like oscillations in 642 of these stars. This represents the largest cohort of main-sequence and subgiant solar-like oscillators observed to date. The photometric observations are analysed using the methods developed by nine independent research teams. The results are combined to validate the determined global asteroseismic parameters and calculate the relative precision by which the parameters can be obtained. We correlate the relative number of detected solar-like oscillators with stellar parameters from the Kepler Input Catalogue and find a deficiency for stars with effective temperatures in the range 5300 &#x2272;Teff&#x2272; 5700 K and a drop-off in detected oscillations in stars approaching the red edge of the classical instability strip. We compare the power-law relationships between the frequency of peak power, &#x3bd;max, the mean large frequency separation, &#x394;&#x3bd;, and the maximum mode amplitude, Amax, and show that there are significant method-dependent differences in the results obtained. This illustrates the need for multiple complementary analysis methods to be used to assess the robustness and reproducibility of results derived from global asteroseismic parameters.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -476,16 +472,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Stars: Fundamental parameters</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Stars: Interiors</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2011 Authors. Published under license by John Wiley &amp; Sons for the Royal Meteorological Society. The definitive version is available at http://onlinelibrary.wiley.com.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

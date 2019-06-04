@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7rf5w1j</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:14444</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:23.534614</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:19.528048</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7rf5w1j</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-14-00162.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7rf5w1j</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-14-00162.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper investigates the origins of the (cyclonic) vertical vorticity within vortex sheets that develop within a numerically simulated supercell in a nonrotating, horizontally homogeneous environment with a free-slip lower boundary. Vortex sheets are commonly observed along the gust fronts of supercell storms, particularly in the early stages of storm development. The “collapse” of a vortex sheet into a compact vortex is often seen to accompany the intensification of rotation that occasionally leads to tornadogenesis. The vortex sheets predominantly acquire their vertical vorticity from the tilting of horizontal vorticity that has been modified by horizontal buoyancy gradients associated with the supercell’s cool low-level outflow. If the tilting is within an ascending airstream (i.e., the horizontal gradient of vertical velocity responsible for the tilting resides entirely within an updraft), the vertical vorticity of the vortex sheet nearly vanishes at the lowest model level for horizontal winds (5 m). However, if the tilting occurs within a descending airstream (i.e., the horizontal gradient of vertical velocity responsible for tilting includes a downdraft adjacent to the updraft within which the majority of the cyclonic vorticity resides), the vortex sheet extends to the lowest model level. The findings are consistent with the large body of prior work that has found that downdrafts are necessary for the development of significant vertical vorticity at the surface.</gco:CharacterString>
+            <gco:CharacterString>This paper investigates the origins of the (cyclonic) vertical vorticity within vortex sheets that develop within a numerically simulated supercell in a nonrotating, horizontally homogeneous environment with a free-slip lower boundary. Vortex sheets are commonly observed along the gust fronts of supercell storms, particularly in the early stages of storm development. The &#x201c;collapse&#x201d; of a vortex sheet into a compact vortex is often seen to accompany the intensification of rotation that occasionally leads to tornadogenesis. The vortex sheets predominantly acquire their vertical vorticity from the tilting of horizontal vorticity that has been modified by horizontal buoyancy gradients associated with the supercell&#x2019;s cool low-level outflow. If the tilting is within an ascending airstream (i.e., the horizontal gradient of vertical velocity responsible for the tilting resides entirely within an updraft), the vertical vorticity of the vortex sheet nearly vanishes at the lowest model level for horizontal winds (5 m). However, if the tilting occurs within a descending airstream (i.e., the horizontal gradient of vertical velocity responsible for tilting includes a downdraft adjacent to the updraft within which the majority of the cyclonic vorticity resides), the vortex sheet extends to the lowest model level. The findings are consistent with the large body of prior work that has found that downdrafts are necessary for the development of significant vertical vorticity at the surface.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

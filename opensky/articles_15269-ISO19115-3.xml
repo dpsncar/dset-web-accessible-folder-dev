@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7nc6272</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:15269</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:29.297224</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:20.032992</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7nc6272</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2009JD011785</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7nc6272</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2009JD011785</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A one-dimensional model of vertical transport in the tropical tropopause layer (TTL) is developed. The model uses vertical advection, a convective source, and a chemical sink to simulate the profiles of very short lived substances in the TTL. The model simulates evanescent profiles of short-lived hydrocarbon species observed by satellite and is also used to simulate short-lived bromine species. Tracers with chemical lifetimes of 25 days or longer have significant concentrations in the stratosphere, and vertical advection is critical. Convection is important up to its peak altitude, nearly 19 km. Convection dominates the distribution of species with lifetimes less than 25 days. The annual cycle of species with lifetimes longer than 25 days is governed primarily by the variations of vertical velocity, not convection. This is particularly true for carbon monoxide, where a seasonal cycle in the lower stratosphere of the right phase is produced without variations in tropospheric emissions. An analysis of critical short-lived bromine species (CH₂Br₂ and CHBr₃) indicates that substantial amounts of these tracers may get advected into the lower stratosphere as source gases at 18 km, and are estimated to contribute 2.8 pptv (1.1–4.1) to stratospheric bromine.</gco:CharacterString>
+            <gco:CharacterString>A one-dimensional model of vertical transport in the tropical tropopause layer (TTL) is developed. The model uses vertical advection, a convective source, and a chemical sink to simulate the profiles of very short lived substances in the TTL. The model simulates evanescent profiles of short-lived hydrocarbon species observed by satellite and is also used to simulate short-lived bromine species. Tracers with chemical lifetimes of 25 days or longer have significant concentrations in the stratosphere, and vertical advection is critical. Convection is important up to its peak altitude, nearly 19 km. Convection dominates the distribution of species with lifetimes less than 25 days. The annual cycle of species with lifetimes longer than 25 days is governed primarily by the variations of vertical velocity, not convection. This is particularly true for carbon monoxide, where a seasonal cycle in the lower stratosphere of the right phase is produced without variations in tropospheric emissions. An analysis of critical short-lived bromine species (CH&#x2082;Br&#x2082; and CHBr&#x2083;) indicates that substantial amounts of these tracers may get advected into the lower stratosphere as source gases at 18 km, and are estimated to contribute 2.8 pptv (1.1&#x2013;4.1) to stratospheric bromine.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,6 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2009 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

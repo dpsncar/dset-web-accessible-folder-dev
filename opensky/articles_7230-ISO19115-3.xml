@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7736r6d</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:7230</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:51.078502</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:11.167686</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7736r6d</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAS3840.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7736r6d</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAS3840.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -131,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -141,7 +137,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The vertical wavenumber and frequency spectra of horizontal wind and temperature in stochastically driven systems with diffusion, either due to uniform background eddy and molecular transport, or due to adjustment processes associated with shear or convective instability, are studied. Because of the dominating role of vertical transport in a stratified fluid, one-dimensional Langevin-type equations could be ascribed to such systems in the vertical direction. The linear equation with uniform diffusion is solved explicitly, and the spectra follow power-law distributions if the stochastic force is Gaussian. The nonlinear equations with gradient (either shear or lapse rate) dependent diffusion coefficients are shown to support scale invariance, and the power-law indices of the spectra are determined from dynamic renormalization group (DRG) analysis under rather general conditions. The exact power-law indices vary with the spectrum of the stochastic force and the nonlinearity of the systems. If the wavenumber spectrum of the force is moderately red (between k⁰ and k⁻²), the spectral indices of horizontal wind and temperature and the range of their variability are in general agreement with those inferred from wind and temperature measurements. The indices in both linear and nonlinear cases are confirmed by numerical simulations. This theory may suggest an alternative explanation to the universal vertical wavenumber and frequency spectra and their variability. By relating the universal spectra to systems characterized by stochastic forcing and background diffusion or diffusive adjustment due to shear or convective instability, which are ubiquitous in a stratified fluid, the difficulty to associate the time- and location-independent spectral features directly with the highly time- and location-dependent gravity waves or wave-breaking events is avoided. If such systems are suggestive of the real atmosphere, there is a need to be cautious in making assumptions regarding gravity waves solely based on the universal spectra when analyzing and interpreting wind and temperature observations.</gco:CharacterString>
+            <gco:CharacterString>The vertical wavenumber and frequency spectra of horizontal wind and temperature in stochastically driven systems with diffusion, either due to uniform background eddy and molecular transport, or due to adjustment processes associated with shear or convective instability, are studied. Because of the dominating role of vertical transport in a stratified fluid, one-dimensional Langevin-type equations could be ascribed to such systems in the vertical direction. The linear equation with uniform diffusion is solved explicitly, and the spectra follow power-law distributions if the stochastic force is Gaussian. The nonlinear equations with gradient (either shear or lapse rate) dependent diffusion coefficients are shown to support scale invariance, and the power-law indices of the spectra are determined from dynamic renormalization group (DRG) analysis under rather general conditions. The exact power-law indices vary with the spectrum of the stochastic force and the nonlinearity of the systems. If the wavenumber spectrum of the force is moderately red (between k&#x2070; and k&#x207b;&#xb2;), the spectral indices of horizontal wind and temperature and the range of their variability are in general agreement with those inferred from wind and temperature measurements. The indices in both linear and nonlinear cases are confirmed by numerical simulations. This theory may suggest an alternative explanation to the universal vertical wavenumber and frequency spectra and their variability. By relating the universal spectra to systems characterized by stochastic forcing and background diffusion or diffusive adjustment due to shear or convective instability, which are ubiquitous in a stratified fluid, the difficulty to associate the time- and location-independent spectral features directly with the highly time- and location-dependent gravity waves or wave-breaking events is avoided. If such systems are suggestive of the real atmosphere, there is a need to be cautious in making assumptions regarding gravity waves solely based on the universal spectra when analyzing and interpreting wind and temperature observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -216,19 +212,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Stochastic models</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Nonlinear processes</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Waves, atmospheric</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2007 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

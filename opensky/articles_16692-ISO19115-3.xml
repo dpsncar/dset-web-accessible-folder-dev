@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7st7r1r</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:16692</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:41.315140</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:46.924580</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7st7r1r</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/2014JD022551</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7st7r1r</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/2014JD022551</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -191,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the 2010 Concordiasi field experiment, 635 dropsondes were released from the lower stratosphere providing in situ atmospheric profiles from the release height (~60 hPa) to the surface over Antarctica. They provide a unique data set of high vertical resolution temperature profiles over the entire Antarctic continent and surrounding ocean. This study uses temperature profiles and derived surface-based inversion (SBI) properties from the sonde data set to evaluate Atmospheric Infrared Sounder (AIRS) versions 5 (v5) and 6 (v6) temperature profiles. A total of 1486 matched pairs of profiles are available for analysis. The AIRS averaging kernel, representing the AIRS measurement sensitivity, is applied to the dropsonde profiles. The AIRS data are compared to kernel-averaged dropsonde profiles and found, on average, to have a small cold bias (~0.5°C) (for v6) in the troposphere. AIRS v6 is improved over v5 with both profile-averaged bias and root-mean-square errors reduced by over 25%. Compared to the kernel-averaged dropsonde profiles, AIRS v6 accurately detects the existence of SBIs in 79% of the profiles and agrees on the inversion depth 79% of the time. AIRS correctly identifies SBIs in 59% of cases when compared to the full-resolution sonde. AIRS systematically underestimates the SBI intensity. This is due to warmer reported AIRS surface air temperatures (Ta) than Ta measured with the dropsonde. Replacement of AIRS Ta with that measured by the dropsonde improves the agreement in both SBI detection and intensity. If AIRS Ta could be improved, AIRS has the potential to be a stand-alone SBI detection tool over Antarctica.</gco:CharacterString>
+            <gco:CharacterString>During the 2010 Concordiasi field experiment, 635 dropsondes were released from the lower stratosphere providing in situ atmospheric profiles from the release height (~60&#x2009;hPa) to the surface over Antarctica. They provide a unique data set of high vertical resolution temperature profiles over the entire Antarctic continent and surrounding ocean. This study uses temperature profiles and derived surface-based inversion (SBI) properties from the sonde data set to evaluate Atmospheric Infrared Sounder (AIRS) versions 5 (v5) and 6 (v6) temperature profiles. A total of 1486 matched pairs of profiles are available for analysis. The AIRS averaging kernel, representing the AIRS measurement sensitivity, is applied to the dropsonde profiles. The AIRS data are compared to kernel-averaged dropsonde profiles and found, on average, to have a small cold bias (~0.5&#xb0;C) (for v6) in the troposphere. AIRS v6 is improved over v5 with both profile-averaged bias and root-mean-square errors reduced by over 25%. Compared to the kernel-averaged dropsonde profiles, AIRS v6 accurately detects the existence of SBIs in 79% of the profiles and agrees on the inversion depth 79% of the time. AIRS correctly identifies SBIs in 59% of cases when compared to the full-resolution sonde. AIRS systematically underestimates the SBI intensity. This is due to warmer reported AIRS surface air temperatures (Ta) than Ta measured with the dropsonde. Replacement of AIRS Ta with that measured by the dropsonde improves the agreement in both SBI detection and intensity. If AIRS Ta could be improved, AIRS has the potential to be a stand-alone SBI detection tool over Antarctica.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -266,6 +262,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2015 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

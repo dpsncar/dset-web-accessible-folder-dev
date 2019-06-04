@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7xp75vb</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:13318</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:08.332089</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:57.582422</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7xp75vb</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/2009JAS3294.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7xp75vb</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/2009JAS3294.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Steady-state and time-dependent Hadley circulations are investigated with an idealized dry GCM, in which thermal forcing is represented as relaxation of temperatures toward a radiative-equilibrium state. The latitude 0 of maximum radiative-equilibrium temperature is progressively displaced off the equator or varied in time to study how the Hadley circulation responds to seasonally varying forcing; axisymmetric simulations are compared with eddy-permitting simulations. In axisymmetric steady-state simulations, the Hadley circulations for all 0 approach the nearly inviscid, angular-momentum-conserving limit, despite the presence of finite vertical diffusion of momentum and dry static energy. In contrast, in corresponding eddy-permitting simulations, the Hadley circulations undergo a regime transition as 0 is increased, from an equinox regime (small 0) in which eddy momentum fluxes strongly influence both Hadley cells to a solstice regime (large 0) in which the cross-equatorial winter Hadley cell more closely approaches the angular-momentum-conserving limit. In axisymmetric time-dependent simulations, the Hadley cells undergo transitions between a linear equinox regime and a nonlinear, nearly angular-momentum-conserving solstice regime. Unlike in the eddy-permitting simulations, time tendencies of the zonal wind play a role in the dynamics of the transitions in the axisymmetric simulation. Nonetheless, the axisymmetric transitions are similar to those in the eddy-permitting simulations in that the role of the nonlinear mean momentum flux divergence in the zonal momentum budget shifts from marginal in the equinox regime to dominant in the solstice regime. As in the eddy-permitting simulations, a mean-flow feedback—involving the upper-level zonal winds, the lower-level temperature gradient, and the poleward boundary of the cross-equatorial Hadley cell—makes it possible for the circulation fields to change at the transition more rapidly than can be explained by the steady-state response to the thermal forcing. However, the regime transitions in the axisymmetric simulations are less sharp than those in the eddy-permitting simulations because eddy–mean flow feedbacks in the eddy-permitting simulations additionally sharpen the transitions.</gco:CharacterString>
+            <gco:CharacterString>Steady-state and time-dependent Hadley circulations are investigated with an idealized dry GCM, in which thermal forcing is represented as relaxation of temperatures toward a radiative-equilibrium state. The latitude 0 of maximum radiative-equilibrium temperature is progressively displaced off the equator or varied in time to study how the Hadley circulation responds to seasonally varying forcing; axisymmetric simulations are compared with eddy-permitting simulations. In axisymmetric steady-state simulations, the Hadley circulations for all 0 approach the nearly inviscid, angular-momentum-conserving limit, despite the presence of finite vertical diffusion of momentum and dry static energy. In contrast, in corresponding eddy-permitting simulations, the Hadley circulations undergo a regime transition as 0 is increased, from an equinox regime (small 0) in which eddy momentum fluxes strongly influence both Hadley cells to a solstice regime (large 0) in which the cross-equatorial winter Hadley cell more closely approaches the angular-momentum-conserving limit. In axisymmetric time-dependent simulations, the Hadley cells undergo transitions between a linear equinox regime and a nonlinear, nearly angular-momentum-conserving solstice regime. Unlike in the eddy-permitting simulations, time tendencies of the zonal wind play a role in the dynamics of the transitions in the axisymmetric simulation. Nonetheless, the axisymmetric transitions are similar to those in the eddy-permitting simulations in that the role of the nonlinear mean momentum flux divergence in the zonal momentum budget shifts from marginal in the equinox regime to dominant in the solstice regime. As in the eddy-permitting simulations, a mean-flow feedback&#x2014;involving the upper-level zonal winds, the lower-level temperature gradient, and the poleward boundary of the cross-equatorial Hadley cell&#x2014;makes it possible for the circulation fields to change at the transition more rapidly than can be explained by the steady-state response to the thermal forcing. However, the regime transitions in the axisymmetric simulations are less sharp than those in the eddy-permitting simulations because eddy&#x2013;mean flow feedbacks in the eddy-permitting simulations additionally sharpen the transitions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2010 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

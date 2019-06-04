@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7445p2t</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18401</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:21.228803</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:29.953946</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7445p2t</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JCLI-D-15-0307.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7445p2t</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JCLI-D-15-0307.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -221,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -231,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>One of the recognized weaknesses of land surface models as used in weather and climate models is the assumption of constant soil thickness because of the lack of global estimates of bedrock depth. Using a 30-arc-s global dataset for the thickness of relatively porous, unconsolidated sediments over bedrock, spatial variation in soil thickness is included here in version 4.5 of the Community Land Model (CLM4.5). The number of soil layers for each grid cell is determined from the average soil depth for each 0.9° latitude × 1.25° longitude grid cell. The greatest changes in the simulation with variable soil thickness are to baseflow, with the annual minimum generally occurring earlier. Smaller changes are seen in latent heat flux and surface runoff primarily as a result of an increase in the annual cycle amplitude. These changes are related to soil moisture changes that are most substantial in locations with shallow bedrock. Total water storage (TWS) anomalies are not strongly affected over most river basins since most basins contain mostly deep soils, but TWS anomalies are substantially different for a river basin with more mountainous terrain. Additionally, the annual cycle in soil temperature is partially affected by including realistic soil thicknesses resulting from changes in the vertical profile of heat capacity and thermal conductivity. However, the largest changes to soil temperature are introduced by the soil moisture changes in the variable soil thickness simulation. This implementation of variable soil thickness represents a step forward in land surface model development.</gco:CharacterString>
+            <gco:CharacterString>One of the recognized weaknesses of land surface models as used in weather and climate models is the assumption of constant soil thickness because of the lack of global estimates of bedrock depth. Using a 30-arc-s global dataset for the thickness of relatively porous, unconsolidated sediments over bedrock, spatial variation in soil thickness is included here in version 4.5 of the Community Land Model (CLM4.5). The number of soil layers for each grid cell is determined from the average soil depth for each 0.9&#xb0; latitude &#xd7; 1.25&#xb0; longitude grid cell. The greatest changes in the simulation with variable soil thickness are to baseflow, with the annual minimum generally occurring earlier. Smaller changes are seen in latent heat flux and surface runoff primarily as a result of an increase in the annual cycle amplitude. These changes are related to soil moisture changes that are most substantial in locations with shallow bedrock. Total water storage (TWS) anomalies are not strongly affected over most river basins since most basins contain mostly deep soils, but TWS anomalies are substantially different for a river basin with more mountainous terrain. Additionally, the annual cycle in soil temperature is partially affected by including realistic soil thicknesses resulting from changes in the vertical profile of heat capacity and thermal conductivity. However, the largest changes to soil temperature are introduced by the soil moisture changes in the variable soil thickness simulation. This implementation of variable soil thickness represents a step forward in land surface model development.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -306,6 +302,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7n017gk</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:13996</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:10.256804</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:58.199928</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7n017gk</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-14-2657-2014</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7n017gk</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-14-2657-2014</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -221,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -231,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aerosol hygroscopicity describes the ability of a particle to take up water and form a cloud droplet. Modeling studies have shown sensitivity of precipitation-producing cloud systems to the availability of aerosol particles capable of serving as cloud condensation nuclei (CCN), and hygroscopicity is a key parameter controlling the number of available CCN. Continental aerosol is typically assumed to have a representative hygroscopicity parameter, κ, of 0.3; however, in remote locations this value can be lower due to relatively large mass fractions of organic components. To further our understanding of aerosol properties in remote areas, we measured size-resolved aerosol chemical composition and hygroscopicity in a forested, mountainous site in Colorado during the six-week BEACHON-RoMBAS (Bio-hydro-atmosphere interactions of Energy, Aerosols, Carbon, H2O, Organics and Nitrogen–Rocky Mountain Biogenic Aerosol Study) campaign. This campaign followed a year-long measurement period at this site, and results from the intensive campaign shed light on the previously reported seasonal cycle in aerosol hygroscopicity. New particle formation events were observed routinely at this site and nucleation mode composition measurements indicated that the newly formed particles were predominantly organic. These events likely contribute to the dominance of organic species at smaller sizes, where aerosol organic mass fractions were between 70 and 90%. Corresponding aerosol hygroscopicity was observed to be in the range κ = 0.15–0.22, with hygroscopicity increasing with particle size. Aerosol chemical composition measured by an aerosol mass spectrometer and calculated from hygroscopicity measurements agreed very well during the intensive study, with an assumed value of κorg = 0.13 resulting in the best agreement.</gco:CharacterString>
+            <gco:CharacterString>Aerosol hygroscopicity describes the ability of a particle to take up water and form a cloud droplet. Modeling studies have shown sensitivity of precipitation-producing cloud systems to the availability of aerosol particles capable of serving as cloud condensation nuclei (CCN), and hygroscopicity is a key parameter controlling the number of available CCN. Continental aerosol is typically assumed to have a representative hygroscopicity parameter, &#x3ba;, of 0.3; however, in remote locations this value can be lower due to relatively large mass fractions of organic components. To further our understanding of aerosol properties in remote areas, we measured size-resolved aerosol chemical composition and hygroscopicity in a forested, mountainous site in Colorado during the six-week BEACHON-RoMBAS (Bio-hydro-atmosphere interactions of Energy, Aerosols, Carbon, H2O, Organics and Nitrogen&#x2013;Rocky Mountain Biogenic Aerosol Study) campaign. This campaign followed a year-long measurement period at this site, and results from the intensive campaign shed light on the previously reported seasonal cycle in aerosol hygroscopicity. New particle formation events were observed routinely at this site and nucleation mode composition measurements indicated that the newly formed particles were predominantly organic. These events likely contribute to the dominance of organic species at smaller sizes, where aerosol organic mass fractions were between 70 and 90%. Corresponding aerosol hygroscopicity was observed to be in the range &#x3ba; = 0.15&#x2013;0.22, with hygroscopicity increasing with particle size. Aerosol chemical composition measured by an aerosol mass spectrometer and calculated from hygroscopicity measurements agreed very well during the intensive study, with an assumed value of &#x3ba;org = 0.13 resulting in the best agreement.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -306,6 +302,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2014. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

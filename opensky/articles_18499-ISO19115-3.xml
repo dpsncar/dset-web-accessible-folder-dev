@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7ng4s8g</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18499</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:23.818687</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:47.835514</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7ng4s8g</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/gmd-9-505-2016</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7ng4s8g</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/gmd-9-505-2016</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric carbonaceous aerosols play an important role in the climate system by influencing the Earth's radiation budgets and modifying the cloud properties. Despite the importance, their representations in large-scale atmospheric models are still crude, which can influence model simulated burden, lifetime, physical, chemical and optical properties, and the climate forcing of carbonaceous aerosols. In this study, we improve the current three-mode version of the Modal Aerosol Module (MAM3) in the Community Atmosphere Model version 5 (CAM5) by introducing an additional primary carbon mode to explicitly account for the microphysical ageing of primary carbonaceous aerosols in the atmosphere. Compared to MAM3, the four-mode version of MAM (MAM4) significantly increases the column burdens of primary particulate organic matter (POM) and black carbon (BC) by up to 40 % in many remote regions, where in-cloud scavenging plays an important role in determining the aerosol concentrations. Differences in the column burdens for other types of aerosol (e.g., sulfate, secondary organic aerosols, mineral dust, sea salt) are less than 1 %. Evaluating the MAM4 simulation against in situ surface and aircraft observations, we find that MAM4 significantly improves the simulation of seasonal variation of near-surface BC concentrations in the polar regions, by increasing the BC concentrations in all seasons and particularly in cold seasons. However, it exacerbates the overestimation of modeled BC concentrations in the upper troposphere in the Pacific regions. The comparisons suggest that, to address the remaining model POM and BC biases, future improvements are required related to (1) in-cloud scavenging and vertical transport in convective clouds and (2) emissions of anthropogenic and biomass burning aerosols.</gco:CharacterString>
+            <gco:CharacterString>Atmospheric carbonaceous aerosols play an important role in the climate system by influencing the Earth's radiation budgets and modifying the cloud properties. Despite the importance, their representations in large-scale atmospheric models are still crude, which can influence model simulated burden, lifetime, physical, chemical and optical properties, and the climate forcing of carbonaceous aerosols. In this study, we improve the current three-mode version of the Modal Aerosol Module (MAM3) in the Community Atmosphere Model version 5 (CAM5) by introducing an additional primary carbon mode to explicitly account for the microphysical ageing of primary carbonaceous aerosols in the atmosphere. Compared to MAM3, the four-mode version of MAM (MAM4) significantly increases the column burdens of primary particulate organic matter (POM) and black carbon (BC) by up to 40&#x202f;% in many remote regions, where in-cloud scavenging plays an important role in determining the aerosol concentrations. Differences in the column burdens for other types of aerosol (e.g., sulfate, secondary organic aerosols, mineral dust, sea salt) are less than 1&#x202f;%. Evaluating the MAM4 simulation against in situ surface and aircraft observations, we find that MAM4 significantly improves the simulation of seasonal variation of near-surface BC concentrations in the polar regions, by increasing the BC concentrations in all seasons and particularly in cold seasons. However, it exacerbates the overestimation of modeled BC concentrations in the upper troposphere in the Pacific regions. The comparisons suggest that, to address the remaining model POM and BC biases, future improvements are required related to (1) in-cloud scavenging and vertical transport in convective clouds and (2) emissions of anthropogenic and biomass burning aerosols.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 Authors. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7g44qzm</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:8895</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:54.758333</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:46.160495</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7g44qzm</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/BAMS-87-10-1335</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7g44qzm</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/BAMS-87-10-1335</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study is an observational analysis of the inner-core structure, sea surface temperature, outflow layer, and atmospheric boundary layer of an intense tropical cyclone whose intensity and structure is consistent with recent numerical and theoretical predictions of superintense storms. The findings suggest new scientific challenges for the current understanding of hurricanes. Unprecedented observations of the category-5 Hurricane Isabel (2003) were collected during 12-14 September. This two-part article reports novel dynamic and thermodynamic aspects of the inner-core structure of Isabel on 13 September that were made possible by analysis of these data. Here, a composite of the axisymmetric structure of the inner core and environment of Isabel is estimated using global positioning system dropwindsondes and in situ aircraft data. In Part II, an extreme wind speed observation on the same day is discussed in the context of this work. The axisymmetric data composite suggests a reservoir of high-entropy air inside the low-level eye and significant penetration of inflowing near-surface air from outside. The analysis suggests that the low-level air penetrating the eye is enhanced thermodynamically by acquiring additional entropy through interaction with the ocean and replaces air mixed out of the eye. The results support the hypothesis that this high-entropy eye air "turboboosts" the hurricane engine upon its injection into the eyewall clouds. Recent estimates of the ratio of sea-to-air enthalpy and momentum exchange at high wind speeds are used to suggest that Isabel utilized this extra power to exceed the previously assumed intensity upper bound by 10-35 m s⁻¹ for the given environmental conditions. Additional study with other datasets is encouraged to further test the superintensity hypothesis.</gco:CharacterString>
+            <gco:CharacterString>This study is an observational analysis of the inner-core structure, sea surface temperature, outflow layer, and atmospheric boundary layer of an intense tropical cyclone whose intensity and structure is consistent with recent numerical and theoretical predictions of superintense storms. The findings suggest new scientific challenges for the current understanding of hurricanes. Unprecedented observations of the category-5 Hurricane Isabel (2003) were collected during 12-14 September. This two-part article reports novel dynamic and thermodynamic aspects of the inner-core structure of Isabel on 13 September that were made possible by analysis of these data. Here, a composite of the axisymmetric structure of the inner core and environment of Isabel is estimated using global positioning system dropwindsondes and in situ aircraft data. In Part II, an extreme wind speed observation on the same day is discussed in the context of this work. The axisymmetric data composite suggests a reservoir of high-entropy air inside the low-level eye and significant penetration of inflowing near-surface air from outside. The analysis suggests that the low-level air penetrating the eye is enhanced thermodynamically by acquiring additional entropy through interaction with the ocean and replaces air mixed out of the eye. The results support the hypothesis that this high-entropy eye air "turboboosts" the hurricane engine upon its injection into the eyewall clouds. Recent estimates of the ratio of sea-to-air enthalpy and momentum exchange at high wind speeds are used to suggest that Isabel utilized this extra power to exceed the previously assumed intensity upper bound by 10-35 m s&#x207b;&#xb9; for the given environmental conditions. Additional study with other datasets is encouraged to further test the superintensity hypothesis.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,6 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2006 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

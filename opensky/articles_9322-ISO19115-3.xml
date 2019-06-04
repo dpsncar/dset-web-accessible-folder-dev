@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7cz37zs</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:9322</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:57.823007</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:51.734361</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7cz37zs</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2005JC003022</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7cz37zs</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2005JC003022</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>The relationship between microwave imaging radar measurements of fluid velocities in the surf zone and shoaling, breaking, and broken waves is studied with field observations. Normalized radar cross section (NRCS) and Doppler velocity are estimated from microwave measurements at near-grazing angles, and in situ fluid velocities are measured with acoustic Doppler velocimeters (ADVs). Joint histograms of radar cross section and Doppler velocity cluster into identifiable distributions. The NRCS values from pixels with large NRCS and high Doppler velocities (&gt;2 m/s) decrease with decreasing bore height to the shoreline, similar to scattering from a cylinder with decreasing radius. The Doppler velocities associated with these regions in the histograms agree well with theoretical wave phase velocities. Radar and ADV measurements of fluid velocities between bore crests have similarly shaped energy density spectra for frequencies above about 0.1 Hz, but energy levels from the radar are an order of magnitude higher than those of the ADV data. Instantaneous interbore Doppler velocities are correlated with ADV measured fluid velocities but are offset by 0.8 m/s. This offset may be due to Bragg wave phase velocities, wind drift, range and azimuth sidelobes, the finite spatial resolution of the radar, and differences between mean flows measured at the surface with radar and flows measured below the surface with ADVs. Shoaling and breaking waves measured through radar grating lobes significantly affect both the Doppler velocities near the edges of the images and the scattering from the rear faces of waves, causing large Doppler velocities to be observed in these regions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,6 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2005 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

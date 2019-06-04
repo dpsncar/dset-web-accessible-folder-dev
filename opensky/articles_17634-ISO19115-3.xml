@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7cf9rfc</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17634</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:06.865246</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:20.362559</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7cf9rfc</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Recent evidence for a strengthening CO₂ sink in the Southern Ocean from carbonate system measurements in the Drake Passage (2002-2015)</gco:CharacterString>
+                  <gco:CharacterString>Recent evidence for a strengthening CO&#x2082; sink in the Southern Ocean from carbonate system measurements in the Drake Passage (2002-2015)</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/2015GL065194</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7cf9rfc</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/2015GL065194</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>John Wiley &amp; Sons</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -191,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a 13 year (2002-2015) semimonthly time series of the partial pressure of CO₂ in surface water (pCO₂surf) and other carbonate system parameters from the Drake Passage. This record shows a clear increase in the magnitude of the sea-air pCO₂ gradient, indicating strengthening of the CO₂ sink in agreement with recent large-scale analyses of the world oceans. The rate of increase in pCO₂surf north of the Antarctic Polar Front (APF) is similar to the atmospheric pCO₂ (pCO₂atm) trend, whereas the pCO₂surf increase south of the APF is slower than the pCO₂atm trend. The high-frequency surface observations indicate that an absence of a winter increase in total CO₂ (TCO₂) and cooling summer sea surface temperatures are largely responsible for increasing CO₂ uptake south of the APF. Muted winter trends in surface TCO₂ also provide temporary stability to the carbonate system that is already close to undersaturation with respect to aragonite.</gco:CharacterString>
+            <gco:CharacterString>We present a 13&#x2009;year (2002-2015) semimonthly time series of the partial pressure of CO&#x2082; in surface water (pCO&#x2082;surf) and other carbonate system parameters from the Drake Passage. This record shows a clear increase in the magnitude of the sea-air pCO&#x2082; gradient, indicating strengthening of the CO&#x2082; sink in agreement with recent large-scale analyses of the world oceans. The rate of increase in pCO&#x2082;surf north of the Antarctic Polar Front (APF) is similar to the atmospheric pCO&#x2082; (pCO&#x2082;atm) trend, whereas the pCO&#x2082;surf increase south of the APF is slower than the pCO&#x2082;atm trend. The high-frequency surface observations indicate that an absence of a winter increase in total CO&#x2082; (TCO&#x2082;) and cooling summer sea surface temperatures are largely responsible for increasing CO&#x2082; uptake south of the APF. Muted winter trends in surface TCO&#x2082; also provide temporary stability to the carbonate system that is already close to undersaturation with respect to aragonite.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -266,6 +262,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2015 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

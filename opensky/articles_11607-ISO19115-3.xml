@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7h41s2z</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11607</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:25.163081</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:08.085697</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7h41s2z</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1007/s00376-010-0049-5</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7h41s2z</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1007/s00376-010-0049-5</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Springer</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Two years of mid-latitude cirrus cloud macrophysical and optical properties over North China are described from Earth-orbiting Cloud-Aerosol Lidar with Orthogonal Polarization (CALIOP) satellite measurements. Global cloud climatological studies based on active remote sensing data sets benefit from more accurate resolution of vertical structure and more reliable detection of optically thin layers. The mean values for cirrus cases over North China are 0.19±0.18 for infrared emittance, 0.41±0.68 for visible optical depth, 0.26±0.12 for integrated depolarization ratio, and 0.72±0.22 for integrated color ratio. When studied using reasonable assumptions for the relationship between extinction and ice crystal backscatter coefficients, our results show that most of the cirrus clouds profiled using the 0.532 μm channel data stream correspond with an optical depth of less than 1.0. The dependence of cirrus cloud properties on cirrus cloud mid-cloud temperature and geometry thickness are generally similar to the results derived from the ground-based lidar, which are mainly impacted by the adiabatic process on the ice cloud content. However, the differences in macrophysical parameter variability indicate the limits of spaceborne-lidar and dissimilarities in regional climate variability and the nature and source of cloud nuclei in different geographical regions.</gco:CharacterString>
+            <gco:CharacterString>Two years of mid-latitude cirrus cloud macrophysical and optical properties over North China are described from Earth-orbiting Cloud-Aerosol Lidar with Orthogonal Polarization (CALIOP) satellite measurements. Global cloud climatological studies based on active remote sensing data sets benefit from more accurate resolution of vertical structure and more reliable detection of optically thin layers. The mean values for cirrus cases over North China are 0.19&#xb1;0.18 for infrared emittance, 0.41&#xb1;0.68 for visible optical depth, 0.26&#xb1;0.12 for integrated depolarization ratio, and 0.72&#xb1;0.22 for integrated color ratio. When studied using reasonable assumptions for the relationship between extinction and ice crystal backscatter coefficients, our results show that most of the cirrus clouds profiled using the 0.532 &#x3bc;m channel data stream correspond with an optical depth of less than 1.0. The dependence of cirrus cloud properties on cirrus cloud mid-cloud temperature and geometry thickness are generally similar to the results derived from the ground-based lidar, which are mainly impacted by the adiabatic process on the ice cloud content. However, the differences in macrophysical parameter variability indicate the limits of spaceborne-lidar and dissimilarities in regional climate variability and the nature and source of cloud nuclei in different geographical regions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2011, Chinese National Committee for International Association of Meteorology and Atmospheric Sciences, Institute of Atmospheric Physics, Science Press and Springer-Verlag Berlin Heidelberg.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

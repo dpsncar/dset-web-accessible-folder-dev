@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7qc046s</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:8925</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:55.438765</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:46.006986</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7qc046s</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2002JD003026</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7qc046s</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2002JD003026</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>Rayleigh lidar measurements of stratospheric and lower mesospheric temperatures obtained at the Urbana Atmospheric Observatory (40.1degreesN, 88.1degreesW) on 17/18 November 1997 revealed large temperature inversions at altitudes between 55 to 65 km. Prior to and during a large increase (by up to about 50K) in the amplitude of the mesosphere inversion layer (MIL), a clear and persistent vertical wave structure between 30 and 65 km was observed. The wave has a vertical wavelength of about 12 km and an apparent period of about 12 hours. However, the intrinsic characteristics of the wave are uncertain due to the lack of information regarding the background wind profile and the relative direction of the wave propagation vector with respect to the background wind vector. Two different cases, corresponding to small and large background wind speeds projected onto the horizontal direction of wave propagation, are studied numerically to represent two scenarios with different intrinsic wave characteristics devised to explain the development of the MIL event observed. When the projected background wind is small, the wave is likely to be an inertial-gravity wave. It is shown that the breaking of such a wave does not produce the large heating rate observed. However, the numerical modeling shows that such an inertial-gravity wave can modulate the stability of a separate internal gravity wave, and the breaking of this internal gravity wave produces a heating rate similar to the observed rate. When the projected background wind is large, however, the observed wave could be an internal gravity wave with a large intrinsic phase speed. The analysis shows that the breaking of this wave can generate a large heating rate and a MIL that is similar to the observed event. We close with a discussion of the observational implications of these two scenarios. Possible wave sources are also discussed, and it appears that the observed MIL event might be related to a developing frontal system in the tropopause region observed just prior to the onset of the observed event.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2004 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

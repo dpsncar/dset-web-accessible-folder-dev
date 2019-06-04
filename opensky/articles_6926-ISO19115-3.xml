@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7h41rpm</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:6926</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:47.242837</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:17.660922</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7h41rpm</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR3381.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7h41rpm</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR3381.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study develops conceptual models of how a land–water interface affects the strength and structure of squall lines. Two-dimensional numerical simulations using the Advanced Regional Prediction System model are employed. Five sets of simulations are performed, each testing eight wind shear profiles of varying strength and depth. The first set of simulations contains a squall line but no surface or radiation physics. The second and third sets do not contain a squall line but include surface and radiation physics with a land surface on the right and a water surface on the left of the domain. The land is either warmer or cooler than the sea surface. These three simulations provide a control for later simulations. Finally, the remaining two simulation sets examine squall-line interaction with a relatively cool or warm land surface. The simulations document the thermodynamic and shear characteristics of squall lines interacting with the coastline. Results show that the inclusion of a land surface did not sufficiently affect the thermodynamic properties ahead of the squall line to change its overall structure. Investigation of ambient shear ahead of the squall line revealed that the addition of either warm or cool land reduced the strength of the net circulation in the inflow layer as measured by ambient shear. The amount of reduction in shear was found to be directly proportional to the depth and strength of the original shear layer. For stronger and deeper shears, the reduction in shear is sufficiently great that the buoyancy gradient circulation at the leading edge of the cold pool is no longer in balance with the shear circulation leading to changes in squall-line updraft structure. The authors hypothesize two ways by which a squall line might respond to passing from water to land. The weaker and more shallow the ambient shear, the greater likelihood that the squall-line structure remains unaffected by this transition. Conversely, the stronger and deeper the shear, the greater likelihood that the squall line changes updraft structure from upright/downshear to upshear tilted.</gco:CharacterString>
+            <gco:CharacterString>This study develops conceptual models of how a land&#x2013;water interface affects the strength and structure of squall lines. Two-dimensional numerical simulations using the Advanced Regional Prediction System model are employed. Five sets of simulations are performed, each testing eight wind shear profiles of varying strength and depth. The first set of simulations contains a squall line but no surface or radiation physics. The second and third sets do not contain a squall line but include surface and radiation physics with a land surface on the right and a water surface on the left of the domain. The land is either warmer or cooler than the sea surface. These three simulations provide a control for later simulations. Finally, the remaining two simulation sets examine squall-line interaction with a relatively cool or warm land surface. The simulations document the thermodynamic and shear characteristics of squall lines interacting with the coastline. Results show that the inclusion of a land surface did not sufficiently affect the thermodynamic properties ahead of the squall line to change its overall structure. Investigation of ambient shear ahead of the squall line revealed that the addition of either warm or cool land reduced the strength of the net circulation in the inflow layer as measured by ambient shear. The amount of reduction in shear was found to be directly proportional to the depth and strength of the original shear layer. For stronger and deeper shears, the reduction in shear is sufficiently great that the buoyancy gradient circulation at the leading edge of the cold pool is no longer in balance with the shear circulation leading to changes in squall-line updraft structure. The authors hypothesize two ways by which a squall line might respond to passing from water to land. The weaker and more shallow the ambient shear, the greater likelihood that the squall-line structure remains unaffected by this transition. Conversely, the stronger and deeper the shear, the greater likelihood that the squall line changes updraft structure from upright/downshear to upshear tilted.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,16 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Convective-scale modeling</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Advanced Regional Prediction System</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2007 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

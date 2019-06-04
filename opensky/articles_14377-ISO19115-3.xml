@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7df6s6t</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:14377</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:21.058499</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:55.432597</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7df6s6t</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/gmd-7-2065-2014</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7df6s6t</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/gmd-7-2065-2014</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Fully 3-D numerical simulations of thermal convection in a spherical shell have become a standard for studying the dynamics of pattern formation and its stability under perturbations to various parameter values. The question arises as to how the discretization of the governing equations affects the outcome and thus any physical interpretation. This work demonstrates the impact of numerical discretization on the observed patterns, the value at which symmetry is broken, and how stability and stationary behavior is dependent upon it. Motivated by numerical simulations of convection in the Earth's mantle, we consider isoviscous Rayleigh–Bénard convection at infinite Prandtl number, where the aspect ratio between the inner and outer shell is 0.55. We show that the subtleties involved in developing mantle convection models are considerably more delicate than has been previously appreciated, due to the rich dynamical behavior of the system. Two codes with different numerical discretization schemes – an established, community-developed, and benchmarked finite-element code (CitcomS) and a novel spectral method that combines Chebyshev polynomials with radial basis functions (RBFs) – are compared. A full numerical study is investigated for the following three cases. The first case is based on the cubic (or octahedral) initial condition (spherical harmonics of degree ℓ = 4). How this pattern varies to perturbations in the initial condition and Rayleigh number is studied. The second case investigates the stability of the dodecahedral (or icosahedral) initial condition (spherical harmonics of degree ℓ = 6). Although both methods first converge to the same pattern, this structure is ultimately unstable and systematically degenerates to cubic or tetrahedral symmetries, depending on the code used. Lastly, a new steady-state pattern is presented as a combination of third- and fourth-order spherical harmonics leading to a five-cell or hexahedral pattern and stable up to 70 times the critical Rayleigh number. This pattern can provide the basis for a new accuracy benchmark for 3-D spherical mantle convection codes.</gco:CharacterString>
+            <gco:CharacterString>Fully 3-D numerical simulations of thermal convection in a spherical shell have become a standard for studying the dynamics of pattern formation and its stability under perturbations to various parameter values. The question arises as to how the discretization of the governing equations affects the outcome and thus any physical interpretation. This work demonstrates the impact of numerical discretization on the observed patterns, the value at which symmetry is broken, and how stability and stationary behavior is dependent upon it. Motivated by numerical simulations of convection in the Earth's mantle, we consider isoviscous Rayleigh&#x2013;B&#xe9;nard convection at infinite Prandtl number, where the aspect ratio between the inner and outer shell is 0.55. We show that the subtleties involved in developing mantle convection models are considerably more delicate than has been previously appreciated, due to the rich dynamical behavior of the system. Two codes with different numerical discretization schemes &#x2013; an established, community-developed, and benchmarked finite-element code (CitcomS) and a novel spectral method that combines Chebyshev polynomials with radial basis functions (RBFs) &#x2013; are compared. A full numerical study is investigated for the following three cases. The first case is based on the cubic (or octahedral) initial condition (spherical harmonics of degree &#x2113; = 4). How this pattern varies to perturbations in the initial condition and Rayleigh number is studied. The second case investigates the stability of the dodecahedral (or icosahedral) initial condition (spherical harmonics of degree &#x2113; = 6). Although both methods first converge to the same pattern, this structure is ultimately unstable and systematically degenerates to cubic or tetrahedral symmetries, depending on the code used. Lastly, a new steady-state pattern is presented as a combination of third- and fourth-order spherical harmonics leading to a five-cell or hexahedral pattern and stable up to 70 times the critical Rayleigh number. This pattern can provide the basis for a new accuracy benchmark for 3-D spherical mantle convection codes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,6 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2014. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

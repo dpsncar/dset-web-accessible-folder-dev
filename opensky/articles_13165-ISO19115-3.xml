@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7pz59q1</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:13165</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:04.139777</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:48.604792</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7pz59q1</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1371/journal.pone.0082404</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7pz59q1</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1371/journal.pone.0082404</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -148,10 +144,20 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>Coral reef ecosystems are threatened by both climate change and direct anthropogenic stress. Climate change will alter the physico-chemical environment that reefs currently occupy, leaving only limited regions that are conducive to reef habitation. Identifying these regions early may aid conservation efforts and inform decisions to transplant particular coral species or groups. Here a species distribution model (Maxent) is used to describe habitat suitable for coral reef growth. Two climate change scenarios (RCP4.5, RCP8.5) from the National Center for Atmospheric Research's Community Earth System Model were used with Maxent to determine environmental suitability for corals (order Scleractinia). Environmental input variables best at representing the limits of suitable reef growth regions were isolated using a principal component analysis. Climate-driven changes in suitable habitat depend strongly on the unique region of reefs used to train Maxent. Increased global habitat loss was predicted in both climate projections through the 21st century. A maximum habitat loss of 43% by 2100 was predicted in RCP4.5 and 82% in RCP8.5. When the model is trained solely with environmental data from the Caribbean/Atlantic, 83% of global habitat was lost by 2100 for RCP4.5 and 88% was lost for RCP8.5. Similarly, global runs trained only with Pacific Ocean reefs estimated that 60% of suitable habitat would be lost by 2100 in RCP4.5 and 90% in RCP8.5. When Maxent was trained solely with Indian Ocean reefs, suitable habitat worldwide increased by 38% in RCP4.5 by 2100 and 28% in RCP8.5 by 2050. Global habitat loss by 2100 was just 10% for RCP8.5. This projection suggests that shallow tropical sites in the Indian Ocean basin experience conditions today that are most similar to future projections of worldwide conditions. Indian Ocean reefs may thus be ideal candidate regions from which to select the best strands of coral for potential re-seeding efforts.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2013. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

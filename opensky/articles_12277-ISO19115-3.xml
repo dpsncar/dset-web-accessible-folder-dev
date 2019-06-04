@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7416xsg</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12277</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:42.281707</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:29.264468</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7416xsg</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-11-10503-2011</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7416xsg</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-11-10503-2011</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper presents results from 240-member ensemble simulations of aerosol indirect effects on tropical deep convection and its thermodynamic environment. Simulations using a two-dimensional cloud-system resolving model are run with pristine, polluted, or highly polluted aerosol conditions and large-scale forcing from a 6-day period of active monsoon conditions during the 2006 Tropical Warm Pool - International Cloud Experiment (TWP-ICE). Domain-mean surface precipitation is insensitive to aerosols primarily because the large-scale forcing is prescribed and dominates the water and static energy budgets. The spread of the top-of-atmosphere (TOA) shortwave and longwave radiative fluxes among different ensemble members for the same aerosol loading is surprisingly large, exceeding 25 W m⁻² even when averaged over the 6-day period. This variability is caused by random fluctuations in the strength and timing of individual deep convective events. The ensemble approach demonstrates a small weakening of convection averaged over the 6-day period in the polluted simulations compared to pristine. Despite this weakening, the cloud top heights and anvil ice mixing ratios are higher in polluted conditions. This occurs because of the larger concentrations of cloud droplets that freeze, leading directly to higher ice particle concentrations, smaller ice particle sizes, and smaller fall velocities compared to simulations with pristine aerosols. Weaker convection in polluted conditions is a direct result of the changes in anvil ice characteristics and subsequent upper-tropospheric radiative heating and weaker tropospheric destabilization. Such a conclusion offers a different interpretation of recent satellite observations of tropical deep convection in pristine and polluted environments compared to the hypothesis of aerosol-induced convective invigoration. Sensitivity tests using the ensemble approach with modified microphysical parameters or domain configuration (horizontal gridlength, domain size) produce results that are similar to baseline, although there are quantitative differences in estimates of aerosol impacts on TOA radiative fluxes.</gco:CharacterString>
+            <gco:CharacterString>This paper presents results from 240-member ensemble simulations of aerosol indirect effects on tropical deep convection and its thermodynamic environment. Simulations using a two-dimensional cloud-system resolving model are run with pristine, polluted, or highly polluted aerosol conditions and large-scale forcing from a 6-day period of active monsoon conditions during the 2006 Tropical Warm Pool - International Cloud Experiment (TWP-ICE). Domain-mean surface precipitation is insensitive to aerosols primarily because the large-scale forcing is prescribed and dominates the water and static energy budgets. The spread of the top-of-atmosphere (TOA) shortwave and longwave radiative fluxes among different ensemble members for the same aerosol loading is surprisingly large, exceeding 25 W m&#x207b;&#xb2; even when averaged over the 6-day period. This variability is caused by random fluctuations in the strength and timing of individual deep convective events. The ensemble approach demonstrates a small weakening of convection averaged over the 6-day period in the polluted simulations compared to pristine. Despite this weakening, the cloud top heights and anvil ice mixing ratios are higher in polluted conditions. This occurs because of the larger concentrations of cloud droplets that freeze, leading directly to higher ice particle concentrations, smaller ice particle sizes, and smaller fall velocities compared to simulations with pristine aerosols. Weaker convection in polluted conditions is a direct result of the changes in anvil ice characteristics and subsequent upper-tropospheric radiative heating and weaker tropospheric destabilization. Such a conclusion offers a different interpretation of recent satellite observations of tropical deep convection in pristine and polluted environments compared to the hypothesis of aerosol-induced convective invigoration. Sensitivity tests using the ensemble approach with modified microphysical parameters or domain configuration (horizontal gridlength, domain size) produce results that are similar to baseline, although there are quantitative differences in estimates of aerosol impacts on TOA radiative fluxes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2011. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

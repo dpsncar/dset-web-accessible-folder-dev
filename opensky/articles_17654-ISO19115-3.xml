@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7sj1mz5</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17654</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:07.407642</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:22.827820</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7sj1mz5</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-15-0154.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7sj1mz5</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-15-0154.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The sensitivity of an idealized squall line to horizontal Δh and vertical Δv grid spacing is investigated using a new approach. Simulations are first performed at a horizontal grid spacing of 1 km until the storm reaches its mature stage. The model output is then interpolated to smaller (and larger) grid spacings, and the model is restarted using the interpolated state plus small thermodynamic perturbations to spin up small-scale motions. This framework allows an investigation of the sensitivity of the storm to changes in Δh without complications from differences in storm initiation and early evolution. The restarted simulations reach a quasi steady state within approximately 1 h. Results demonstrate that there are two Δh-dependent regimes with the transition between regimes occurring for Δh between 250 and 500 m. Some storm characteristics, such as the mean convective core area, change substantially for Δh 250 m but show limited sensitivity as Δ is decreased below 250 m, despite better resolving smaller-scale turbulent motions. This transition is found to be independent of the chosen . Mixing in the context of varying Δh and Δv is also investigated via passive tracers that are initialized 1 h after restarting the simulations (i.e., after the spin up of small-scale motions). The tracer field at the end of the simulations reveals that entrainment and detrainment are suppressed in the simulations with Δh≥ 500 m. For decreasing Δ, entrainment and detrainment are substantially more important, limiting the flux of low-level tracer to the upper troposphere, which has important implications for modeling studies of convective transport from the boundary layer through the troposphere.</gco:CharacterString>
+            <gco:CharacterString>The sensitivity of an idealized squall line to horizontal &#x394;h and vertical &#x394;v grid spacing is investigated using a new approach. Simulations are first performed at a horizontal grid spacing of 1 km until the storm reaches its mature stage. The model output is then interpolated to smaller (and larger) grid spacings, and the model is restarted using the interpolated state plus small thermodynamic perturbations to spin up small-scale motions. This framework allows an investigation of the sensitivity of the storm to changes in &#x394;h without complications from differences in storm initiation and early evolution. The restarted simulations reach a quasi steady state within approximately 1 h. Results demonstrate that there are two &#x394;h-dependent regimes with the transition between regimes occurring for &#x394;h between 250 and 500 m. Some storm characteristics, such as the mean convective core area, change substantially for &#x394;h 250 m but show limited sensitivity as &#x394; is decreased below 250 m, despite better resolving smaller-scale turbulent motions. This transition is found to be independent of the chosen . Mixing in the context of varying &#x394;h and &#x394;v is also investigated via passive tracers that are initialized 1 h after restarting the simulations (i.e., after the spin up of small-scale motions). The tracer field at the end of the simulations reveals that entrainment and detrainment are suppressed in the simulations with &#x394;h&#x2265; 500 m. For decreasing &#x394;, entrainment and detrainment are substantially more important, limiting the flux of low-level tracer to the upper troposphere, which has important implications for modeling studies of convective transport from the boundary layer through the troposphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2015 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

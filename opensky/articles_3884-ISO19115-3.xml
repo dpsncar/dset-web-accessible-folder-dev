@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7hq3zth</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:3884</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:40.158654</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:50.368366</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7hq3zth</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/96JD03964</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7hq3zth</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/96JD03964</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -271,7 +267,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -281,7 +277,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>Hydrogen fluoride (HF) is often used as a simple reference for other column observations of chemically active stratospheric species. However, seasonal and shorter timescale variations in column HF make its use as a reference more complicated. In this paper we characterize the expected magnitude of these variations in HF, and variations of ratio quantities involving HF, using a two-dimensional (2-D) photochemical model and two versions of a three-dimensional (3-D) transport model. The 2-D model predicts that the column ratios HNO3/HF and HCl/HF increase from midlatitudes to the tropics, although this is very sensitive to HCl and HNO3 abundances in the tropical upper troposphere. Seasonal variations in vertical motion modifys the predicted ratios; for example, wintertime descent at high latitudes decreases HCl/HF. The ratio HNO3/HF at high latitudes is strongly modified by seasonal variations in the chemical partitioning of the odd nitrogen (NOy) species. We compare these model predictions with ground-based Fourier transform infrared spectroscopy (FTIR) observations of HF along with HCl, ClONO2 and HNO3 obtained at eight northern hemisphere sites between October 1994 and July 1995. We investigate quantitatively how HF can be used as a tracer to follow the evolution of observations at a single station and to intercompare results from different stations or with photochemical models. The magnitude of the 3-D model HF column agrees well with the observations, except on some occasions at high latitudes, giving indirect support for the important role of COF2 in the stratospheric inorganic fluorine budget. The observed day-to-day variability in the column ratios HCl/HF and HNO3/HF is much larger at high latitudes. This variability is reproduced in the 3-D models and is due to horizontal motion. Short timescale vertical displacement of the species profiles is estimated to have a small effect on the column ratios. In particular, we analyze the usefulness of the observed column ratio (ClONO2 + HCl)/HF as an indicator for chlorine activation. Current measurement uncertainties limit the degree of activation which can be unambiguously detected using this observed quantity, but we can determine that chlorine-activated air was observed above Aberdeen (58 degrees N) on 6 days in late January 1995.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -356,6 +352,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 1997 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

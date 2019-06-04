@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7cz38q2</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18001</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:13.333681</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:29.438755</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7cz38q2</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-16-2575-2016</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7cz38q2</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-16-2575-2016</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -341,7 +337,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -351,7 +347,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Nitrogen oxides (NOx) have fallen steadily across the US over the last 15 years. At the same time, NOx concentrations decrease on weekends relative to weekdays, largely without co-occurring changes in other gas-phase emissions, due to patterns of diesel truck activities. These trends taken together provide two independent constraints on the role of NOx in the nonlinear chemistry of atmospheric oxidation. In this context, we interpret interannual trends in wintertime ammonium nitrate (NH₄NO₃) in the San Joaquin Valley of California, a location with the worst aerosol pollution in the US and where a large portion of aerosol mass is NH₄NO₃. Here, we show that NOx reductions have simultaneously decreased nighttime and increased daytime NH₄NO₃ production over the last decade. We find a substantial decrease in NH₄NO₃ since 2000 and conclude that this decrease is due to reduced nitrate radical-initiated production at night in residual layers that are decoupled from fresh emissions at the surface. Further reductions in NOx are imminent in California, and nationwide, and we make a quantitative prediction of the response of NH₄NO₃. We show that the combination of rapid chemical production and efficient NH₄NO₃ loss via deposition of gas-phase nitric acid implies that high aerosol days in cities in the San Joaquin Valley air basin are responsive to local changes in NOx within those individual cities. Our calculations indicate that large decreases in NOx in the future will not only lower wintertime NH₄NO₃ concentrations but also cause a transition in the dominant NH₄NO₃ source from nighttime to daytime chemistry.</gco:CharacterString>
+            <gco:CharacterString>Nitrogen oxides (NOx) have fallen steadily across the US over the last 15 years. At the same time, NOx concentrations decrease on weekends relative to weekdays, largely without co-occurring changes in other gas-phase emissions, due to patterns of diesel truck activities. These trends taken together provide two independent constraints on the role of NOx in the nonlinear chemistry of atmospheric oxidation. In this context, we interpret interannual trends in wintertime ammonium nitrate (NH&#x2084;NO&#x2083;) in the San Joaquin Valley of California, a location with the worst aerosol pollution in the US and where a large portion of aerosol mass is NH&#x2084;NO&#x2083;. Here, we show that NOx reductions have simultaneously decreased nighttime and increased daytime NH&#x2084;NO&#x2083; production over the last decade. We find a substantial decrease in NH&#x2084;NO&#x2083; since 2000 and conclude that this decrease is due to reduced nitrate radical-initiated production at night in residual layers that are decoupled from fresh emissions at the surface. Further reductions in NOx are imminent in California, and nationwide, and we make a quantitative prediction of the response of NH&#x2084;NO&#x2083;. We show that the combination of rapid chemical production and efficient NH&#x2084;NO&#x2083; loss via deposition of gas-phase nitric acid implies that high aerosol days in cities in the San Joaquin Valley air basin are responsive to local changes in NOx within those individual cities. Our calculations indicate that large decreases in NOx in the future will not only lower wintertime NH&#x2084;NO&#x2083; concentrations but also cause a transition in the dominant NH&#x2084;NO&#x2083; source from nighttime to daytime chemistry.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -426,6 +422,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2016. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

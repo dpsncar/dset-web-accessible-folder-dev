@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Metadata generated with CatMDEdit version 5.0-->
+
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
     xmlns:gmd="http://www.isotc211.org/2005/gmd"
     xmlns:gml="http://www.opengis.net/gml/"
@@ -17,7 +17,10 @@
             codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
     </gmd:characterSet>
     <gmd:parentIdentifier gco:nilReason="inapplicable"/>
-    <gmd:hierarchyLevel gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
     <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
@@ -39,12 +42,12 @@
             </gmd:contactInfo>
             <gmd:role>
                 <gmd:CI_RoleCode
-                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2017-06-26</gco:Date>
+        <gco:DateTime>2017-10-16T13:51:33</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -56,9 +59,9 @@
         <gco:CharacterString>http://opencat.library.ucar.edu/cgi-bin/koha/opac-detail.pl?biblionumber=253</gco:CharacterString>
     </gmd:dataSetURI>
     <gmd:identificationInfo>
-        <gmd:MD_DataIdentification uuid="Resource with the following features:|n- Formatted contents note: Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.|nVol II: Data tabulations for runs 96A through 104|nVol III: Data tabulations for runs 32 through 66D|nVol IV: Data tabulations for runs 66E through 76B|nVol V: Data tabulations for runs 78A through 85C:abstract:505$a65-371#eng:dataLanguage:008(p35-p37)0-3#- Remainder of title: Technical Report ECOM-65-G10|n- Language note: English|n- Relator code: aut|n- Personal name: Record, F. A.|n- Personal name: Tillman, J. E.|n:supplementalInformation:245$b22-50;546$a68-75;700$492-95;700$a113-126;700$a144-158">
+        <gmd:MD_DataIdentification uuid="">
             <gmd:citation>
-                <gmd:CI_Citation uuid="Round Hill Turbulence Measurements - :title:245$a0-34;008(p07-p10)37-37#documentHardcopy:presentationForm:LDR(p06)0-16">
+                <gmd:CI_Citation uuid="">
                     <gmd:title>
                         <gco:CharacterString>Round Hill Turbulence Measurements</gco:CharacterString>
                     </gmd:title>
@@ -142,12 +145,12 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This set of resources includes five volumes of turbulence measurements from United States Army in the 1960s: 
-                        Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.
-                        Vol II: Data tabulations for runs 96A through 104.
-                        Vol III: Data tabulations for runs 32 through 66D.
-                        Vol IV: Data tabulations for runs 66E through 76B.
-                        Vol V: Data tabulations for runs 78A through 85C.</gco:CharacterString>
+                <gco:CharacterString>This &#169;set of resources &#956;includes five volumes of turbulence measurements from United States Army in the 1960s: 
+                                                          Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.
+                                                          Vol II: Data tabulations for runs 96A through 104.
+                                                          Vol III: Data tabulations for runs 32 through 66D.
+                                                          Vol IV: Data tabulations for runs 66E through 76B.
+                                                          Vol V: Data tabulations for runs 78A through 85C.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
@@ -172,7 +175,7 @@
                     </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
@@ -193,7 +196,7 @@
                             <gmd:date>
                                 <gmd:CI_Date>
                                     <gmd:date>
-                                    <gco:Date>2017-06-01</gco:Date>
+                                    <gco:Date>2017-09-19</gco:Date>
                                     </gmd:date>
                                     <gmd:dateType>
                                     <gmd:CI_DateTypeCode
@@ -201,6 +204,52 @@
                                     </gmd:dateType>
                                 </gmd:CI_Date>
                             </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>DataCite</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Boulder</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>CO</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>80307</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>mayernik@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://library.ucar.edu</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
                         </gmd:CI_Citation>
                     </gmd:thesaurusName>
                 </gmd:MD_Keywords>
@@ -210,7 +259,9 @@
                     <gmd:useLimitation>
                         <gco:CharacterString>This resource is available as a physical item in the Library of the NCAR Mesa Laboratory in Boulder, CO. Any further access limitations, such as copyright restrictions, are described on the resources themselves. </gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing"/>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
@@ -224,12 +275,20 @@
             <gmd:extent gco:nilReason="missing"/>
             <gmd:supplementalInformation>
                 <gco:CharacterString>- Remainder of title: Technical Report ECOM-65-G10
-                                                - Language note: English
-                                                - Relator code: aut
-                                                - Personal name: Record, F. A.
-                                                - Personal name: Tillman, J. E.
-                                                </gco:CharacterString>
+                                                                                  - Language note: English
+                                                                                  - Relator code: aut
+                                                                                  - Personal name: Record, F. A.
+                                                                                  - Personal name: Tillman, J. E.
+                                                                                  </gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+                <gmd:MD_MaintenanceFrequencyCode
+                    codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+            </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
 </gmd:MD_Metadata>

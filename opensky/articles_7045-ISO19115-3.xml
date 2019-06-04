@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7474b47</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:7045</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:49.656340</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:50.323799</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7474b47</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Inverse estimates of anthropogenic CO₂ uptake, transport, and storage by the ocean</gco:CharacterString>
+                  <gco:CharacterString>Inverse estimates of anthropogenic CO&#x2082; uptake, transport, and storage by the ocean</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2005GB002530</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7474b47</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2005GB002530</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -251,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -261,7 +257,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>Regional air-sea fluxes of anthropogenic CO2 are estimated using a Green's function inversion method that combines data-based estimates of anthropogenic CO2 in the ocean with information about ocean transport and mixing from a suite of Ocean General Circulation Models (OGCMs). In order to quantify the uncertainty associated with the estimated fluxes owing to modeled transport and errors in the data, we employ 10 OGCMs and three scenarios representing biases in the data-based anthropogenic CO2 estimates. On the basis of the prescribed anthropogenic CO2 storage, we find a global uptake of 2.2 +/- 0.25 Pg C yr(-1), scaled to 1995. This error estimate represents the standard deviation of the models weighted by a CFC-based model skill score, which reduces the error range and emphasizes those models that have been shown to reproduce observed tracer concentrations most accurately. The greatest anthropogenic CO2 uptake occurs in the Southern Ocean and in the tropics. The flux estimates imply vigorous northward transport in the Southern Hemisphere, northward cross-equatorial transport, and equatorward transport at high northern latitudes. Compared with forward simulations, we find substantially more uptake in the Southern Ocean, less uptake in the Pacific Ocean, and less global uptake. The large-scale spatial pattern of the estimated flux is generally insensitive to possible biases in the data and the models employed. However, the global uptake scales approximately linearly with changes in the global anthropogenic CO2 inventory. Considerable uncertainties remain in some regions, particularly the Southern Ocean.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -336,6 +332,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2006 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

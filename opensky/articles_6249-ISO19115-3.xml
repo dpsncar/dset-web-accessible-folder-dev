@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7zp469r</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:6249</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:45.624469</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:27.014399</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7zp469r</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1007/s11214-008-9404-6</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7zp469r</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1007/s11214-008-9404-6</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Springer</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper summarizes the understanding of aeronomy of neutral atmospheres in the solar system, discussing most planets as well as Saturn’s moon Titan and comets. The thermal structure and energy balance is compared, highlighting the principal reasons for discrepancies amongst the atmospheres, a combination of atmospheric composition, heliocentric distance and other external energy sources not common to all. The composition of atmospheres is discussed in terms of vertical structure, chemistry and evolution. The final section compares dynamics in the upper atmospheres of most planets and highlights the importance of vertical dynamical coupling as well as magnetospheric forcing in auroral regions, where present. It is shown that a first order understanding of neutral atmospheres has emerged over the past decades, thanks to the combined effects of spacecraft and Earth-based observations as well as advances in theoretical modeling capabilities. Key gaps in our understanding are highlighted which ultimately call for a more comprehensive programme of observation and laboratory measurements.</gco:CharacterString>
+            <gco:CharacterString>This paper summarizes the understanding of aeronomy of neutral atmospheres in the solar system, discussing most planets as well as Saturn&#x2019;s moon Titan and comets. The thermal structure and energy balance is compared, highlighting the principal reasons for discrepancies amongst the atmospheres, a combination of atmospheric composition, heliocentric distance and other external energy sources not common to all. The composition of atmospheres is discussed in terms of vertical structure, chemistry and evolution. The final section compares dynamics in the upper atmospheres of most planets and highlights the importance of vertical dynamical coupling as well as magnetospheric forcing in auroral regions, where present. It is shown that a first order understanding of neutral atmospheres has emerged over the past decades, thanks to the combined effects of spacecraft and Earth-based observations as well as advances in theoretical modeling capabilities. Key gaps in our understanding are highlighted which ultimately call for a more comprehensive programme of observation and laboratory measurements.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,37 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>atmospheres</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>planets</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>moons</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>comets</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>dynamics</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>compositions</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>thermal structure</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>observations</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>theoretical modeling</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by Springer. Copyright Springer Science+Business Media B.V. 2008.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

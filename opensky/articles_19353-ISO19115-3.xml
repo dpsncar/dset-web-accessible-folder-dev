@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7k35wfx</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:19353</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:39.653171</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:25.252395</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7k35wfx</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1021/acs.jpca.6b09266</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7k35wfx</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1021/acs.jpca.6b09266</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -178,10 +174,20 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Product branching ratios for the gas-phase reactions of i-butanol, (CH3)2CHCH2OH, with OH radicals (251, 294, and 340 K) and Cl atoms (294 K) were quantified in an environmental chamber study and used to interpret i-butanol site-specific reactivity. i-Butyraldehyde, acetone, acetaldehyde, and formaldehyde were observed as major stable end products in both reaction systems with carbon mass balance indistinguishable from unity. Product branching ratios for OH oxidation were found to be temperature-dependent with the α, β, and γ channels changing from 34 ± 6 to 47 ± 1%, from 58 ± 6 to 37 ± 9%, and from 8 ± 1 to 16 ± 4%, respectively, between 251 and 340 K. Recommended temperature-dependent site-specific modified Arrhenius expressions for the OH reaction rate coefficient are (cm3 molecule-1 s-1): kα(T) = 8.64 × 10-18 × T1.91exp(666/T); kβ(T) = 5.15 × 10-19 × T2.04exp(1304/T); kγ(T) = 3.20 × 10-17 × T1.78exp(107/T); kOH(T) = 2.10 × 10-18 × T2exp(−23/T), where kTotal(T) = kα(T) + kβ(T) + kγ(T) + kOH(T). The expressions were constrained using the product branching ratios measured in this study and previous total phenomenological rate coefficient measurements. The site-specific expressions compare reasonably well with recent theoretical work. It is shown that use of i-butanol would result in acetone as the dominant degradation product under most atmospheric conditions.</gco:CharacterString>
+            <gco:CharacterString>Product branching ratios for the gas-phase reactions of i-butanol, (CH3)2CHCH2OH, with OH radicals (251, 294, and 340 K) and Cl atoms (294 K) were quantified in an environmental chamber study and used to interpret i-butanol site-specific reactivity. i-Butyraldehyde, acetone, acetaldehyde, and formaldehyde were observed as major stable end products in both reaction systems with carbon mass balance indistinguishable from unity. Product branching ratios for OH oxidation were found to be temperature-dependent with the &#x3b1;, &#x3b2;, and &#x3b3; channels changing from 34 &#xb1; 6 to 47 &#xb1; 1%, from 58 &#xb1; 6 to 37 &#xb1; 9%, and from 8 &#xb1; 1 to 16 &#xb1; 4%, respectively, between 251 and 340 K. Recommended temperature-dependent site-specific modified Arrhenius expressions for the OH reaction rate coefficient are (cm3 molecule-1 s-1): k&#x3b1;(T) = 8.64 &#xd7; 10-18 &#xd7; T1.91exp(666/T); k&#x3b2;(T) = 5.15 &#xd7; 10-19 &#xd7; T2.04exp(1304/T); k&#x3b3;(T) = 3.20 &#xd7; 10-17 &#xd7; T1.78exp(107/T); kOH(T) = 2.10 &#xd7; 10-18 &#xd7; T2exp(&#x2212;23/T), where kTotal(T) = k&#x3b1;(T) + k&#x3b2;(T) + k&#x3b3;(T) + kOH(T). The expressions were constrained using the product branching ratios measured in this study and previous total phenomenological rate coefficient measurements. The site-specific expressions compare reasonably well with recent theoretical work. It is shown that use of i-butanol would result in acetone as the dominant degradation product under most atmospheric conditions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +262,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Chemical Society.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

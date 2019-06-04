@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7sx6f5g</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:13319</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:08.366028</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:57.522429</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7sx6f5g</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JCLI-D-11-00424.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7sx6f5g</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JCLI-D-11-00424.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Modern-Era Reanalysis for Research and Applications (MERRA) is realistic, including its Madden–Julian oscillation (MJO), which the underlying model [Goddard Earth Observing System, version 5 (GEOS-5)] lacks. In the MERRA budgets, analysis tendencies (ATs) make evolution realistic despite model shortcomings. The ATs are the negative of physical process errors, if dynamical tendencies are accurate. Pattern resemblances between ATs and physical tendencies suggest which processes are erroneous. The authors examined patterns of tropical ATs in four dimensions and found several noteworthy features. Temperature AT profiles show that moist physics has erroneous sharp cooling at 700 hPa, a signature of misplaced melting and perhaps excessive precipitation evaporation. This excites a distinctive (fingerprint) erroneous short vertical wavelength temperature structure, perhaps a cause of the GEOS-5 too-slow convectively coupled waves. The globe's largest AT of 200-hPa wind stems from overactive heating over the intra-Americas seas region in summer, with the same moist physics fingerprint. The erroneous heating produces a baroclinic vortex that is countered by ATs opposing its temperature and momentum fields in a thermal wind balanced sense. Lack of restraint in the deep convection scheme is also indicated in MJO composites, where the water vapor AT is anomalously positive on the leading edge, indicating a premature vapor sink. Since GEOS-5 lacks an MJO, this diagnosis suggests that the transition from shallow to deep convection (moistening to drying) is crucial in the real-world MJO. This is not news, but its diagnosis by ATs provides an objective, repeatable way to measure the effect that could be a useful guide in model development.</gco:CharacterString>
+            <gco:CharacterString>The Modern-Era Reanalysis for Research and Applications (MERRA) is realistic, including its Madden&#x2013;Julian oscillation (MJO), which the underlying model [Goddard Earth Observing System, version 5 (GEOS-5)] lacks. In the MERRA budgets, analysis tendencies (ATs) make evolution realistic despite model shortcomings. The ATs are the negative of physical process errors, if dynamical tendencies are accurate. Pattern resemblances between ATs and physical tendencies suggest which processes are erroneous. The authors examined patterns of tropical ATs in four dimensions and found several noteworthy features. Temperature AT profiles show that moist physics has erroneous sharp cooling at 700 hPa, a signature of misplaced melting and perhaps excessive precipitation evaporation. This excites a distinctive (fingerprint) erroneous short vertical wavelength temperature structure, perhaps a cause of the GEOS-5 too-slow convectively coupled waves. The globe's largest AT of 200-hPa wind stems from overactive heating over the intra-Americas seas region in summer, with the same moist physics fingerprint. The erroneous heating produces a baroclinic vortex that is countered by ATs opposing its temperature and momentum fields in a thermal wind balanced sense. Lack of restraint in the deep convection scheme is also indicated in MJO composites, where the water vapor AT is anomalously positive on the leading edge, indicating a premature vapor sink. Since GEOS-5 lacks an MJO, this diagnosis suggests that the transition from shallow to deep convection (moistening to drying) is crucial in the real-world MJO. This is not news, but its diagnosis by ATs provides an objective, repeatable way to measure the effect that could be a useful guide in model development.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2012 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

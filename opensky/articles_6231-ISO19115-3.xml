@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7930t9x</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:6231</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:45.230618</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:23.030543</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7930t9x</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2007JD009391</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7930t9x</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2007JD009391</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brühl, C.</gco:CharacterString>
+                        <gco:CharacterString>Br&#xfc;hl, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -351,7 +347,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -361,7 +357,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The 11-year solar cycles in ozone and temperature are examined using new simulations of coupled chemistry climate models. The results show a secondary maximum in stratospheric tropical ozone, in agreement with satellite observations and in contrast with most previously published simulations. The mean model response varies by up to about 2.5% in ozone and 0.8 K in temperature during a typical solar cycle, at the lower end of the observed ranges of peak responses. Neither the upper atmospheric effects of energetic particles nor the presence of the quasi biennial oscillation is necessary to simulate the lower stratospheric response in the observed low latitude ozone concentration. Comparisons are also made between model simulations and observed total column ozone. As in previous studies, the model simulations agree well with observations. For those models which cover the full temporal range 1960–2005, the ozone solar signal below 50 hPa changes substantially from the first two solar cycles to the last two solar cycles. Further investigation suggests that this difference is due to an aliasing between the sea surface temperatures and the solar cycle during the first part of the period. The relationship between these results and the overall structure in the tropical solar ozone response is discussed. Further understanding of solar processes requires improvement in the observations of the vertically varying and column integrated ozone.</gco:CharacterString>
+            <gco:CharacterString>The 11-year solar cycles in ozone and temperature are examined using new simulations of coupled chemistry climate models. The results show a secondary maximum in stratospheric tropical ozone, in agreement with satellite observations and in contrast with most previously published simulations. The mean model response varies by up to about 2.5% in ozone and 0.8 K in temperature during a typical solar cycle, at the lower end of the observed ranges of peak responses. Neither the upper atmospheric effects of energetic particles nor the presence of the quasi biennial oscillation is necessary to simulate the lower stratospheric response in the observed low latitude ozone concentration. Comparisons are also made between model simulations and observed total column ozone. As in previous studies, the model simulations agree well with observations. For those models which cover the full temporal range 1960&#x2013;2005, the ozone solar signal below 50 hPa changes substantially from the first two solar cycles to the last two solar cycles. Further investigation suggests that this difference is due to an aliasing between the sea surface temperatures and the solar cycle during the first part of the period. The relationship between these results and the overall structure in the tropical solar ozone response is discussed. Further understanding of solar processes requires improvement in the observations of the vertically varying and column integrated ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -436,19 +432,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>solar cycle</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>stratospheric ozone</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>stratospheric temperature</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2008 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

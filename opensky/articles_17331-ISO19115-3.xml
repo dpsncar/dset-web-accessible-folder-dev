@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7dz09kv</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17331</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:58.299492</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:08.170276</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7dz09kv</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2007JA012897</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7dz09kv</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2007JA012897</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Average F2-layer electron densities at December solstice are higher than those at June solstice. This phenomenon, which is often called the F2-layer annual asymmetry, has been observed for several decades, but its causes are still not fully understood. This study investigates global variations of this annual asymmetry observed from one year of the Constellation Observing System for Meteorology, Ionosphere and Climate (COSMIC) ionospheric radio occultation (IRO) measurements. The IRO observations show that there is a strong NmF2 annual asymmetry that has significant longitudinal and local time variations. A strong peak of the asymmetry occurs at about noon and another one at midnight, both located at around 25Â° geomagnetic latitude. Numerical simulations using the Thermosphere-Ionosphere Electrodynamics Global Circulation Model (TIEGCM) are in very good agreement with these observations. The modeled NmF2 annual asymmetry has a similar magnitude, and similar semidiurnal and longitudinal variations as those in the observations. TIEGCM simulations show that changes in solar extreme ultraviolet (EUV) radiation between the December and June solstices and the displacement of the geomagnetic axis from the geographic axis are the two primary processes that cause the annual asymmetry and its associated longitudinal and local time variations. The tides propagating from lower altitudes also contribute to this asymmetry, but to a smaller extent.</gco:CharacterString>
+            <gco:CharacterString>Average F2-layer electron densities at December solstice are higher than those at June solstice. This phenomenon, which is often called the F2-layer annual asymmetry, has been observed for several decades, but its causes are still not fully understood. This study investigates global variations of this annual asymmetry observed from one year of the Constellation Observing System for Meteorology, Ionosphere and Climate (COSMIC) ionospheric radio occultation (IRO) measurements. The IRO observations show that there is a strong NmF2 annual asymmetry that has significant longitudinal and local time variations. A strong peak of the asymmetry occurs at about noon and another one at midnight, both located at around 25&#xc2;&#xb0; geomagnetic latitude. Numerical simulations using the Thermosphere-Ionosphere Electrodynamics Global Circulation Model (TIEGCM) are in very good agreement with these observations. The modeled NmF2 annual asymmetry has a similar magnitude, and similar semidiurnal and longitudinal variations as those in the observations. TIEGCM simulations show that changes in solar extreme ultraviolet (EUV) radiation between the December and June solstices and the displacement of the geomagnetic axis from the geographic axis are the two primary processes that cause the annual asymmetry and its associated longitudinal and local time variations. The tides propagating from lower altitudes also contribute to this asymmetry, but to a smaller extent.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2008 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

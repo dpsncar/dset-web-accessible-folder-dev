@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7h132fx</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10311</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:03.325498</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:17.153339</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7h132fx</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>An aircraft-based upper troposphere lower stratosphere O₃, CO, and H₂O climatology for the Northern Hemisphere</gco:CharacterString>
+                  <gco:CharacterString>An aircraft-based upper troposphere lower stratosphere O&#x2083;, CO, and H&#x2082;O climatology for the Northern Hemisphere</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2009JD012731</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7h132fx</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2009JD012731</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -371,7 +367,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -381,7 +377,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a climatology of O₃, CO, and H₂O for the upper troposphere and lower stratosphere (UTLS), based on a large collection of high-resolution research aircraft data taken between 1995 and 2008. To group aircraft observations with sparse horizontal coverage, the UTLS is divided into three regimes: the tropics, subtropics, and the polar region. These regimes are defined using a set of simple criteria based on tropopause height and multiple tropopause conditions. Tropopause-referenced tracer profiles and tracer-tracer correlations show distinct characteristics for each regime, which reflect the underlying transport processes. The UTLS climatology derived here shows many features of earlier climatologies. In addition, mixed air masses in the subtropics, identified by O₃-CO correlations, show two characteristic modes in the tracer-tracer space that are a result of mixed air masses in layers above and below the tropopause (TP). A thin layer of mixed air (1–2 km around the tropopause) is identified for all regions and seasons, where tracer gradients across the TP are largest. The most pronounced influence of mixing between the tropical transition layer and the subtropics was found in spring and summer in the region above 380 K potential temperature. The vertical extent of mixed air masses between UT and LS reaches up to 5 km above the TP. The tracer correlations and distributions in the UTLS derived here can serve as a reference for model and satellite data evaluation.</gco:CharacterString>
+            <gco:CharacterString>We present a climatology of O&#x2083;, CO, and H&#x2082;O for the upper troposphere and lower stratosphere (UTLS), based on a large collection of high-resolution research aircraft data taken between 1995 and 2008. To group aircraft observations with sparse horizontal coverage, the UTLS is divided into three regimes: the tropics, subtropics, and the polar region. These regimes are defined using a set of simple criteria based on tropopause height and multiple tropopause conditions. Tropopause-referenced tracer profiles and tracer-tracer correlations show distinct characteristics for each regime, which reflect the underlying transport processes. The UTLS climatology derived here shows many features of earlier climatologies. In addition, mixed air masses in the subtropics, identified by O&#x2083;-CO correlations, show two characteristic modes in the tracer-tracer space that are a result of mixed air masses in layers above and below the tropopause (TP). A thin layer of mixed air (1&#x2013;2 km around the tropopause) is identified for all regions and seasons, where tracer gradients across the TP are largest. The most pronounced influence of mixing between the tropical transition layer and the subtropics was found in spring and summer in the region above 380 K potential temperature. The vertical extent of mixed air masses between UT and LS reaches up to 5 km above the TP. The tracer correlations and distributions in the UTLS derived here can serve as a reference for model and satellite data evaluation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -456,19 +452,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>UTLS</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>aircraft climatology</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>tracer-tracer correlations</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2010 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

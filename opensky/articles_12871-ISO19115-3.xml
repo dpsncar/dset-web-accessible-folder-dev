@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7pg1sm4</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12871</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:56.532439</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:06.580473</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7pg1sm4</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Observations of total RONO₂ over the boreal forest: NOx sinks and HNO₃ sources</gco:CharacterString>
+                  <gco:CharacterString>Observations of total RONO&#x2082; over the boreal forest: NOx sinks and HNO&#x2083; sources</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-13-4543-2013</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7pg1sm4</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-13-4543-2013</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -261,7 +257,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -271,7 +267,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In contrast with the textbook view of remote chemistry where HNO₃ formation is the primary sink of nitrogen oxides, recent theoretical analyses show that formation of RONO₂ (ΣANs) from isoprene and other terpene precursors is the primary net chemical loss of nitrogen oxides over the remote continents where the concentration of nitrogen oxides is low. This then increases the prominence of questions concerning the chemical lifetime and ultimate fate of ΣANs. We present observations of nitrogen oxides and organic molecules collected over the Canadian boreal forest during the summer which show that ΣANs account for ~20% of total oxidized nitrogen and that their instantaneous production rate is larger than that of HNO₃. This confirms the primary role of reactions producing ΣANs as a control over the lifetime of NOx (NOx = NO + NO₂) in remote, continental environments. However, HNO₃ is generally present in larger concentrations than ΣANs indicating that the atmospheric lifetime of ΣANs is shorter than the HNO₃ lifetime. We investigate a range of proposed loss mechanisms that would explain the inferred lifetime of ΣANs finding that in combination with deposition, two processes are consistent with the observations: (1) rapid ozonolysis of isoprene nitrates where at least ~40% of the ozonolysis products release NOx from the carbon backbone and/or (2) hydrolysis of particulate organic nitrates with HNO3 as a product. Implications of these ideas for our understanding of NOx and NOy budget in remote and rural locations are discussed.</gco:CharacterString>
+            <gco:CharacterString>In contrast with the textbook view of remote chemistry where HNO&#x2083; formation is the primary sink of nitrogen oxides, recent theoretical analyses show that formation of RONO&#x2082; (&#x3a3;ANs) from isoprene and other terpene precursors is the primary net chemical loss of nitrogen oxides over the remote continents where the concentration of nitrogen oxides is low. This then increases the prominence of questions concerning the chemical lifetime and ultimate fate of &#x3a3;ANs. We present observations of nitrogen oxides and organic molecules collected over the Canadian boreal forest during the summer which show that &#x3a3;ANs account for ~20% of total oxidized nitrogen and that their instantaneous production rate is larger than that of HNO&#x2083;. This confirms the primary role of reactions producing &#x3a3;ANs as a control over the lifetime of NOx (NOx = NO + NO&#x2082;) in remote, continental environments. However, HNO&#x2083; is generally present in larger concentrations than &#x3a3;ANs indicating that the atmospheric lifetime of &#x3a3;ANs is shorter than the HNO&#x2083; lifetime. We investigate a range of proposed loss mechanisms that would explain the inferred lifetime of &#x3a3;ANs finding that in combination with deposition, two processes are consistent with the observations: (1) rapid ozonolysis of isoprene nitrates where at least ~40% of the ozonolysis products release NOx from the carbon backbone and/or (2) hydrolysis of particulate organic nitrates with HNO3 as a product. Implications of these ideas for our understanding of NOx and NOy budget in remote and rural locations are discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -346,6 +342,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2013. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d751400j</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12465</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:46.613022</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:27.494004</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d751400j</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-13-2031-2013</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d751400j</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-13-2031-2013</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -351,7 +347,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -361,7 +357,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a detailed analysis of OH observations from the BEACHON (Bio-hydro-atmosphere interactions of Energy, Aerosols, Carbon, H₂O, Organics and Nitrogen)-ROCS (Rocky Mountain Organic Carbon Study) 2010 field campaign at the Manitou Forest Observatory (MFO), which is a 2-methyl-3-butene-2-ol (MBO) and monoterpene (MT) dominated forest environment. A comprehensive suite of measurements was used to constrain primary production of OH via ozone photolysis, OH recycling from HO2, and OH chemical loss rates, in order to estimate the steady-state concentration of OH. In addition, the University of Washington Chemical Model (UWCM) was used to evaluate the performance of a near-explicit chemical mechanism. The diurnal cycle in OH from the steady-state calculations is in good agreement with measurement. A comparison between the photolytic production rates and the recycling rates from the HO₂ + NO reaction shows that recycling rates are ~20 times faster than the photolytic OH production rates from ozone. Thus, we find that direct measurement of the recycling rates and the OH loss rates can provide accurate predictions of OH concentrations. More importantly, we also conclude that a conventional OH recycling pathway (HO₂ + NO) can explain the observed OH levels in this non-isoprene environment. This is in contrast to observations in isoprene-dominated regions, where investigators have observed significant underestimation of OH and have speculated that unknown sources of OH are responsible. The highly-constrained UWCM calculation under-predicts observed HO2 by as much as a factor of 8. As HO₂ maintains oxidation capacity by recycling to OH, UWCM underestimates observed OH by as much as a factor of 4. When the UWCM calculation is constrained by measured HO₂, model calculated OH is in better agreement with the observed OH levels. Conversely, constraining the model to observed OH only slightly reduces the model-measurement HO₂ discrepancy, implying unknown HO₂ sources. These findings demonstrate the importance of constraining the inputs to, and recycling within, the ROx radical pool (OH + HO₂ + RO₂).</gco:CharacterString>
+            <gco:CharacterString>We present a detailed analysis of OH observations from the BEACHON (Bio-hydro-atmosphere interactions of Energy, Aerosols, Carbon, H&#x2082;O, Organics and Nitrogen)-ROCS (Rocky Mountain Organic Carbon Study) 2010 field campaign at the Manitou Forest Observatory (MFO), which is a 2-methyl-3-butene-2-ol (MBO) and monoterpene (MT) dominated forest environment. A comprehensive suite of measurements was used to constrain primary production of OH via ozone photolysis, OH recycling from HO2, and OH chemical loss rates, in order to estimate the steady-state concentration of OH. In addition, the University of Washington Chemical Model (UWCM) was used to evaluate the performance of a near-explicit chemical mechanism. The diurnal cycle in OH from the steady-state calculations is in good agreement with measurement. A comparison between the photolytic production rates and the recycling rates from the HO&#x2082; + NO reaction shows that recycling rates are ~20 times faster than the photolytic OH production rates from ozone. Thus, we find that direct measurement of the recycling rates and the OH loss rates can provide accurate predictions of OH concentrations. More importantly, we also conclude that a conventional OH recycling pathway (HO&#x2082; + NO) can explain the observed OH levels in this non-isoprene environment. This is in contrast to observations in isoprene-dominated regions, where investigators have observed significant underestimation of OH and have speculated that unknown sources of OH are responsible. The highly-constrained UWCM calculation under-predicts observed HO2 by as much as a factor of 8. As HO&#x2082; maintains oxidation capacity by recycling to OH, UWCM underestimates observed OH by as much as a factor of 4. When the UWCM calculation is constrained by measured HO&#x2082;, model calculated OH is in better agreement with the observed OH levels. Conversely, constraining the model to observed OH only slightly reduces the model-measurement HO&#x2082; discrepancy, implying unknown HO&#x2082; sources. These findings demonstrate the importance of constraining the inputs to, and recycling within, the ROx radical pool (OH + HO&#x2082; + RO&#x2082;).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -436,6 +432,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2013. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

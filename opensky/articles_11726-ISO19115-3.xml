@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7mp53wd</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11726</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:28.345398</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:32.704408</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7mp53wd</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2011JA017063</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7mp53wd</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2011JA017063</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Earth's magnetic field changes in orientation and strength over time. We study the response of the magnetosphere-ionosphere-thermosphere system to a 25% reduction in magnetic field intensity, using the coupled magnetosphere-ionosphere-thermosphere (CMIT) model. Simulations were performed with a dipole moment of 8 × 10²² A m², close to the present-day value, and a dipole moment of 6 × 10²² A m², both under the same solar wind conditions, intermediate solar activity (F10.7 = 150), and for March equinox and June solstice. The 25% reduction in field strength causes the magnetosphere to shrink and the polar cap to expand, in agreement with theory. The Pedersen and the Hall ionospheric conductances increase by 50%--60% and 60%--65%, respectively. This causes a ~9%--12% decrease in electric potential and a ~20% increase in field-aligned currents during equinox. Ion E × B drift velocities are enhanced by ~10%--15%. The Joule heating also increases, by 13%--30%, depending on the season. Changes in the neutral temperature structure are caused partly by changes in Joule heating and partly by changes in the neutral wind. The neutral wind itself is also affected by changes in neutral temperature and by changes in ion velocities. The changes in the neutral wind, together with changes in the vertical component of the E × B drift, affect the height of the ionospheric F2 layer. Changes in electron density are related to changes in the O/N₂ ratio. The global mean increase in neutral temperature causes the thermosphere to expand, resulting in a global mean uplift of the ionosphere. These effects are generally smaller during solstice.</gco:CharacterString>
+            <gco:CharacterString>The Earth's magnetic field changes in orientation and strength over time. We study the response of the magnetosphere-ionosphere-thermosphere system to a 25% reduction in magnetic field intensity, using the coupled magnetosphere-ionosphere-thermosphere (CMIT) model. Simulations were performed with a dipole moment of 8 &#xd7; 10&#xb2;&#xb2; A m&#xb2;, close to the present-day value, and a dipole moment of 6 &#xd7; 10&#xb2;&#xb2; A m&#xb2;, both under the same solar wind conditions, intermediate solar activity (F10.7 = 150), and for March equinox and June solstice. The 25% reduction in field strength causes the magnetosphere to shrink and the polar cap to expand, in agreement with theory. The Pedersen and the Hall ionospheric conductances increase by 50%--60% and 60%--65%, respectively. This causes a ~9%--12% decrease in electric potential and a ~20% increase in field-aligned currents during equinox. Ion E &#xd7; B drift velocities are enhanced by ~10%--15%. The Joule heating also increases, by 13%--30%, depending on the season. Changes in the neutral temperature structure are caused partly by changes in Joule heating and partly by changes in the neutral wind. The neutral wind itself is also affected by changes in neutral temperature and by changes in ion velocities. The changes in the neutral wind, together with changes in the vertical component of the E &#xd7; B drift, affect the height of the ionospheric F2 layer. Changes in electron density are related to changes in the O/N&#x2082; ratio. The global mean increase in neutral temperature causes the thermosphere to expand, resulting in a global mean uplift of the ionosphere. These effects are generally smaller during solstice.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,19 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Ionosphere/magnetosphere interactions</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Magnetospheric Physics</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Geomagnetism and Paleomagnetism</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2011 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

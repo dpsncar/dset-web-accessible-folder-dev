@@ -4,10 +4,10 @@
     <gco:CharacterString>edu.ucar.rda::ds550.0</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
-    <gco:CharacterString>eng</gco:CharacterString>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf-8">utf-8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -54,19 +54,110 @@
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://rda.ucar.edu/</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>NCAR Research Data Archive</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>The Research Data Archive (RDA), managed by the Data Support Section (DSS) of the Computational and Information Systems Laboratory (CISL) at NCAR, contains a large and diverse collection of meteorological and oceanographic observations, operational and reanalysis model outputs, and remote sensing datasets to support atmospheric and geosciences research, along with ancillary datasets, such as topography/bathymetry, vegetation, and land use.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
         </gmd:CI_Contact>
       </gmd:contactInfo>
       <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
       </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-07-26T14:43:42-07:00</gco:DateTime>
+    <gco:DateTime>2019-03-04T16:05:02-07:00</gco:DateTime>
   </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
+  </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds550.0/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/D6QR4V9X</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://pubs.usgs.gov/fs/2012/3047/</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Description of USGS Hydro-Climatic Data Network 2009 (HCDN–2009)</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://waterdata.usgs.gov/nwis/sw</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #2</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Access to HCDN-2009 streamgage data</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>http://esapubs.org/Archive/ecol/E091/045/metadata.htm</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>http</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #3</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>GAGES: A stream gage database for evaluating natural and altered flow conditions in the conterminous United States.</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -74,6 +165,9 @@
           <gmd:title>
             <gco:CharacterString>Streamflow drought indicators across conterminous United States</gco:CharacterString>
           </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>ds550.0</gco:CharacterString>
+          </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date><gco:Date>2016-01-28</gco:Date></gmd:date>
@@ -82,44 +176,6 @@
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
-          <gmd:identifier>
-            <gmd:MD_Identifier>
-              <gmd:authority>
-                <gmd:CI_Citation>
-                  <gmd:title>
-                    <gco:CharacterString>International DOI Foundation</gco:CharacterString>
-                  </gmd:title>
-                  <gmd:date>
-                    <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                      </gmd:dateType>
-                    </gmd:CI_Date>
-                  </gmd:date>
-                  <gmd:citedResponsibleParty>
-                    <gmd:CI_ResponsibleParty>
-                      <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                          <gmd:onlineResource>
-                            <gmd:CI_OnlineResource>
-                              <gmd:linkage><gmd:URL>https://doi.org</gmd:URL></gmd:linkage>
-                            </gmd:CI_OnlineResource>
-                          </gmd:onlineResource>
-                        </gmd:CI_Contact>
-                      </gmd:contactInfo>
-                      <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
-                      </gmd:role>
-                    </gmd:CI_ResponsibleParty>
-                  </gmd:citedResponsibleParty>
-                </gmd:CI_Citation>
-              </gmd:authority>
-              <gmd:code>
-                <gco:CharacterString>10.5065/D6QR4V9X</gco:CharacterString>
-              </gmd:code>
-            </gmd:MD_Identifier>
-          </gmd:identifier>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -175,6 +231,9 @@
           <gmd:individualName>
             <gco:CharacterString>Doug Schuster</gco:CharacterString>
           </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>UCAR/NCAR - Research Data Archive</gco:CharacterString>
+          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
               <gmd:phone>
@@ -263,6 +322,16 @@
               <gmd:edition>
                 <gco:CharacterString>3.1</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>resourceTypeGeneral</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -286,7 +355,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-18</gco:Date>
+                    <gco:Date>2019-03-01</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -294,8 +363,18 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Platforms</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -319,7 +398,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-17</gco:Date>
+                    <gco:Date>2019-02-22</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -327,8 +406,18 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Instruments</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -352,7 +441,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2019-02-25</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -360,8 +449,18 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Science and Services Keywords</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -374,11 +473,17 @@
           <gmd:useLimitation>
             <gco:CharacterString>Use of this dataset is subject to UCAR's Terms of Use, except that commercial use is generally not prohibited.</gco:CharacterString>
           </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Registration on the RDA web site is a requirement for access to the data.</gco:CharacterString>
+          </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
@@ -425,43 +530,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Pennsylvania</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -499,6 +577,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -536,6 +624,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -573,6 +671,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -610,6 +718,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -647,6 +765,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -684,6 +812,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -721,117 +859,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Tennessee</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > South Carolina</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > South Dakota</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -869,6 +906,157 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Tennessee</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > South Carolina</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > South Dakota</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -906,6 +1094,63 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Pennsylvania</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -943,302 +1188,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Oklahoma</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > New Hampshire</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > New Jersey</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > New Mexico</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > New York</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > North Carolina</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > North Dakota</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Ohio</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1276,6 +1235,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1313,6 +1282,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1350,6 +1329,392 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > New Hampshire</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > New Jersey</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > New Mexico</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > New York</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > North Carolina</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > North Dakota</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Oklahoma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Ohio</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1387,6 +1752,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1424,6 +1799,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1461,6 +1846,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1498,80 +1893,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Maine</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Maryland</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1609,13 +1940,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Georgia</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Maine</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -1646,13 +1987,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Hawaii</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Maryland</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -1683,228 +2034,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Idaho</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Illinois</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Indiana</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Iowa</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Kansas</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Kentucky</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1942,13 +2081,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Arizona</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Kentucky</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -1979,13 +2128,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Arkansas</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Kansas</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2016,13 +2175,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > California</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Iowa</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2053,13 +2222,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Colorado</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Indiana</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2090,13 +2269,23 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Continent > North America > United States Of America > Connecticut</gco:CharacterString>
+                    <gco:CharacterString>Continent > North America > United States Of America > Illinois</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2127,6 +2316,157 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Idaho</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Hawaii</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Georgia</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2164,6 +2504,63 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Arizona</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2201,6 +2598,204 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Colorado</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > California</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Connecticut</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Continent > North America > United States Of America > Arkansas</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2238,6 +2833,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2313,13 +2918,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>62.98</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds550.0/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -2331,14 +2939,10 @@
                 <gco:CharacterString>Related Link</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -2357,7 +2961,7 @@
                 <gco:CharacterString>Related Link</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_download" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
@@ -2365,6 +2969,19 @@
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_Constraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>none</gco:CharacterString>
+      </gmd:useLimitation>
+    </gmd:MD_Constraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-
 

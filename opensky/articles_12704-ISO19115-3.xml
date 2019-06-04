@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7d21zgs</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12704</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:51.605339</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:17.134633</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7d21zgs</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-12-00202.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7d21zgs</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-12-00202.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In the Southern Hemisphere, a relatively well-known preferential pathway along which cold air surges equatorward is situated to the east of the Andes Mountains. In this study, a second preferred pathway is identified to the east of the African Highlands, with additional minor pathways identified east of the Brazilian Highlands and Madagascar. The primary objective of this study is to compare climatological and synoptic characteristics of extreme cold events (ECEs) along the Andes and African Highlands pathways. ECEs are defined as the top 1% coldest 925-hPa temperatures within the Andes and the African Highlands pathways using the 1977-2001 subset of the 2.5° × 2.5° 40-yr European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA-40). ECEs within the Andes and African Highlands pathways are associated with dynamically forced anticyclogenesis and have low-level characteristics that vary substantially. Along the Andes pathway, ECEs feature 925-hPa temperatures as much as 17°C below normal, with 925-hPa southerly winds ranging from 0 to 10 m s-1 and 925-700-hPa lapse rates as low as -3°C km-1. In contrast, ECEs along the African Highlands pathway feature 925-hPa temperatures up to 10°C below normal, with 925-hPa southerly winds ranging from 5 to 15 m s-1, and 925-700-hPa lapse rates generally between 2° and 5°C km-1. Composite analyses reveal that despite stronger southerly winds, ECEs along the African Highlands pathway are typically not as cold or stable as those along the Andes pathway because cold air from Antarctica must traverse a longer distance over water to reach Africa.</gco:CharacterString>
+            <gco:CharacterString>In the Southern Hemisphere, a relatively well-known preferential pathway along which cold air surges equatorward is situated to the east of the Andes Mountains. In this study, a second preferred pathway is identified to the east of the African Highlands, with additional minor pathways identified east of the Brazilian Highlands and Madagascar. The primary objective of this study is to compare climatological and synoptic characteristics of extreme cold events (ECEs) along the Andes and African Highlands pathways. ECEs are defined as the top 1% coldest 925-hPa temperatures within the Andes and the African Highlands pathways using the 1977-2001 subset of the 2.5&#xb0; &#xd7; 2.5&#xb0; 40-yr European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA-40). ECEs within the Andes and African Highlands pathways are associated with dynamically forced anticyclogenesis and have low-level characteristics that vary substantially. Along the Andes pathway, ECEs feature 925-hPa temperatures as much as 17&#xb0;C below normal, with 925-hPa southerly winds ranging from 0 to 10 m s-1 and 925-700-hPa lapse rates as low as -3&#xb0;C km-1. In contrast, ECEs along the African Highlands pathway feature 925-hPa temperatures up to 10&#xb0;C below normal, with 925-hPa southerly winds ranging from 5 to 15 m s-1, and 925-700-hPa lapse rates generally between 2&#xb0; and 5&#xb0;C km-1. Composite analyses reveal that despite stronger southerly winds, ECEs along the African Highlands pathway are typically not as cold or stable as those along the Andes pathway because cold air from Antarctica must traverse a longer distance over water to reach Africa.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2013 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d72n532b</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12327</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:43.531858</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:02.019563</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d72n532b</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Atmospheric CO₂ monitoring with single-cell NDIR-based analyzers</gco:CharacterString>
+                  <gco:CharacterString>Atmospheric CO&#x2082; monitoring with single-cell NDIR-based analyzers</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/amt-4-2737-2011</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d72n532b</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/amt-4-2737-2011</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We describe CO₂ concentration measurement systems based on relatively inexpensive single-cell non-dispersive infrared CO₂ sensors. The systems utilize signal averaging to obtain precision (1-σ in 100 s) of 0.1 parts per million dry air mole fraction (ppm), frequent calibrations and sample drying in order to achieve state-of-the-art compatibility, and can run autonomously for months at a time. Laboratory tests indicate compatibility among four to six systems to be ±0.1 ppm (1-σ), and field measurements of known reference-gases yield median errors of 0.01 to 0.17 ppm with 1-σ variance of ±0.1 to 0.2 ppm. From May to August 2007, a system co-located with a NOAA-ESRL dual-cell NDIR system at the WLEF tall tower in Wisconsin measured daytime-only daily averages of CO₂ that differ by 0.26 ± 0.15 ppm (median ± 1 σ), and from August 2005 to April 2011 a system co-located with weekly NOAA-ESRL network flask collection at Niwot Ridge, Colorado measured coincident CO₂ concentrations that differed by -0.06 ± 0.30 ppm (n = 585). Data from these systems are now supporting a wide range of analyses and this approach may be applicable in future studies where accuracy and initial cost of the sensors are priorities.</gco:CharacterString>
+            <gco:CharacterString>We describe CO&#x2082; concentration measurement systems based on relatively inexpensive single-cell non-dispersive infrared CO&#x2082; sensors. The systems utilize signal averaging to obtain precision (1-&#x3c3; in 100 s) of 0.1 parts per million dry air mole fraction (ppm), frequent calibrations and sample drying in order to achieve state-of-the-art compatibility, and can run autonomously for months at a time. Laboratory tests indicate compatibility among four to six systems to be &#xb1;0.1 ppm (1-&#x3c3;), and field measurements of known reference-gases yield median errors of 0.01 to 0.17 ppm with 1-&#x3c3; variance of &#xb1;0.1 to 0.2 ppm. From May to August 2007, a system co-located with a NOAA-ESRL dual-cell NDIR system at the WLEF tall tower in Wisconsin measured daytime-only daily averages of CO&#x2082; that differ by 0.26 &#xb1; 0.15 ppm (median &#xb1; 1 &#x3c3;), and from August 2005 to April 2011 a system co-located with weekly NOAA-ESRL network flask collection at Niwot Ridge, Colorado measured coincident CO&#x2082; concentrations that differed by -0.06 &#xb1; 0.30 ppm (n = 585). Data from these systems are now supporting a wide range of analyses and this approach may be applicable in future studies where accuracy and initial cost of the sensors are priorities.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2011. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d728095g</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18281</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:18.158450</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:31.489355</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d728095g</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-16-1673-2016</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d728095g</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-16-1673-2016</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The online coupled Weather Research and Forecasting-Chemistry (WRF-Chem) model was applied to simulate a haze event that happened in January 2010 in the North China Plain (NCP), and was validated against various types of measurements. The evaluations indicate that WRF-Chem provides reliable simulations for the 2010 haze event in the NCP. This haze event was mainly caused by high emissions of air pollutants in the NCP and stable weather conditions in winter. Secondary inorganic aerosols also played an important role and cloud chemistry had important contributions. Air pollutants outside Beijing contributed about 64.5 % to the PM₂.₅ levels in Beijing during this haze event, and most of them are from south Hebei, Tianjin city, Shandong and Henan provinces. In addition, aerosol feedback has important impacts on surface temperature, relative humidity (RH) and wind speeds, and these meteorological variables affect aerosol distribution and formation in turn. In Shijiazhuang, Planetary Boundary Layer (PBL) decreased about 278.2 m and PM₂.₅ increased more than 20 µg m⁻³ due to aerosol feedback. It was also shown that black carbon (BC) absorption has significant impacts on meteorology and air quality changes, indicating more attention should be paid to BC from both air pollution control and climate change perspectives.</gco:CharacterString>
+            <gco:CharacterString>The online coupled Weather Research and Forecasting-Chemistry (WRF-Chem) model was applied to simulate a haze event that happened in January 2010 in the North China Plain (NCP), and was validated against various types of measurements. The evaluations indicate that WRF-Chem provides reliable simulations for the 2010 haze event in the NCP. This haze event was mainly caused by high emissions of air pollutants in the NCP and stable weather conditions in winter. Secondary inorganic aerosols also played an important role and cloud chemistry had important contributions. Air pollutants outside Beijing contributed about 64.5&#x202f;% to the PM&#x2082;.&#x2085; levels in Beijing during this haze event, and most of them are from south Hebei, Tianjin city, Shandong and Henan provinces. In addition, aerosol feedback has important impacts on surface temperature, relative humidity (RH) and wind speeds, and these meteorological variables affect aerosol distribution and formation in turn. In Shijiazhuang, Planetary Boundary Layer (PBL) decreased about 278.2&#x202f;m and PM&#x2082;.&#x2085; increased more than 20&#x202f;&#xb5;g&#x202f;m&#x207b;&#xb3; due to aerosol feedback. It was also shown that black carbon (BC) absorption has significant impacts on meteorology and air quality changes, indicating more attention should be paid to BC from both air pollution control and climate change perspectives.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 Authors. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

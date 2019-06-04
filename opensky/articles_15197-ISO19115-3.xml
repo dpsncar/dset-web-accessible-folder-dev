@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7z60q2g</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:15197</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:27.642722</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:47.820261</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7z60q2g</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The zonal structure of tropical O₃ and CO as observed by the Tropospheric Emission Spectrometer in November 2004--Part 2: Impact of surface emissions on O₃ and its precursors</gco:CharacterString>
+                  <gco:CharacterString>The zonal structure of tropical O&#x2083; and CO as observed by the Tropospheric Emission Spectrometer in November 2004--Part 2: Impact of surface emissions on O&#x2083; and its precursors</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-9-3563-2009</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7z60q2g</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-9-3563-2009</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -221,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -231,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>The impact. of surface emissions on the zonal structure of tropical tropospheric ozone and carbon monoxide is investigated for November 2004 using satellite observations, in-situ measurements, and chemical transport models in conjunction with inverse-estimated surface emissions. Vertical ozone profiles from the Tropospheric Emission Spectrometer (TES) and ozone sonde measurements from the Southern Hemisphere Additional Ozonesondes (SHADOZ) network show elevated concentrations of ozone over Indonesia and Australia (60-70 ppb) in the lower troposphere against the backdrop of the well-known zonal wave-one pattern with ozone concentrations of (70-80 ppb) centered over the Atlantic. Observational evidence from TES CO vertical profiles and Ozone Monitoring Instrument (OMI) NO2 columns point to regional surface emissions as an important contributor to the elevated ozone over Indonesia. This contribution is investigated with the GEOS-Chem chemistry and transport model using surface emission estimates derived from an optimal inverse model, which was constrained by TES and Measurements Of Pollution In The Troposphere (MOPITT) CO profiles (Jones et al., 2009). These a posteriori estimates, which were over a factor of 2 greater than climatological emissions, reduced differences between GEOS-Chem and TES ozone observations by 30-40% over Indonesia. The response of the free tropospheric chemical state to the changes in these emissions is investigated for ozone, CO, NOx, and PAN. Model simulations indicate that ozone over Indonesian/Australian is sensitive to regional changes in surface emissions of NOx but relatively insensitive to lightning NOx. Over sub-equatorial Africa and South America, free tropospheric NOx, was reduced in response to increased surface emissions potentially muting ozone production.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -306,6 +302,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2009. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

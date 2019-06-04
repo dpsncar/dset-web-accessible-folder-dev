@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7ft8mm0</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10819</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:21.837269</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:14.787182</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7ft8mm0</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2011JA016490</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7ft8mm0</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2011JA016490</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -191,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -201,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The interaction of the solar wind and Earth's magnetosphere is complex, and the phenomenology of the interaction is very different for interplanetary coronal mass ejections (ICMEs) compared to their sheath regions. In this paper, a total of 71 intense (Dst ≤ -100 nT) geomagnetic storm events in 1996-2006, of which 51 are driven by ICMEs and 20 by sheath regions, are examined to demonstrate similarities and differences in the energy transfer. Using superposed epoch analysis, the evolution of solar wind energy input and dissipation is investigated. The solar wind-magnetosphere coupling functions and geomagnetic indices show a more gradual increase and recovery during the ICME-driven storms than they do during the sheath-driven storms. However, the sheath-driven storms have larger peak values. In general, solar wind energy input (the epsilon parameter) and dissipation show similar trends as the coupling functions. The trends of ion precipitation and the ratio of ion precipitation to the total (ion and electron) are quite different for both classes of events. There are more precipitating ions during the peak of sheath-driven storms. However, a quantitative assessment of the relative importance of the different energy dissipation branches shows that the means of input energy and auroral precipitation are significantly different for both classes of events, whereas Joule heating, ring current, and total output energy display no distinguishable differences. The means of electron precipitation are significantly different for both classes of events. However, ion precipitation exhibits no distinguishable differences. The energy efficiency bears no distinguishable difference between these two classes of events. Ionospheric processes account for the vast majority of the energy, with the ring current only being 12%-14% of the total. Moreover, the energy partitioning for both classes of events is similar.</gco:CharacterString>
+            <gco:CharacterString>The interaction of the solar wind and Earth's magnetosphere is complex, and the phenomenology of the interaction is very different for interplanetary coronal mass ejections (ICMEs) compared to their sheath regions. In this paper, a total of 71 intense (Dst &#x2264; -100 nT) geomagnetic storm events in 1996-2006, of which 51 are driven by ICMEs and 20 by sheath regions, are examined to demonstrate similarities and differences in the energy transfer. Using superposed epoch analysis, the evolution of solar wind energy input and dissipation is investigated. The solar wind-magnetosphere coupling functions and geomagnetic indices show a more gradual increase and recovery during the ICME-driven storms than they do during the sheath-driven storms. However, the sheath-driven storms have larger peak values. In general, solar wind energy input (the epsilon parameter) and dissipation show similar trends as the coupling functions. The trends of ion precipitation and the ratio of ion precipitation to the total (ion and electron) are quite different for both classes of events. There are more precipitating ions during the peak of sheath-driven storms. However, a quantitative assessment of the relative importance of the different energy dissipation branches shows that the means of input energy and auroral precipitation are significantly different for both classes of events, whereas Joule heating, ring current, and total output energy display no distinguishable differences. The means of electron precipitation are significantly different for both classes of events. However, ion precipitation exhibits no distinguishable differences. The energy efficiency bears no distinguishable difference between these two classes of events. Ionospheric processes account for the vast majority of the energy, with the ring current only being 12%-14% of the total. Moreover, the energy partitioning for both classes of events is similar.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -276,6 +272,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2011 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

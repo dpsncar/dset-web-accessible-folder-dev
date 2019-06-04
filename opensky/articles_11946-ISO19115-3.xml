@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7s46snz</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11946</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:33.285582</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:26.325700</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7s46snz</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-11-00067.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7s46snz</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-11-00067.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Using European Centre for Medium-Range Weather Forecasts (ECMWF) analyses, this study identifies common synoptic flow patterns associated with propagating (long lived) and non-propagating (short lived) precipitation/cloud episodes in the warm season over East Asia (25°--40°N, 95°--125°E). Among 123 initial cases during May-July 1997-2003, 86 were classified into three categories (propagating cases with strong and weak forcing, and non-propagating ones with strong inhibition) consisting of 10 types based on their 500-hPa flow patterns. For each type, composites at various levels when episodes moved across 100°, 105°, 110°, 115°, and 120°E were made and discussed to elucidate the influence of synoptic conditions. For propagating episodes with strong 500-hPa forcing (46 cases), four types were identified. In their composites, favorable positive vorticity advection forcing from an approaching trough/short wave exists aloft, and concurrent development of southwest vortex and front/wind-shift line at low levels leads to enhanced southwesterly flow to provide vertical shear and moisture. For nonpropagating episodes with strong inhibition (25 cases), three types dominated by synoptic-scale subsidence from either negative vorticity advection or the subtropical high were identified. Thus, episodes weaken shortly after they move out from the Tibetan Plateau. There are also propagating episodes but with weak forcing (15 cases), for which another three types were found. The differences in their composites from non-propagating types are mainly at low levels, where the southerly flow is stronger and can penetrate deeper inland. As stability conditions are similar for all type of episodes, the results suggest an important role of stronger low-level southwesterly winds in providing moisture and vertical wind shear to sustain episodes and their propagation.</gco:CharacterString>
+            <gco:CharacterString>Using European Centre for Medium-Range Weather Forecasts (ECMWF) analyses, this study identifies common synoptic flow patterns associated with propagating (long lived) and non-propagating (short lived) precipitation/cloud episodes in the warm season over East Asia (25&#xb0;--40&#xb0;N, 95&#xb0;--125&#xb0;E). Among 123 initial cases during May-July 1997-2003, 86 were classified into three categories (propagating cases with strong and weak forcing, and non-propagating ones with strong inhibition) consisting of 10 types based on their 500-hPa flow patterns. For each type, composites at various levels when episodes moved across 100&#xb0;, 105&#xb0;, 110&#xb0;, 115&#xb0;, and 120&#xb0;E were made and discussed to elucidate the influence of synoptic conditions. For propagating episodes with strong 500-hPa forcing (46 cases), four types were identified. In their composites, favorable positive vorticity advection forcing from an approaching trough/short wave exists aloft, and concurrent development of southwest vortex and front/wind-shift line at low levels leads to enhanced southwesterly flow to provide vertical shear and moisture. For nonpropagating episodes with strong inhibition (25 cases), three types dominated by synoptic-scale subsidence from either negative vorticity advection or the subtropical high were identified. Thus, episodes weaken shortly after they move out from the Tibetan Plateau. There are also propagating episodes but with weak forcing (15 cases), for which another three types were found. The differences in their composites from non-propagating types are mainly at low levels, where the southerly flow is stronger and can penetrate deeper inland. As stability conditions are similar for all type of episodes, the results suggest an important role of stronger low-level southwesterly winds in providing moisture and vertical wind shear to sustain episodes and their propagation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,28 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Rainfall</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Orographic effects</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Convective storms</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Synoptic-scale processes</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Summer/warm season</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Storm environments</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2012 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7h41rw9</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10399</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:08.820473</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:35.733671</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7h41rw9</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-10-169-2010</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7h41rw9</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-10-169-2010</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -671,7 +667,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -681,7 +677,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In April-July 2008, intensive measurements were made of atmospheric composition and chemistry in Sabah, Malaysia, as part of the "Oxidant and particle photochemical processes above a South-East Asian tropical rainforest" (OP3) project. Fluxes and concentrations of trace gases and particles were made from and above the rainforest canopy at the Bukit Atur Global Atmosphere Watch station and at the nearby Sabahmas oil palm plantation, using both ground-based and airborne measurements. Here, the measurement and modelling strategies used, the characteristics of the sites and an overview of data obtained are described. Composition measurements show that the rainforest site was not significantly impacted by anthropogenic pollution, and this is confirmed by satellite retrievals of NO₂ and HCHO. The dominant modulators of atmospheric chemistry at the rainforest site were therefore emissions of BVOCs and soil emissions of reactive nitrogen oxides. At the observed BVOC:NOx volume mixing ratio (~100 pptv/pptv), current chemical models suggest that daytime maximum OH concentrations should be ca. 10⁵ radicals cm⁻³, but observed OH concentrations were an order of magnitude greater than this. We confirm, therefore, previous measurements that suggest that an unexplained source of OH must exist above tropical rainforest and we continue to interrogate the data to find explanations for this.</gco:CharacterString>
+            <gco:CharacterString>In April-July 2008, intensive measurements were made of atmospheric composition and chemistry in Sabah, Malaysia, as part of the "Oxidant and particle photochemical processes above a South-East Asian tropical rainforest" (OP3) project. Fluxes and concentrations of trace gases and particles were made from and above the rainforest canopy at the Bukit Atur Global Atmosphere Watch station and at the nearby Sabahmas oil palm plantation, using both ground-based and airborne measurements. Here, the measurement and modelling strategies used, the characteristics of the sites and an overview of data obtained are described. Composition measurements show that the rainforest site was not significantly impacted by anthropogenic pollution, and this is confirmed by satellite retrievals of NO&#x2082; and HCHO. The dominant modulators of atmospheric chemistry at the rainforest site were therefore emissions of BVOCs and soil emissions of reactive nitrogen oxides. At the observed BVOC:NOx volume mixing ratio (~100 pptv/pptv), current chemical models suggest that daytime maximum OH concentrations should be ca. 10&#x2075; radicals cm&#x207b;&#xb3;, but observed OH concentrations were an order of magnitude greater than this. We confirm, therefore, previous measurements that suggest that an unexplained source of OH must exist above tropical rainforest and we continue to interrogate the data to find explanations for this.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -756,6 +752,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2010. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

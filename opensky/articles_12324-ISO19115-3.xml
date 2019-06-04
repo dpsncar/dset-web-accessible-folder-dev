@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7zw1mq1</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12324</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:43.443155</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:00.866374</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7zw1mq1</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/bgd-9-4245-2012</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7zw1mq1</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/bgd-9-4245-2012</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Plants exchange greenhouse gases carbon dioxide and water with the atmosphere through the processes of photosynthesis and transpiration, making them essential in climate regulation. Carbon dioxide and water exchange are typically coupled through the control of stomatal conductance, and the parameterization in many models often predict conductance based on photosynthesis values. Some environmental conditions, like exposure to high ozone (O₃) concentrations, alter photosynthesis independent of stomatal conductance, so models that couple these processes cannot accurately predict both. The goals of this study were to test direct and indirect photosynthesis and stomatal conductance modifications based on O3 damage to tulip poplar (Liriodendron tulipifera) in a coupled Farquhar/Ball-Berry model. The same modifications were then tested in the Community Land Model (CLM) to determine the impacts on gross primary productivity (GPP) and transpiration at a constant O₃ concentration of 100 parts per billion (ppb). Modifying the Vcmax parameter and directly modifying stomatal conductance best predicts photosynthesis and stomatal conductance responses to chronic O₃ over a range of environmental conditions. On a global scale, directly modifying conductance reduces the effect of O₃ on both transpiration and GPP compared to indirectly modifying conductance, particularly in the tropics. The results of this study suggest that independently modifying stomatal conductance can improve the ability of models to predict hydrologic cycling, and therefore improve future climate predictions.</gco:CharacterString>
+            <gco:CharacterString>Plants exchange greenhouse gases carbon dioxide and water with the atmosphere through the processes of photosynthesis and transpiration, making them essential in climate regulation. Carbon dioxide and water exchange are typically coupled through the control of stomatal conductance, and the parameterization in many models often predict conductance based on photosynthesis values. Some environmental conditions, like exposure to high ozone (O&#x2083;) concentrations, alter photosynthesis independent of stomatal conductance, so models that couple these processes cannot accurately predict both. The goals of this study were to test direct and indirect photosynthesis and stomatal conductance modifications based on O3 damage to tulip poplar (Liriodendron tulipifera) in a coupled Farquhar/Ball-Berry model. The same modifications were then tested in the Community Land Model (CLM) to determine the impacts on gross primary productivity (GPP) and transpiration at a constant O&#x2083; concentration of 100 parts per billion (ppb). Modifying the Vcmax parameter and directly modifying stomatal conductance best predicts photosynthesis and stomatal conductance responses to chronic O&#x2083; over a range of environmental conditions. On a global scale, directly modifying conductance reduces the effect of O&#x2083; on both transpiration and GPP compared to indirectly modifying conductance, particularly in the tropics. The results of this study suggest that independently modifying stomatal conductance can improve the ability of models to predict hydrologic cycling, and therefore improve future climate predictions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,6 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2012. This work is distributed under the Creative Commons Attribution 3.0 License</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

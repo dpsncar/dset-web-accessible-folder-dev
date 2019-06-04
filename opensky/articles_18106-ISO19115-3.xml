@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7sn0bhp</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18106</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:16.726685</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:42.113259</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7sn0bhp</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1021/es902455e</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7sn0bhp</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1021/es902455e</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Chemical Society American Chemical Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Carbon sequestration by forested ecosystems offers a potential climate change mitigation benefit. However, wildfire has the potential to reverse this benefit. In the western United States, climate change and land management practices have led to increases in wildfire intensity and size. One potential means of reducing carbon emissions from wildfire is the use of prescribed burning, which consumes less biomass and therefore releases less carbon to the atmosphere. This study uses a regional fire emissions model to estimate the potential reduction in fire emissions when prescribed burning is applied in dry, temperate forested systems of the western U.S. Daily carbon dioxide (CO₂) fire emissions for 2001−2008 were calculated for the western U.S. for two cases: a default wildfire case and one in which prescribed burning was applied. Wide-scale prescribed fire application can reduce CO₂ fire emissions for the western U.S. by 18−25% in the western U.S., and by as much as 60% in specific forest systems. Although this work does not address important considerations such as the feasibility of implementing wide-scale prescribed fire management or the cumulative emissions from repeated prescribed burning, it does provide constraints on potential carbon emission reductions when prescribed burning is used.</gco:CharacterString>
+            <gco:CharacterString>Carbon sequestration by forested ecosystems offers a potential climate change mitigation benefit. However, wildfire has the potential to reverse this benefit. In the western United States, climate change and land management practices have led to increases in wildfire intensity and size. One potential means of reducing carbon emissions from wildfire is the use of prescribed burning, which consumes less biomass and therefore releases less carbon to the atmosphere. This study uses a regional fire emissions model to estimate the potential reduction in fire emissions when prescribed burning is applied in dry, temperate forested systems of the western U.S. Daily carbon dioxide (CO&#x2082;) fire emissions for 2001&#x2212;2008 were calculated for the western U.S. for two cases: a default wildfire case and one in which prescribed burning was applied. Wide-scale prescribed fire application can reduce CO&#x2082; fire emissions for the western U.S. by 18&#x2212;25% in the western U.S., and by as much as 60% in specific forest systems. Although this work does not address important considerations such as the feasibility of implementing wide-scale prescribed fire management or the cumulative emissions from repeated prescribed burning, it does provide constraints on potential carbon emission reductions when prescribed burning is used.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,6 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>This document is the Accepted Manuscript version of a Published Work that appeared in final form in Environmental Science and Technology, copyright 2010 American Chemical Society after peer review and technical editing by the publisher. To access the final edited and published work see http://pubs.acs.org/doi/abs/10.1021/es902455e</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7sj1mk7</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:14018</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:10.868335</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:03.648700</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7sj1mk7</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAS-D-13-0297.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7sj1mk7</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAS-D-13-0297.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In two recent papers, the authors performed numerical simulations with a three-dimensional, explicitly cloud-resolving model for a uniform wind flowing past a bell-shaped ridge and using an idealized unstable (Weisman–Klemp) sounding with prescribed values of the relevant parameters. More recently, some observed cases of orographically forced wind profiles were analyzed, showing that, in order to reproduce larger rainfall rates, it was necessary to initialize the sounding with low-level flow toward the mountain with weak flow aloft (as observed). Additional experiments using the Weisman–Klemp sounding, but with nonuniform wind profiles, are performed here to identify the conditions in which the presence of a low-level cross-mountain flow together with calm flow aloft may increase the rain rates in conditionally unstable flows over the orography. The sensitivity of the solutions to the wind speed at the bottom and the top of a shear layer and the effect of different mountain widths and heights are systematically analyzed herein. Large rainfall rates are obtained when the cold pool, caused by the evaporative cooling of rain from precipitating convective clouds, remains quasi stationary upstream of the mountain peak. This condition occurs when the cold-pool propagation is approximately countered by the environmental wind. The large precipitation amounts can be attributed to weak upper-level flow, which favors stronger updrafts and upright convective cells, and to the ground-relative stationarity of the cells. This solution feature is produced with ambient wind shear within a narrow region of the parameter space explored here and does not occur in the numerical solutions obtained in the authors’ previous studies with uniform wind profiles.</gco:CharacterString>
+            <gco:CharacterString>In two recent papers, the authors performed numerical simulations with a three-dimensional, explicitly cloud-resolving model for a uniform wind flowing past a bell-shaped ridge and using an idealized unstable (Weisman&#x2013;Klemp) sounding with prescribed values of the relevant parameters. More recently, some observed cases of orographically forced wind profiles were analyzed, showing that, in order to reproduce larger rainfall rates, it was necessary to initialize the sounding with low-level flow toward the mountain with weak flow aloft (as observed). Additional experiments using the Weisman&#x2013;Klemp sounding, but with nonuniform wind profiles, are performed here to identify the conditions in which the presence of a low-level cross-mountain flow together with calm flow aloft may increase the rain rates in conditionally unstable flows over the orography. The sensitivity of the solutions to the wind speed at the bottom and the top of a shear layer and the effect of different mountain widths and heights are systematically analyzed herein. Large rainfall rates are obtained when the cold pool, caused by the evaporative cooling of rain from precipitating convective clouds, remains quasi stationary upstream of the mountain peak. This condition occurs when the cold-pool propagation is approximately countered by the environmental wind. The large precipitation amounts can be attributed to weak upper-level flow, which favors stronger updrafts and upright convective cells, and to the ground-relative stationarity of the cells. This solution feature is produced with ambient wind shear within a narrow region of the parameter space explored here and does not occur in the numerical solutions obtained in the authors&#x2019; previous studies with uniform wind profiles.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,25 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Numerical analysis/modeling</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Orographic effects</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Convection</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Advection</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Rainfall</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

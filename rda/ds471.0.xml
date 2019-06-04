@@ -4,10 +4,10 @@
     <gco:CharacterString>edu.ucar.rda::ds471.0</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
-    <gco:CharacterString>eng</gco:CharacterString>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf-8">utf-8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -54,16 +54,38 @@
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://rda.ucar.edu/</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>NCAR Research Data Archive</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>The Research Data Archive (RDA), managed by the Data Support Section (DSS) of the Computational and Information Systems Laboratory (CISL) at NCAR, contains a large and diverse collection of meteorological and oceanographic observations, operational and reanalysis model outputs, and remote sensing datasets to support atmospheric and geosciences research, along with ancillary datasets, such as topography/bathymetry, vegetation, and land use.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
         </gmd:CI_Contact>
       </gmd:contactInfo>
       <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
       </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-07-26T14:43:51-07:00</gco:DateTime>
+    <gco:DateTime>2018-08-14T11:32:45-07:00</gco:DateTime>
   </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
+  </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds471.0/</gco:CharacterString>
   </gmd:dataSetURI>
@@ -74,6 +96,9 @@
           <gmd:title>
             <gco:CharacterString>NCDC TD6421 Enhanced Hourly Wind Station Data for the Contiguous United States</gco:CharacterString>
           </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>ds471.0</gco:CharacterString>
+          </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date><gco:Date>2002-07-02</gco:Date></gmd:date>
@@ -113,6 +138,9 @@
           <gmd:individualName>
             <gco:CharacterString>Bob Dattore</gco:CharacterString>
           </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>UCAR/NCAR - Research Data Archive</gco:CharacterString>
+          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
               <gmd:phone>
@@ -201,6 +229,16 @@
               <gmd:edition>
                 <gco:CharacterString>3.1</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>resourceTypeGeneral</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -233,7 +271,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-18</gco:Date>
+                    <gco:Date>2018-08-09</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -241,8 +279,18 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Platforms</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -266,7 +314,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -274,8 +322,18 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Science and Services Keywords</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -288,11 +346,17 @@
           <gmd:useLimitation>
             <gco:CharacterString>Use of this dataset is subject to UCAR's Terms of Use, except that commercial use is generally not prohibited.</gco:CharacterString>
           </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Registration on the RDA web site is a requirement for access to the data.</gco:CharacterString>
+          </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
@@ -339,6 +403,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -376,6 +450,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -413,6 +497,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -450,6 +544,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -487,6 +591,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -524,6 +638,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -561,6 +685,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -598,6 +732,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -635,6 +779,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -672,6 +826,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -709,6 +873,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -746,6 +920,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -783,6 +967,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -820,6 +1014,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -857,6 +1061,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -894,6 +1108,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -931,6 +1155,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -968,6 +1202,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1005,6 +1249,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1042,6 +1296,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1079,6 +1343,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1116,6 +1390,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1153,6 +1437,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1190,6 +1484,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1227,6 +1531,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1264,6 +1578,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1301,6 +1625,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1338,6 +1672,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1375,6 +1719,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1412,6 +1766,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1449,6 +1813,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1486,6 +1860,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1523,6 +1907,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1560,6 +1954,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1597,6 +2001,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1634,6 +2048,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1671,6 +2095,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1708,6 +2142,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1745,6 +2189,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1782,6 +2236,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1819,6 +2283,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1856,6 +2330,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1893,6 +2377,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1930,6 +2424,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -1967,6 +2471,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2004,6 +2518,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2041,6 +2565,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2078,6 +2612,16 @@
                       <gmd:edition>
                         <gco:CharacterString>8.1</gco:CharacterString>
                       </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
                       <gmd:otherCitationDetails>
                         <gco:CharacterString>Valids List: Locations</gco:CharacterString>
                       </gmd:otherCitationDetails>
@@ -2153,13 +2697,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>19339</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds471.0/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -2171,14 +2718,10 @@
                 <gco:CharacterString>Related Link</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -2197,7 +2740,7 @@
                 <gco:CharacterString>Related Link</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_download" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
@@ -2205,6 +2748,19 @@
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_Constraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>none</gco:CharacterString>
+      </gmd:useLimitation>
+    </gmd:MD_Constraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-
 

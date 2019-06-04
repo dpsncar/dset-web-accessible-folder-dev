@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7k938g7</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:13344</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:08.923165</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:59.134497</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7k938g7</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/2014GL059222</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7k938g7</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/2014GL059222</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -191,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -201,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Three radiation belt flux dropout events seen by the Relativistic Electron Proton Telescope soon after launch of the Van Allen Probes in 2012 (Baker et al., 2013a) have been simulated using the Lyon-Fedder-Mobarry MHD code coupled to the Rice Convection Model, driven by measured upstream solar wind parameters. MHD results show inward motion of the magnetopause for each event, along with enhanced ULF wave power affecting radial transport. Test particle simulations of electron response on 8 October, prior to the strong flux enhancement on 9 October, provide evidence for loss due to magnetopause shadowing, both in energy and pitch angle dependence. Severe plasmapause erosion occurred during ~ 14 h of strongly southward interplanetary magnetic field Bz beginning 8 October coincident with the inner boundary of outer zone depletion.</gco:CharacterString>
+            <gco:CharacterString>Three radiation belt flux dropout events seen by the Relativistic Electron Proton Telescope soon after launch of the Van Allen Probes in 2012 (Baker et al., 2013a) have been simulated using the Lyon-Fedder-Mobarry MHD code coupled to the Rice Convection Model, driven by measured upstream solar wind parameters. MHD results show inward motion of the magnetopause for each event, along with enhanced ULF wave power affecting radial transport. Test particle simulations of electron response on 8 October, prior to the strong flux enhancement on 9 October, provide evidence for loss due to magnetopause shadowing, both in energy and pitch angle dependence. Severe plasmapause erosion occurred during&#x2009;~&#x2009;14&#x2009;h of strongly southward interplanetary magnetic field Bz beginning 8 October coincident with the inner boundary of outer zone depletion.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -276,6 +272,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

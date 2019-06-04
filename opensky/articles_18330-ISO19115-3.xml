@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7qn68d5</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18330</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:19.416041</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:26.403038</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7qn68d5</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/2015GL066921</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7qn68d5</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/2015GL066921</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Measurements of the 14C content of carbon dioxide in air collected by high-altitude balloon flights in 2003-2005 reveal the contemporary radiocarbon distribution in the northern midlatitude stratosphere, four decades after the Limited Test Ban Treaty restricted atmospheric testing of nuclear weapons. Comparisons with results from a 3-D chemical-transport model show that the 14CO2 distribution is now largely governed by the altitude/latitude dependence of the natural cosmogenic production rate, stratospheric transport, and propagation into the stratosphere of the decreasing radiocarbon trend in tropospheric CO2 due to fossil fuel combustion. From the observed correlation of 14CO2 with N2O mixing ratios, an annual global mean net flux of 14CO2 to the troposphere of 1.6(±0.4) x 1017‰ mol CO2 yr-1 and a global production rate of 2.2(±0.6) × 1026 atoms 14C yr−1 are empirically derived. The results also indicate that contemporary 14CO2 observations provide highly sensitive diagnostics for stratospheric transport and residence times in models.</gco:CharacterString>
+            <gco:CharacterString>Measurements of the 14C content of carbon dioxide in air collected by high-altitude balloon flights in 2003-2005 reveal the contemporary radiocarbon distribution in the northern midlatitude stratosphere, four decades after the Limited Test Ban Treaty restricted atmospheric testing of nuclear weapons. Comparisons with results from a 3-D chemical-transport model show that the 14CO2 distribution is now largely governed by the altitude/latitude dependence of the natural cosmogenic production rate, stratospheric transport, and propagation into the stratosphere of the decreasing radiocarbon trend in tropospheric CO2 due to fossil fuel combustion. From the observed correlation of 14CO2 with N2O mixing ratios, an annual global mean net flux of 14CO2 to the troposphere of 1.6(&#xb1;0.4)&#x2009;x&#x2009;1017&#x2030;&#x2009;mol&#x2009;CO2&#x2009;yr-1 and a global production rate of 2.2(&#xb1;0.6)&#x2009;&#xd7;&#x2009;1026 atoms&#x2009;14C&#x2009;yr&#x2212;1 are empirically derived. The results also indicate that contemporary 14CO2 observations provide highly sensitive diagnostics for stratospheric transport and residence times in models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7wq04m5</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:9441</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:58.136740</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:51.651695</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7wq04m5</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2004JD004921</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7wq04m5</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2004JD004921</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -211,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -221,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>Measurements from the Transport and Chemical Evolution over the Pacific (TRACE-P) and Asian Pacific Regional Aerosol Characterization Experiment (ACE-Asia) field experiments obtained during the period of March - April 2001 are used to evaluate the impact of megacity emissions on regional air quality in east Asia. A classification method built upon back trajectory analysis and sensitivity runs using the Sulfur Transport and Emissions Model 2001 (STEM-2K1) regional chemical transport model are used to identify the aircraft observations that were influenced by megacity emissions. More than 30% of measurement points are classified as urban points, with a significant number of plumes found to have originated from Shanghai, Qingdao, Beijing, Taiyuan, Tianjin and Guiyang, Seoul, and Pusan. These data are then analyzed, and chemical characteristics of these megacities are compared. Emission estimates for the megacities are also presented and discussed in the context of expected similarities and differences in the chemical signals in the ambient air impacted by these cities. Comparisons of the observation-based ratios with emission-based estimates are presented and provide a means to test for the consistency of the emission estimates. The observation-based ratios are shown to be generally consistent with the emissions ratios. The megacity emissions are used in the STEM-2K1 model to study the effects of these emissions on criteria and photochemical species in the region. Over large portions of the Japan Sea, Yellow Sea, western Pacific Ocean, and the Bay of Bengal, megacity emissions contribute in excess of 10% of the near-surface ambient levels of O-3, CO, SO2, H2SO4, HCHO, and NOz. The megacity emissions are also used to study ozone levels in Asia under a scenario where all cities evolve their emissions in a manner such that they end up with the same VOC/NOx emission ratio as that for Tokyo. Monthly mean ozone levels are found to increase by at least 5%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -296,6 +292,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2005 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

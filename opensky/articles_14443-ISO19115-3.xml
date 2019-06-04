@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7w66mrv</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:14443</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:23.085135</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:19.433268</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7w66mrv</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAS-D-14-0134.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7w66mrv</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAS-D-14-0134.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observations and convection-permitting simulations are used to study a 12-day warm-season heavy precipitation corridor over the central U.S. plains and Mississippi River valley regions. Such precipitation corridors, defined by narrow latitudinal widths (~3°-4°) and only modest north–south drifts of their centroids (&lt;2° day−1), often yield extreme total precipitation (100-250 mm), resulting in both short-term and seasonal impacts on the regional hydrologic cycle. The corridor precipitation is predominately nocturnal and located several hundred kilometers north of a quasi-stationary surface front. There, hot, dry air from the daytime boundary layer located underneath a persistent upper-level anticyclone requires large vertical displacements along the axis of the southerly low-level jet (LLJ) above the front to eliminate convection inhibition (CIN). Composites reveal ~500 J kg-1 of average convective available potential energy (CAPE) when this air reaches the southern edge of the precipitation corridor. Despite the relatively modest CAPE, convection is favored by the large reductions in CIN along the vertical displacements and by high ambient midtropospheric relative humidity located above, which is influenced by persistent nightly convection in the region. Though internal feedbacks resulting from the large nightly spatial coherence of convection (including enhanced midtropospheric relative humidities and frontogenetic daytime sensible heat flux gradients owing to residual cloudiness) are favorable for maintaining the corridor, its persistence is most sensitive to large-scale external factors. Here, changes to the intensity and position of the large-synoptic upper-tropospheric anticyclone are associated with changes in the frequency of strong LLJs and the surface frontal position, dramatically affecting the intensity and stationarity of the precipitation corridor.</gco:CharacterString>
+            <gco:CharacterString>Observations and convection-permitting simulations are used to study a 12-day warm-season heavy precipitation corridor over the central U.S. plains and Mississippi River valley regions. Such precipitation corridors, defined by narrow latitudinal widths (~3&#xb0;-4&#xb0;) and only modest north&#x2013;south drifts of their centroids (&lt;2&#xb0; day&#x2212;1), often yield extreme total precipitation (100-250 mm), resulting in both short-term and seasonal impacts on the regional hydrologic cycle. The corridor precipitation is predominately nocturnal and located several hundred kilometers north of a quasi-stationary surface front. There, hot, dry air from the daytime boundary layer located underneath a persistent upper-level anticyclone requires large vertical displacements along the axis of the southerly low-level jet (LLJ) above the front to eliminate convection inhibition (CIN). Composites reveal ~500 J kg-1 of average convective available potential energy (CAPE) when this air reaches the southern edge of the precipitation corridor. Despite the relatively modest CAPE, convection is favored by the large reductions in CIN along the vertical displacements and by high ambient midtropospheric relative humidity located above, which is influenced by persistent nightly convection in the region. Though internal feedbacks resulting from the large nightly spatial coherence of convection (including enhanced midtropospheric relative humidities and frontogenetic daytime sensible heat flux gradients owing to residual cloudiness) are favorable for maintaining the corridor, its persistence is most sensitive to large-scale external factors. Here, changes to the intensity and position of the large-synoptic upper-tropospheric anticyclone are associated with changes in the frequency of strong LLJs and the surface frontal position, dramatically affecting the intensity and stationarity of the precipitation corridor.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

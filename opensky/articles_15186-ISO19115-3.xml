@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7cc11qj</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:15186</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:27.237391</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:50.239548</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7cc11qj</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-9-8935-2009</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7cc11qj</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-9-8935-2009</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -321,7 +317,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Copernicus Publications</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -331,7 +327,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The connection between the El Niño Southern Oscillation (ENSO) and the Northern polar stratosphere has been established from observations and atmospheric modeling. Here a systematic inter-comparison of the sensitivity of the modeled stratosphere to ENSO in Chemistry Climate Models (CCMs) is reported. This work uses results from a number of the CCMs included in the 2006 ozone assessment. In the lower stratosphere, the mean of all model simulations reports a warming of the polar vortex during strong ENSO events in February–March, consistent with but smaller than the estimate from satellite observations and ERA40 reanalysis. The anomalous warming is associated with an anomalous dynamical increase of column ozone north of 70° N that is accompanied by coherent column ozone decrease in the Tropics, in agreement with that deduced from the NIWA column ozone database, implying an increased residual circulation in the mean of all model simulations during ENSO. The spread in the model responses is partly due to the large internal stratospheric variability and it is shown that it crucially depends on the representation of the tropospheric ENSO teleconnection in the models.</gco:CharacterString>
+            <gco:CharacterString>The connection between the El Ni&#xf1;o Southern Oscillation (ENSO) and the Northern polar stratosphere has been established from observations and atmospheric modeling. Here a systematic inter-comparison of the sensitivity of the modeled stratosphere to ENSO in Chemistry Climate Models (CCMs) is reported. This work uses results from a number of the CCMs included in the 2006 ozone assessment. In the lower stratosphere, the mean of all model simulations reports a warming of the polar vortex during strong ENSO events in February&#x2013;March, consistent with but smaller than the estimate from satellite observations and ERA40 reanalysis. The anomalous warming is associated with an anomalous dynamical increase of column ozone north of 70&#xb0; N that is accompanied by coherent column ozone decrease in the Tropics, in agreement with that deduced from the NIWA column ozone database, implying an increased residual circulation in the mean of all model simulations during ENSO. The spread in the model responses is partly due to the large internal stratospheric variability and it is shown that it crucially depends on the representation of the tropospheric ENSO teleconnection in the models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -406,6 +402,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Author(s) 2009. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

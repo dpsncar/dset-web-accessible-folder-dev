@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7z0394g</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:14249</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:18.224205</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:42.655822</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7z0394g</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAMC-D-13-0362.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7z0394g</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAMC-D-13-0362.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Weather Research and Forecasting Model forecasts over the Great Salt Lake Desert erroneously underpredict nocturnal cooling over the sparsely vegetated silt loam soil area of Dugway Proving Ground in northern Utah, with a mean positive bias error in temperature at 2 m AGL of 3.4°C in the early morning [1200 UTC (0500 LST)]. Positive early-morning bias errors also exist in nearby sandy loam soil areas. These biases are related to the improper initialization of soil moisture and parameterization of soil thermal conductivity in silt loam and sandy loam soils. Forecasts of 2-m temperature can be improved by initializing with observed soil moisture and by replacing Johansen's 1975 parameterization of soil thermal conductivity in the Noah land surface model with that proposed by McCumber and Pielke in 1981 for silt loam and sandy loam soils. Case studies illustrate that this change can dramatically reduce nighttime warm biases in 2-m temperature over silt loam and sandy loam soils, with the greatest improvement during periods of low soil moisture. Predicted ground heat flux, soil thermal conductivity, near-surface radiative fluxes, and low-level thermal profiles also more closely match observations. Similar results are anticipated in other dryland regions with analogous soil types, sparse vegetation, and low soil moisture.</gco:CharacterString>
+            <gco:CharacterString>Weather Research and Forecasting Model forecasts over the Great Salt Lake Desert erroneously underpredict nocturnal cooling over the sparsely vegetated silt loam soil area of Dugway Proving Ground in northern Utah, with a mean positive bias error in temperature at 2 m AGL of 3.4&#xb0;C in the early morning [1200 UTC (0500 LST)]. Positive early-morning bias errors also exist in nearby sandy loam soil areas. These biases are related to the improper initialization of soil moisture and parameterization of soil thermal conductivity in silt loam and sandy loam soils. Forecasts of 2-m temperature can be improved by initializing with observed soil moisture and by replacing Johansen's 1975 parameterization of soil thermal conductivity in the Noah land surface model with that proposed by McCumber and Pielke in 1981 for silt loam and sandy loam soils. Case studies illustrate that this change can dramatically reduce nighttime warm biases in 2-m temperature over silt loam and sandy loam soils, with the greatest improvement during periods of low soil moisture. Predicted ground heat flux, soil thermal conductivity, near-surface radiative fluxes, and low-level thermal profiles also more closely match observations. Similar results are anticipated in other dryland regions with analogous soil types, sparse vegetation, and low soil moisture.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,6 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2014 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

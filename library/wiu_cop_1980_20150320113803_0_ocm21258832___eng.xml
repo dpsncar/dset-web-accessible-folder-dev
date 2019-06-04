@@ -47,7 +47,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2017-07-12</gco:Date>
+        <gco:DateTime>2017-09-28T19:10:36</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -59,9 +59,9 @@
         <gco:CharacterString>http://opencat.library.ucar.edu/cgi-bin/koha/opac-detail.pl?biblionumber=58851</gco:CharacterString>
     </gmd:dataSetURI>
     <gmd:identificationInfo>
-        <gmd:MD_DataIdentification uuid="Resource with the following features:|n- Formatted contents note: Monthly summaries for:|nMean air temperature; maximum air temperature, minimum air temperature, mean wind speed, resultant wind speed, constancy, maximum wind speed, mean air pressure, maximum air pressure, minimum air pressure Three hour summaries for:|nShip positions:abstract:505$a65-332#eng:dataLanguage:008(p35-p37)0-3#- Type of date/Publication status: Continuing resource currently published|n- Extent: volumes :|n- Other physical details: illustrations ;|n- Dimensions: 28 cm|n- Language note: English|n- Information code or alphabet: Roman characters, Arabic numbers|n- Relator code: aut|n- Personal name: Keller, Linda M.|n:supplementalInformation:008(p6)35-74;300$a85-94;300$b121-136;300$c151-156;546$a174-181;546$b214-246;700$4263-266;700$a284-300">
+        <gmd:MD_DataIdentification uuid="">
             <gmd:citation>
-                <gmd:CI_Citation uuid="Antarctic automatic weather station data for the calendar year ... - 1980:title:245$a0-66;008(p07-p10)69-73#documentHardcopy:presentationForm:LDR(p06)0-16">
+                <gmd:CI_Citation uuid="">
                     <gmd:title>
                         <gco:CharacterString>Antarctic automatic weather station data for the calendar year, 1980-1988</gco:CharacterString>
                     </gmd:title>
@@ -99,6 +99,32 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Sievers, Manuela F.</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName gco:nilReason="missing"/>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Keller, Linda M.</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName gco:nilReason="missing"/>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                     <gmd:presentationForm>
                         <gmd:CI_PresentationFormCode
                             codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="documentHardcopy">documentHardcopy</gmd:CI_PresentationFormCode>
@@ -131,29 +157,122 @@
                     </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
-                <gmd:MD_Keywords uuid="Antarctica.:keyword:651$a0-11">
+                <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>Antarctica</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; WIND SPEED</gco:CharacterString>
                     </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-07-14</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:descriptiveKeywords>
-                <gmd:MD_Keywords uuid="Meteorology:keyword:650$a0-11">
+                <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>Meteorology</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SURFACE PRESSURE</gco:CharacterString>
                     </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-07-14</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:descriptiveKeywords>
-                <gmd:MD_Keywords uuid="Meteorological stations:keyword:650$a0-23">
+                <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>Meteorological stations</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
                     </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-07-14</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:descriptiveKeywords>
@@ -181,6 +300,19 @@
                                     </gmd:dateType>
                                 </gmd:CI_Date>
                             </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>DataCite</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
                         </gmd:CI_Citation>
                     </gmd:thesaurusName>
                 </gmd:MD_Keywords>
@@ -190,7 +322,9 @@
                     <gmd:useLimitation>
                         <gco:CharacterString>This resource is available as a physical item in the Library of the NCAR Mesa Laboratory in Boulder, CO. Any further access limitations, such as copyright restrictions, are described on the resources themselves.</gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing"/>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
@@ -213,4 +347,12 @@
             </gmd:extent>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+                <gmd:MD_MaintenanceFrequencyCode
+                    codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+            </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
 </gmd:MD_Metadata>

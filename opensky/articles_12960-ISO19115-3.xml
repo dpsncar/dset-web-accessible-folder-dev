@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d761116t</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12960</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:59.454163</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:13.929358</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d761116t</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/grl.50943</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d761116t</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/grl.50943</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The tropospheric response to sudden stratospheric warmings (SSWs) is analyzed in an idealized model setup regarding the respective roles of planetary-scale and synoptic-scale waves. The control model run includes a full interactive wave spectrum, while a second run includes interactive planetary-scale waves but only the time-mean synoptic-scale wave forcing from the control run. In both runs, the tropospheric response is characterized by the negative phase of the respective tropospheric annular mode. But given their different latitudinal structure, the control run shows the expected response, i.e., an equatorward shift of the tropospheric jet, whereas the response in the absence of interactive synoptic eddies is characterized by a poleward jet shift. This opposite jet shift is associated with a different planetary wave variability that couples with the zonal flow between the stratosphere and the surface. These results indicate that the synoptic eddy feedback is necessary for the observed tropospheric response to SSWs.</gco:CharacterString>
+            <gco:CharacterString>The tropospheric response to sudden stratospheric warmings (SSWs) is analyzed in an idealized model setup regarding the respective roles of planetary-scale and synoptic-scale waves. The control model run includes a full interactive wave spectrum, while a second run includes interactive planetary-scale waves but only the time-mean synoptic-scale wave forcing from the control run. In both runs, the tropospheric response is characterized by the negative phase of the respective tropospheric annular mode. But given their different latitudinal structure, the control run shows the expected response, i.e.,&#x2009;an equatorward shift of the tropospheric jet, whereas the response in the absence of interactive synoptic eddies is characterized by a poleward jet shift. This opposite jet shift is associated with a different planetary wave variability that couples with the zonal flow between the stratosphere and the surface. These results indicate that the synoptic eddy feedback is necessary for the observed tropospheric response to SSWs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,19 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>synoptic eddy feedback</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>stratosphere-troposphere coupling</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>planetary waves</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2013 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

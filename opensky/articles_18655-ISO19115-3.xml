@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7x92d0b</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18655</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:28.488479</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:34.044427</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7x92d0b</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JAS-D-15-0377.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7x92d0b</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JAS-D-15-0377.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -131,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lott, François</gco:CharacterString>
+                        <gco:CharacterString>Lott, Fran&#xe7;ois</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jewtoukoff, Valérian</gco:CharacterString>
+                        <gco:CharacterString>Jewtoukoff, Val&#xe9;rian</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The austral stratospheric final warming date is often predicted with substantial delay in several climate models. This systematic error is generally attributed to insufficient parameterized gravity wave (GW) drag in the stratosphere around 60°S. A simulation with a general circulation model [Laboratoire de Météorologie Dynamique zoom model (LMDZ)] with a much less pronounced bias is used to analyze the contribution of the different types of waves to the dynamics of the final warming. For this purpose, the resolved and unresolved wave forcing of the middle atmosphere during the austral spring are examined in LMDZ and reanalysis data, and a good agreement is found between the two datasets. The role of parameterized orographic and nonorographic GWs in LMDZ is further examined, and it is found that orographic and nonorographic GWs contribute evenly to the GW forcing in the stratosphere, unlike in other climate models, where orographic GWs are the main contributor. This result is shown to be in good agreement with GW-resolving operational analysis products. It is demonstrated that the significant contribution of the nonorographic GWs is due to highly intermittent momentum fluxes produced by the source-related parameterizations used in LMDZ, in qualitative agreement with recent observations. This yields sporadic high-amplitude GWs that break in the stratosphere and force the circulation at lower altitudes than more homogeneously distributed nonorographic GW parameterizations do.</gco:CharacterString>
+            <gco:CharacterString>The austral stratospheric final warming date is often predicted with substantial delay in several climate models. This systematic error is generally attributed to insufficient parameterized gravity wave (GW) drag in the stratosphere around 60&#xb0;S. A simulation with a general circulation model [Laboratoire de M&#xe9;t&#xe9;orologie Dynamique zoom model (LMDZ)] with a much less pronounced bias is used to analyze the contribution of the different types of waves to the dynamics of the final warming. For this purpose, the resolved and unresolved wave forcing of the middle atmosphere during the austral spring are examined in LMDZ and reanalysis data, and a good agreement is found between the two datasets. The role of parameterized orographic and nonorographic GWs in LMDZ is further examined, and it is found that orographic and nonorographic GWs contribute evenly to the GW forcing in the stratosphere, unlike in other climate models, where orographic GWs are the main contributor. This result is shown to be in good agreement with GW-resolving operational analysis products. It is demonstrated that the significant contribution of the nonorographic GWs is due to highly intermittent momentum fluxes produced by the source-related parameterizations used in LMDZ, in qualitative agreement with recent observations. This yields sporadic high-amplitude GWs that break in the stratosphere and force the circulation at lower altitudes than more homogeneously distributed nonorographic GW parameterizations do.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -256,6 +252,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7z60qjr</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17803</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:10.935354</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:22.718264</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7z60qjr</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JHM-D-14-0184.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7z60qjr</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JHM-D-14-0184.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -201,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Drop size distributions observed by four Particle Size Velocity (PARSIVEL) disdrometers during the 2013 Great Colorado Flood are used to diagnose rain characteristics during intensive rainfall episodes. The analysis focuses on 30 h of intense rainfall in the vicinity of Boulder, Colorado, from 2200 UTC 11 September to 0400 UTC 13 September 2013. Rainfall rates R, median volume diameters D₀, reflectivity Z, drop size distributions (DSDs), and gamma DSD parameters were derived and compared between the foothills and adjacent plains locations. Rainfall throughout the entire event was characterized by a large number of small- to medium-sized raindrops (diameters smaller than 1.5 mm) resulting in small values of Z (&lt;40 dBZ), differential reflectivity Zdr (&lt;1.3 dB), specific differential phase Kdp (&lt;1° km⁻¹), and D₀ (&lt;1 mm). In addition, high liquid water content was present throughout the entire event. Raindrops observed in the plains were generally larger than those in the foothills. DSDs observed in the foothills were characterized by a large concentration of small-sized drops (d &lt; 1 mm). Heavy rainfall rates with slightly larger drops were observed during the first intense rainfall episode (0000–0800 UTC 12 September) and were associated with areas of enhanced low-level convergence and vertical velocity according to the wind fields derived from the Variational Doppler Radar Analysis System. The disdrometer-derived Z-R relationships reflect how unusual the DSDs were during the 2013 Great Colorado Flood. As a result, Z–R relations commonly used by the operational NEXRAD strongly underestimated rainfall rates by up to 43%.</gco:CharacterString>
+            <gco:CharacterString>Drop size distributions observed by four Particle Size Velocity (PARSIVEL) disdrometers during the 2013 Great Colorado Flood are used to diagnose rain characteristics during intensive rainfall episodes. The analysis focuses on 30 h of intense rainfall in the vicinity of Boulder, Colorado, from 2200 UTC 11 September to 0400 UTC 13 September 2013. Rainfall rates R, median volume diameters D&#x2080;, reflectivity Z, drop size distributions (DSDs), and gamma DSD parameters were derived and compared between the foothills and adjacent plains locations. Rainfall throughout the entire event was characterized by a large number of small- to medium-sized raindrops (diameters smaller than 1.5 mm) resulting in small values of Z (&lt;40 dBZ), differential reflectivity Zdr (&lt;1.3 dB), specific differential phase Kdp (&lt;1&#xb0; km&#x207b;&#xb9;), and D&#x2080; (&lt;1 mm). In addition, high liquid water content was present throughout the entire event. Raindrops observed in the plains were generally larger than those in the foothills. DSDs observed in the foothills were characterized by a large concentration of small-sized drops (d &lt; 1 mm). Heavy rainfall rates with slightly larger drops were observed during the first intense rainfall episode (0000&#x2013;0800 UTC 12 September) and were associated with areas of enhanced low-level convergence and vertical velocity according to the wind fields derived from the Variational Doppler Radar Analysis System. The disdrometer-derived Z-R relationships reflect how unusual the DSDs were during the 2013 Great Colorado Flood. As a result, Z&#x2013;R relations commonly used by the operational NEXRAD strongly underestimated rainfall rates by up to 43%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -286,6 +282,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

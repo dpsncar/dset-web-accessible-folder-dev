@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d72f7p5d</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:9137</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:06:56.659465</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:52.184256</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d72f7p5d</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/1520-0442(2001)014&lt;0692:ITEOSP&gt;2.0.CO;2</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d72f7p5d</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/1520-0442(2001)014&lt;0692:ITEOSP&gt;2.0.CO;2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>None</gco:CharacterString>
+            <gco:CharacterString>The authors examine the effect of seasonal crop development and growth on the warm- season mesoscale heat, moisture, and momentum fluxes over the central Great Plains region of North America. The effect of crop growth and development on the atmospheric boundary layer is addressed in a follow- up paper (Part II). Energy, moisture, and momentum fluxes are studied over a maize agroecosystem at the scale of a 90- km atmospheric grid cell. Daily plant development and growth functions incorporated into the surface flux calculations are based on a physiological crop growth model CERES- Maize version 3.0. CERES- Maize simulates daily plant growth and development as a function of both environmental conditions (temperature, precipitation, solar radiation, and soil moisture) and plant- specific genetic parameters. Plant growth and development functions from CERES were incorporated into the Biosphere- Atmosphere Transfer Scheme (BATS), and selected crop parameters [i. e., Leaf Area Index (LAI) and crop height] were validated against field data. The sensitivity of sensible (H) and latent (LE) heat fluxes, and momentum flux (tau) to interactively simulated LAI and canopy height was quantified.', During the extremely dry season of 1988, 20%- 35% changes in sensible heat and 30%- 45% changes in latent heat occurred in response to LAI changes from 5 to 1 (the values simulated in the control and interactive experiments, respectively). These changes are statistically significant (at the 0.05 level) for all the locations and years under consideration. Relative contributions of evaporation and transpiration to the latent heat flux were also strongly affected by these LAI changes. This effect had a distinct diurnal pattern, with the strongest signal seen in midafternoon hours, and was more pronounced during the dry years (e. g., 1988 and 1989) compared to the favorably moist years (e. g., 1991, 1993).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -236,6 +232,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2001 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

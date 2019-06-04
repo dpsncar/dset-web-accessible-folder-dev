@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d76d5vgn</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17907</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:12.377716</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:20.470028</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d76d5vgn</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-14-00205.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d76d5vgn</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-14-00205.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -191,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The momentum variables of streamfunction and velocity potential are used as control variables in a number of operational variational data assimilation systems. However, in this study it is shown that, for limited-area high-resolution data assimilation, the momentum control variables ψ and χ (ψχ) pose potential difficulties in background error modeling and, hence, may result in degraded analysis and forecast when compared with the direct use of x and y components of wind (UV). In this study, the characteristics of the modeled background error statistics, derived from an ensemble generated from Weather Research and Forecasting (WRF) Model real-time forecasts of two summer months, are first compared between the two control variable options. Assimilation and forecast experiments are then conducted with both options for seven convective events in a domain that encompasses the Rocky Mountain Front Range using the three-dimensional variational data assimilation (3DVar) system of the WRF Model. The impacts of the two control variable options are compared in terms of their skills in short-term qualitative precipitation forecasts. Further analysis is performed for one case to examine the impacts when radar observations are included in the 3DVar assimilation. The main findings are as follows: 1) the background error modeling used in WRF 3DVar with the control variables ψχ increases the length scale and decreases the variance for u and υ, which causes negative impact on the analysis of the velocity field and on precipitation prediction; 2) the UV-based 3DVar allows closer fits to radar wind observations; and 3) the use of UV control variables improves the 0-12-h precipitation prediction.</gco:CharacterString>
+            <gco:CharacterString>The momentum variables of streamfunction and velocity potential are used as control variables in a number of operational variational data assimilation systems. However, in this study it is shown that, for limited-area high-resolution data assimilation, the momentum control variables &#x3c8; and &#x3c7; (&#x3c8;&#x3c7;) pose potential difficulties in background error modeling and, hence, may result in degraded analysis and forecast when compared with the direct use of x and y components of wind (UV). In this study, the characteristics of the modeled background error statistics, derived from an ensemble generated from Weather Research and Forecasting (WRF) Model real-time forecasts of two summer months, are first compared between the two control variable options. Assimilation and forecast experiments are then conducted with both options for seven convective events in a domain that encompasses the Rocky Mountain Front Range using the three-dimensional variational data assimilation (3DVar) system of the WRF Model. The impacts of the two control variable options are compared in terms of their skills in short-term qualitative precipitation forecasts. Further analysis is performed for one case to examine the impacts when radar observations are included in the 3DVar assimilation. The main findings are as follows: 1) the background error modeling used in WRF 3DVar with the control variables &#x3c8;&#x3c7; increases the length scale and decreases the variance for u and &#x3c5;, which causes negative impact on the analysis of the velocity field and on precipitation prediction; 2) the UV-based 3DVar allows closer fits to radar wind observations; and 3) the use of UV control variables improves the 0-12-h precipitation prediction.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -266,6 +262,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

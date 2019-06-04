@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7pc33pg</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:17365</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:08:59.416154</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:09.642284</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7pc33pg</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2010JA016111</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7pc33pg</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2010JA016111</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -191,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -201,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The F₃ layer is a common feature within ±10° of the magnetic equatorial ionosphere in the daytime. According to Balan et al. (1998) the F₃ layer occurs mainly during the morning-noon period due to the combined effect of the upward E × B drift and the neutral wind that provides upward plasma drifts at and above the F₂ layer. The F₃ layer occurrence rate is higher in summer and decreases with increasing solar activity. In this study, the characteristic of the sunset F₃ layer is first investigated using a solar cycle of ionosonde data (1995 - 2010) from the magnetic equatorial station at Jicamarca, and compared with the features derived from the four subtropical stations at Sao Luis, Fortaleza, Kwajalein, and Vanimo. Evidence shows that the local time distribution of the occurrence of the F₃ layer can extend to the postsunset time (1800 - 2100 local time). The sunset F₃ layer has a strong seasonal dependence occurring mainly during the summertime. Unlike the daytime F₃ layer, the occurrence of the sunset F₃ layer clearly increases and the virtual height of the bottom side of the F₃ layer statistically increases from 620 to 1000 km with increasing solar activity. In addition, the occurrence of the sunset F₃ layer at the other stations is much less than that at Jicamarca. These features of the dependence on the season, solar activity, and latitude are clearly related to the geomagnetic control of the evening prereversal enhancement of the equatorial zonal electric field and geomagnetic configuration.</gco:CharacterString>
+            <gco:CharacterString>The F&#x2083; layer is a common feature within &#xb1;10&#xb0; of the magnetic equatorial ionosphere in the daytime. According to Balan et al. (1998) the F&#x2083; layer occurs mainly during the morning-noon period due to the combined effect of the upward E &#xd7; B drift and the neutral wind that provides upward plasma drifts at and above the F&#x2082; layer. The F&#x2083; layer occurrence rate is higher in summer and decreases with increasing solar activity. In this study, the characteristic of the sunset F&#x2083; layer is first investigated using a solar cycle of ionosonde data (1995 - 2010) from the magnetic equatorial station at Jicamarca, and compared with the features derived from the four subtropical stations at Sao Luis, Fortaleza, Kwajalein, and Vanimo. Evidence shows that the local time distribution of the occurrence of the F&#x2083; layer can extend to the postsunset time (1800 - 2100 local time). The sunset F&#x2083; layer has a strong seasonal dependence occurring mainly during the summertime. Unlike the daytime F&#x2083; layer, the occurrence of the sunset F&#x2083; layer clearly increases and the virtual height of the bottom side of the F&#x2083; layer statistically increases from 620 to 1000 km with increasing solar activity. In addition, the occurrence of the sunset F&#x2083; layer at the other stations is much less than that at Jicamarca. These features of the dependence on the season, solar activity, and latitude are clearly related to the geomagnetic control of the evening prereversal enhancement of the equatorial zonal electric field and geomagnetic configuration.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -276,6 +272,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2011 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

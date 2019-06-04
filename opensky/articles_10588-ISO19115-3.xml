@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d74t6jw6</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10588</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:14.965869</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:34.738867</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d74t6jw6</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2010JD015195</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d74t6jw6</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2010JD015195</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Long-term observations of stratospheric ozone from the Stratospheric Aerosol and Gas Experiment II (SAGE II) satellite (1984-2005) are combined with ozonesonde measurements from the Southern Hemisphere Additional Ozonesondes (SHADOZ) network (1998-2009) to study interannual variability and trends in tropical ozone. Excellent agreement is found comparing the two data sets for the overlap period 1998-2005, and the data are combined to form a continuous time series covering 1984–2009. SHADOZ measurements also provide temperature profiles, and interannual changes in ozone and temperature are highly correlated throughout the tropical lower stratosphere (16-27 km). Interannual variability in stratospheric ozone is dominated by effects of the quasi-biennial oscillation and El Niño-Southern Oscillation, and there are also significant negative trends (-2 to -4% per decade) in the tropical lower stratosphere (over 17-21 km). These tropical ozone trends are consistent with results from chemistry-climate model simulations, wherein the trends result from increases in upwelling circulation in the tropical lower stratosphere.</gco:CharacterString>
+            <gco:CharacterString>Long-term observations of stratospheric ozone from the Stratospheric Aerosol and Gas Experiment II (SAGE II) satellite (1984-2005) are combined with ozonesonde measurements from the Southern Hemisphere Additional Ozonesondes (SHADOZ) network (1998-2009) to study interannual variability and trends in tropical ozone. Excellent agreement is found comparing the two data sets for the overlap period 1998-2005, and the data are combined to form a continuous time series covering 1984&#x2013;2009. SHADOZ measurements also provide temperature profiles, and interannual changes in ozone and temperature are highly correlated throughout the tropical lower stratosphere (16-27 km). Interannual variability in stratospheric ozone is dominated by effects of the quasi-biennial oscillation and El Ni&#xf1;o-Southern Oscillation, and there are also significant negative trends (-2 to -4% per decade) in the tropical lower stratosphere (over 17-21 km). These tropical ozone trends are consistent with results from chemistry-climate model simulations, wherein the trends result from increases in upwelling circulation in the tropical lower stratosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -226,25 +222,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>ozone</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>stratosphere</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>trends</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>QBO</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>ENSO</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2011 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

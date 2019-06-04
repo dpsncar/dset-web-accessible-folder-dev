@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7kk9dd1</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:18371</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:09:20.636140</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:29.643060</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7kk9dd1</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/BAMS-D-14-00269.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7kk9dd1</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/BAMS-D-14-00269.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -491,7 +487,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -501,7 +497,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Deep Propagating Gravity Wave Experiment (DEEPWAVE) was designed to quantify gravity wave (GW) dynamics and effects from orographic and other sources to regions of dissipation at high altitudes. The core DEEPWAVE field phase took place from May through July 2014 using a comprehensive suite of airborne and ground-based instruments providing measurements from Earth’s surface to ∼100 km. Austral winter was chosen to observe deep GW propagation to high altitudes. DEEPWAVE was based on South Island, New Zealand, to provide access to the New Zealand and Tasmanian “hotspots” of GW activity and additional GW sources over the Southern Ocean and Tasman Sea. To observe GWs up to ∼100 km, DEEPWAVE utilized three new instruments built specifically for the National Science Foundation (NSF)/National Center for Atmospheric Research (NCAR) Gulfstream V (GV): a Rayleigh lidar, a sodium resonance lidar, and an advanced mesosphere temperature mapper. These measurements were supplemented by in situ probes, dropsondes, and a microwave temperature profiler on the GV and by in situ probes and a Doppler lidar aboard the German DLR Falcon. Extensive ground-based instrumentation and radiosondes were deployed on South Island, Tasmania, and Southern Ocean islands. Deep orographic GWs were a primary target but multiple flights also observed deep GWs arising from deep convection, jet streams, and frontal systems. Highlights include the following: 1) strong orographic GW forcing accompanying strong cross-mountain flows, 2) strong high-altitude responses even when orographic forcing was weak, 3) large-scale GWs at high altitudes arising from jet stream sources, and 4) significant flight-level energy fluxes and often very large momentum fluxes at high altitudes.</gco:CharacterString>
+            <gco:CharacterString>The Deep Propagating Gravity Wave Experiment (DEEPWAVE) was designed to quantify gravity wave (GW) dynamics and effects from orographic and other sources to regions of dissipation at high altitudes. The core DEEPWAVE field phase took place from May through July 2014 using a comprehensive suite of airborne and ground-based instruments providing measurements from Earth&#x2019;s surface to &#x223c;100 km. Austral winter was chosen to observe deep GW propagation to high altitudes. DEEPWAVE was based on South Island, New Zealand, to provide access to the New Zealand and Tasmanian &#x201c;hotspots&#x201d; of GW activity and additional GW sources over the Southern Ocean and Tasman Sea. To observe GWs up to &#x223c;100 km, DEEPWAVE utilized three new instruments built specifically for the National Science Foundation (NSF)/National Center for Atmospheric Research (NCAR) Gulfstream V (GV): a Rayleigh lidar, a sodium resonance lidar, and an advanced mesosphere temperature mapper. These measurements were supplemented by in situ probes, dropsondes, and a microwave temperature profiler on the GV and by in situ probes and a Doppler lidar aboard the German DLR Falcon. Extensive ground-based instrumentation and radiosondes were deployed on South Island, Tasmania, and Southern Ocean islands. Deep orographic GWs were a primary target but multiple flights also observed deep GWs arising from deep convection, jet streams, and frontal systems. Highlights include the following: 1) strong orographic GW forcing accompanying strong cross-mountain flows, 2) strong high-altitude responses even when orographic forcing was weak, 3) large-scale GWs at high altitudes arising from jet stream sources, and 4) significant flight-level energy fluxes and often very large momentum fluxes at high altitudes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -576,6 +572,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2016 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

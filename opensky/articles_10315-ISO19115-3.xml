@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7g1619j</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:10315</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:03.457494</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:33.094269</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7g1619j</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -104,13 +107,6 @@
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7g1619j</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
@@ -124,7 +120,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -134,7 +130,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Saltation, the wind-driven hopping motion of sand grains, forms dunes and ripples, and ejects fine dust particles into the atmosphere on Mars. Although the wind speed at which saltation is initiated, the “fluid threshold,” has been studied extensively, the wind speed at which saltation is halted, the “impact threshold,” has been poorly quantified for Mars conditions. I present an analytical model of the impact threshold, which is in agreement with measurements and numerical simulations for Earth conditions. For Mars conditions, the impact threshold is approximately an order of magnitude below the fluid threshold, in agreement with previous studies. Saltation on Mars can thus be sustained at wind speeds an order of magnitude less than required to initiate it, leading to the occurrence of hysteresis. I include the effect of hysteresis into an improved parameterization of sand transport on Mars.</gco:CharacterString>
+            <gco:CharacterString>Saltation, the wind-driven hopping motion of sand grains, forms dunes and ripples, and ejects fine dust particles into the atmosphere on Mars. Although the wind speed at which saltation is initiated, the &#x201c;fluid threshold,&#x201d; has been studied extensively, the wind speed at which saltation is halted, the &#x201c;impact threshold,&#x201d; has been poorly quantified for Mars conditions. I present an analytical model of the impact threshold, which is in agreement with measurements and numerical simulations for Earth conditions. For Mars conditions, the impact threshold is approximately an order of magnitude below the fluid threshold, in agreement with previous studies. Saltation on Mars can thus be sustained at wind speeds an order of magnitude less than required to initiate it, leading to the occurrence of hysteresis. I include the effect of hysteresis into an improved parameterization of sand transport on Mars.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -209,19 +205,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>saltation</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Mars</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Sand</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2010 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

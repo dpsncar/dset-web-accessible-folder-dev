@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d76w9bt8</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:12176</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:39.380889</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:22.413070</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,12 +80,15 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d76w9bt8</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Interactive crop management in the Community Earth System Model (CESM1): Seasonal influences on land–atmosphere fluxes</gco:CharacterString>
+                  <gco:CharacterString>Interactive crop management in the Community Earth System Model (CESM1): Seasonal influences on land&#x2013;atmosphere fluxes</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/JCLI-D-11-00446.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d76w9bt8</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/JCLI-D-11-00446.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -191,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Meteorological Society</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -201,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Community Earth System Model, version 1 (CESM1) is evaluated with two coupled atmosphere-land simulations. The CTRL (control) simulation represents crops as unmanaged grasses, while CROP represents a crop managed simulation that includes special algorithms for midlatitude corn, soybean, and cereal phenology and carbon allocation. CROP has a more realistic leaf area index (LAI) for crops than CTRL. CROP reduces winter LAI and represents the spring planting and fall harvest explicitly. At the peak of the growing season, CROP simulates higher crop LAI. These changes generally reduce the latent heat flux but not around peak LAI (late spring/early summer). In midwestern North America, where corn, soybean, and cereal abundance is high, simulated peak summer precipitation declines and agrees better with observations, particularly when crops emerge late as is found from a late planting sensitivity simulation (LateP). Differences between the CROP and LateP simulations underscore the importance of simulating crop planting and harvest dates correctly. On the biogeochemistry side, the annual cycle of net ecosystem exchange (NEE) also improves in CROP relative to Ameriflux site observations. For a global perspective, the authors diagnose annual cycles of CO₂ from the simulated NEE (CO₂ is not prognostic in these simulations) and compare against representative GLOBALVIEW monitoring stations. The authors find an increased (thus also improved) amplitude of the annual cycle in CROP. These regional and global-scale refinements from improvements in the simulated plant phenology have promising implications for the development of the CESM and particularly for simulations with prognostic atmospheric CO₂.</gco:CharacterString>
+            <gco:CharacterString>The Community Earth System Model, version 1 (CESM1) is evaluated with two coupled atmosphere-land simulations. The CTRL (control) simulation represents crops as unmanaged grasses, while CROP represents a crop managed simulation that includes special algorithms for midlatitude corn, soybean, and cereal phenology and carbon allocation. CROP has a more realistic leaf area index (LAI) for crops than CTRL. CROP reduces winter LAI and represents the spring planting and fall harvest explicitly. At the peak of the growing season, CROP simulates higher crop LAI. These changes generally reduce the latent heat flux but not around peak LAI (late spring/early summer). In midwestern North America, where corn, soybean, and cereal abundance is high, simulated peak summer precipitation declines and agrees better with observations, particularly when crops emerge late as is found from a late planting sensitivity simulation (LateP). Differences between the CROP and LateP simulations underscore the importance of simulating crop planting and harvest dates correctly. On the biogeochemistry side, the annual cycle of net ecosystem exchange (NEE) also improves in CROP relative to Ameriflux site observations. For a global perspective, the authors diagnose annual cycles of CO&#x2082; from the simulated NEE (CO&#x2082; is not prognostic in these simulations) and compare against representative GLOBALVIEW monitoring stations. The authors find an increased (thus also improved) amplitude of the annual cycle in CROP. These regional and global-scale refinements from improvements in the simulated plant phenology have promising implications for the development of the CESM and particularly for simulations with prognostic atmospheric CO&#x2082;.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -276,6 +272,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2012 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 or that satisfies the conditions specified in Section 108 of the U.S. Copyright Law (17 USC, as revised by P.L. 94-553) does not require the Society's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statements, requires written permission or license from the AMS. Additional details are provided in the AMS Copyright Policies, available from the AMS at 617-227-2425 or amspubs@ametsoc.org. Permission to place a copy of this work on this server has been provided by the AMS. The AMS does not guarantee that the copy provided here is an accurate copy of the published work.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>

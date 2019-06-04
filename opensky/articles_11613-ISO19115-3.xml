@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -10,7 +10,7 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier>
-      <gco:CharacterString>ark:/85065/d7z60pnp</gco:CharacterString>
+      <gco:CharacterString>edu.ucar.opensky::articles:11613</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-07-06T22:07:25.261733</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:12.903643</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7z60pnp</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2010JD014740</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7z60pnp</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2010JD014740</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>American Geophysical Union</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We find that irrigation significantly affects Asian summer climate, according to model simulations using the Community Atmosphere Model (CAM3.0) coupled to the Community Land Model (CLM3.5). Irrigation over the major river basins in the Middle East and central Asia causes a decrease in sensible heat fluxes and an increase in latent heat fluxes in boreal summer. These changes in heat fluxes lead to a cooling of both the surface and the lower troposphere over the irrigated regions. This atmospheric cooling, in turn, results in a cooling of the layer-averaged temperature (thickness temperature) in the troposphere. The irrigation-induced cooling in the troposphere, therefore, significantly decreases the tropospheric geopotential height over the irrigated regions. Lower height in the upper troposphere alters the upper-level atmospheric circulation over the irrigated and surrounding regions in Asia. Cyclonic differences of atmospheric circulation are simulated around negative differences of height and positive differences of vorticity between the irrigated and control runs, and they result in a weakening of the upper-level anticyclonic circulation over the tropical to midlatitude African-Asian regions. These changes in atmospheric circulation lead to a weakening of the strong upper-level westerly jet (Asian jet) over eastern Europe, the Middle East, and central Asia in 40°N ~ 55°N. The irrigation impacts on the atmospheric circulation and Asian jet in boreal summer are supported by a comparison with observations.</gco:CharacterString>
+            <gco:CharacterString>We find that irrigation significantly affects Asian summer climate, according to model simulations using the Community Atmosphere Model (CAM3.0) coupled to the Community Land Model (CLM3.5). Irrigation over the major river basins in the Middle East and central Asia causes a decrease in sensible heat fluxes and an increase in latent heat fluxes in boreal summer. These changes in heat fluxes lead to a cooling of both the surface and the lower troposphere over the irrigated regions. This atmospheric cooling, in turn, results in a cooling of the layer-averaged temperature (thickness temperature) in the troposphere. The irrigation-induced cooling in the troposphere, therefore, significantly decreases the tropospheric geopotential height over the irrigated regions. Lower height in the upper troposphere alters the upper-level atmospheric circulation over the irrigated and surrounding regions in Asia. Cyclonic differences of atmospheric circulation are simulated around negative differences of height and positive differences of vorticity between the irrigated and control runs, and they result in a weakening of the upper-level anticyclonic circulation over the tropical to midlatitude African-Asian regions. These changes in atmospheric circulation lead to a weakening of the strong upper-level westerly jet (Asian jet) over eastern Europe, the Middle East, and central Asia in 40&#xb0;N ~ 55&#xb0;N. The irrigation impacts on the atmospheric circulation and Asian jet in boreal summer are supported by a comparison with observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -246,19 +242,16 @@
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
-                  <gco:CharacterString>Jet stream</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>GSM</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Land use/land cover changes</gco:CharacterString>
-               </gmd:keyword>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright 2011 American Geophysical Union.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>
